@@ -1,0 +1,65 @@
+#VER "49" "220771" 20220615 "Stena Recycling AB (SIE)"
+{
+#TRANS 2440 {} -5879 "Leverantörsskulder"
+#TRANS 2640 {} 173.91 "Ingående moms"
+#TRANS 4640 {} 5879 "Sophämtning/renhållning"
+#TRANS 4640 {} -173.91 "Sophämtning/renhållning"
+#PROSA Momsandel = 14.79 %
+}
+#VER "49" "220772" 20220615 "SBC Sveriges BostadsrattCentrum AB (SIE)"
+{
+#TRANS 2440 {} -520.75 "Leverantörsskulder"
+#TRANS 2640 {} 13.68 "Ingående moms"
+#TRANS 6321 {} 520.75 "Inkassokostnader"
+#TRANS 6321 {} -13.68 "Inkassokostnader"
+#PROSA Momsandel = 13.13 %
+}
+#VER "49" "220801" 20220626 "Älvsjö VVS Centrum 23 AB (SIE)"
+{
+#TRANS 1114 {} 59254.42 "Fastighetsförbättringar"
+#TRANS 2440 {} -74068 "Leverantörsskulder"
+#TRANS 2640 {} 14813.58 "Ingående moms"
+#PROSA Momsandel = 100.00 %
+}
+#VER "49" "220809" 20220628 "SBC Sv Bostadsrättscentrum (SIE)"
+{
+#TRANS 2440 {} -12188 "Leverantörsskulder"
+#TRANS 2640 {} 360.51 "Ingående moms"
+#TRANS 4180 {} 12188 "Serviceavtal"
+#TRANS 4180 {} -360.51 "Serviceavtal"
+#PROSA Momsandel = 14.79 %
+}
+#VER "49" "220823" 20220630 "Momsredovisning april-juni (SIE)"
+{
+#TRANS 2610 {} 116153.85 "Utgående moms"
+#TRANS 2610 {} 57184.1 "Utgående moms"
+#TRANS 2640 {} -118559.41 "Ingående moms"
+#TRANS 2650 {} -54779 "Momsavräkning"
+#TRANS 3740 {} 0.46 "Öres- och kronutjämning"
+#PROSA Momsandel = 500.00 %
+}
+#VER "49" "220824" 20220630 "Boka Tvättid Sverige AB (SIE)"
+{
+#TRANS 2440 {} -2089 "Leverantörsskulder"
+#TRANS 2640 {} 61.79 "Ingående moms"
+#TRANS 4331 {} 2089 "Tvättstuga"
+#TRANS 4331 {} -61.79 "Tvättstuga"
+#PROSA Momsandel = 14.79 %
+}
+#VER "49" "220827" 20220630 "SBC Sv Bostadsrättscentrum (SIE)"
+{
+#TRANS 2440 {} -625 "Leverantörsskulder"
+#TRANS 2640 {} 18.49 "Ingående moms"
+#TRANS 6061 {} 625 "Kreditupplysning"
+#TRANS 6061 {} -18.49 "Kreditupplysning"
+#PROSA Momsandel = 14.79 %
+}
+#VER "49" "220830" 20220630 "Storholmen Fix It AB (SIE)"
+{
+#TRANS 2440 {} -9413 "Leverantörsskulder"
+#TRANS 2640 {} 276.42 "Ingående moms"
+#TRANS 4102 {} 6975 "Fastighetsskötsel utöver avtal"
+#TRANS 4102 {} -276.42 "Fastighetsskötsel utöver avtal"
+#TRANS 4640 {} 2438 "Sophämtning/renhållning"
+#PROSA Momsandel = 14.68 %
+}
