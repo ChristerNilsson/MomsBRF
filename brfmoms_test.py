@@ -44,5 +44,3 @@ ass(xverifikationer[0].transaktioner[0].belopp, -3882.0)
 ass(str(xverifikationer[0].transaktioner[0]), str(Transaktion('1510', -3882.0)))
 
 print('Ready!')
-
-

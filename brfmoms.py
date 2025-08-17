@@ -2,9 +2,9 @@ import re
 from pathlib import Path
 import time
 
-#SIE_FIL = "202206"
-SIE_FIL = "2022"
-#SIE_FIL = "2023"
+# SIE_FIL = "202206"
+# SIE_FIL = "2022"
+SIE_FIL = "2023"
 
 UNDRE_MOMS_ANDEL = 13 # %
 ÖVRE_MOMS_ANDEL = 16 # %
@@ -29,11 +29,11 @@ class Verifikat:
 
 	def addTransaktion(self,konto:str,belopp:str): self.transaktioner.append(Transaktion(konto,belopp))
 
-	def dump(self):
-		print()
-		print(f"{self}")
-		for t in self.transaktioner:
-			print(f"   {t}")
+	# def dump(self):
+	# 	print()
+	# 	print(f"{self}")
+	# 	for t in self.transaktioner:
+	# 		print(f"   {t}")
 
 class Transaktion:
 	def __init__(self,konto:str,belopp:str):
@@ -46,8 +46,6 @@ def getSie(text: str):
 
 	verifikat = None
 	in_block = False
-	# konton = {}
-	# verifikationer = []
 
 	for raw_line in text.splitlines():
 		line = raw_line.strip()
@@ -96,6 +94,7 @@ def read_sie(infile:str):
 	summaHuvudIntakter = 0
 	filtrerade1 = []
 	filtrerade2 = []
+	lista = []
 	for verifikat in verifikationer:
 		filter1 = any([t.konto == MOMS_KONTO and t.belopp != 0 for t in verifikat.transaktioner])
 		filter2 = any(['3000' <= t.konto < '3100' for t in verifikat.transaktioner])
@@ -113,7 +112,6 @@ def read_sie(infile:str):
 				if konto == MOMS_KONTO: ingåendeMoms += belopp
 				if konto[0] != '2': kontonPlus += belopp
 				if belopp != 0: print('  ',transaktion) #f"{belopp/100:.2f}", konton[konto])
-
 			if filter2:
 				if konto[0:2] == '30': summaHuvudIntakter -= belopp
 				if konto in ['3053', '3065']: summaMomsadeLokaler -= belopp
@@ -130,7 +128,11 @@ def read_sie(infile:str):
 					print(f"   momsAndel: {momsAndel:.2f}%")
 				else:
 					print(f"   momsAndel: {momsAndel:.2f}% summaUtgiftInklMoms: {summaUtgiftInklMoms/100:.2f}", kontonPlus/100, ingåendeMoms/100)
+				# lista.append([momsAndel,verifikat.id])
 			print()
+			# lista.append([ingåendeMoms/100,verifikat.id])
+			# lista.append([summaUtgiftInklMoms/100, verifikat.id])
+			lista.append([kontonPlus/100, verifikat.id])
 
 	print()
 	print("Fil:",SIE_FIL)
@@ -142,6 +144,10 @@ def read_sie(infile:str):
 	print('summaMomsadeLokaler:',summaMomsadeLokaler/100)
 	print('summaHuvudIntakter:',summaHuvudIntakter/100)
 	print()
+
+	sorterad_lista = sorted(lista, key=lambda x: x[0]) # -x[1]
+	for i in range(20):
+		print(sorterad_lista[i])
 
 	print(f'cpu: {time.time() - start:.6f}')
 
