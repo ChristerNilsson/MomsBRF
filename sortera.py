@@ -11,7 +11,7 @@ for line in lines:
 	if line in ['{','}']: continue
 	if line.startswith("#VER"):
 		l = line.split(' ')
-		verifikationer.append({'sort':[l[3],l[2],l[1]], 'text': line, 'transaktioner': []})
+		verifikationer.append({'sort': [l[3],l[2],l[1]], 'text': line, 'transaktioner': []})
 	elif line.startswith("#TRANS"): verifikationer[-1]["transaktioner"].append(line)
 	else: preludium.append(line)
 

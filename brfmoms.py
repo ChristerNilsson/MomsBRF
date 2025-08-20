@@ -1,7 +1,3 @@
-import re
-from pathlib import Path
-import time
-
 # SIE_FIL = "202206"
 # SIE_FIL = "2022"
 SIE_FIL = "2023"
@@ -10,84 +6,52 @@ UNDRE_MOMS_ANDEL = 13 # %
 ÖVRE_MOMS_ANDEL = 16 # %
 MOMS_KONTO = '2640'
 
-VER_RE = re.compile(r'#VER\s+"(?P<serie>\d+)"\s+"(?P<id>\d+)"\s+(?P<datum>\d{8})\s+"(?P<text>[^"]*)"')
-TRANS_RE = re.compile(r'#TRANS\s+(?P<konto>\d+)\s+{}\s+(?P<belopp>[-+]?\d+(?:[.,]\d+)?)')
-
 konton = {}
-verifikationer = []
 ignorerade = [] # pga div med noll
 
 class Verifikat:
-	def __init__(self,serie:str, id:str, datum:str, text:str):
-		self.serie = serie
-		self.id = id
-		self.datum = datum
-		self.text = text
+	def __init__(self,line): #serie:str, id:str, datum:str, text:str):
+		line = line.split(" ")
+		self.serie = line[1]
+		self.id = line[2]
+		self.datum = line[3]
+		self.text = " ".join(line[4:len(line)])
 		self.transaktioner = []
 	def __str__(self): return f"{self.serie} {self.id} {self.datum} {self.text}"
 	def __eq__(self, other): return str(self) == str(other) and self.transaktioner == other.transaktioner
 
-	def addTransaktion(self,konto:str,belopp:str): self.transaktioner.append(Transaktion(konto,belopp))
-
-	# def dump(self):
-	# 	print()
-	# 	print(f"{self}")
-	# 	for t in self.transaktioner:
-	# 		print(f"   {t}")
+	def addTransaktion(self,line:str):
+		self.transaktioner.append(Transaktion(line))
 
 class Transaktion:
-	def __init__(self,konto:str,belopp:str):
-		self.konto = konto
-		self.belopp = belopp
+	def __init__(self,line): # konto:str,belopp:str):
+		line = line.split(' ')
+		self.konto = line[1]
+		self.belopp = float(line[3])
 	def __str__(self):
 		return f"{self.konto} {self.belopp:.2f} {konton[self.konto]}"
 
-def getSie(text: str):
-
-	verifikat = None
-	in_block = False
-
-	for raw_line in text.splitlines():
-		line = raw_line.strip()
+def getSie(lines):
+	verifikationer = []
+	for line in lines:
+		line = line.strip()
 		if not line: continue
-
+		if line in ['{', '}']: continue
+		if line.startswith("#VER"):
+			verifikationer.append(Verifikat(line))
+		if line.startswith("#TRANS"):
+			verifikationer[-1].transaktioner.append(Transaktion(line))
 		if line.startswith("#KONTO"):
 			konto = line[7:11]
 			namn = line[13:-1]
 			konton[konto] = namn
-
-		if line.startswith("#VER"):
-			m = VER_RE.match(line)
-			if not m: raise ValueError(f"Kunde inte tolka VER-raden: {line}")
-			verifikat = Verifikat(m.group("serie"), m.group("id"), m.group("datum"), m.group("text"))
-			continue
-
-		if line == "{":
-			if verifikat is None: raise ValueError("Hittade '{' utan föregående VER")
-			in_block = True
-			continue
-
-		if line == "}":
-			if not in_block: raise ValueError("Hittade '}' utan ett pågående block")
-			verifikationer.append(verifikat)
-			verifikat = None
-			in_block = False
-			continue
-
-		if in_block:
-			tm = TRANS_RE.match(line)
-			if not tm: raise ValueError(f"Kunde inte tolka TRANS-rad: {line}")
-			konto = tm.group("konto")
-			belopp = float(tm.group("belopp"))
-			verifikat.addTransaktion(konto, belopp)
-
 	return konton,verifikationer
 
 def read_sie(infile:str):
-	start = time.time()
-	path = Path(infile + '.txt')
-	text = path.read_text(encoding="utf8")
-	konton, verifikationer =  getSie(text)
+	with open(SIE_FIL + '.txt', "r", encoding="utf-8") as f:
+		lines = f.readlines()
+
+	konton, verifikationer = getSie(lines)
 
 	summaUtgiftSomBerörs = 0 # ören
 	summaMomsadeLokaler = 0
@@ -103,7 +67,10 @@ def read_sie(infile:str):
 
 		ingåendeMoms = 0 # ören
 		kontonPlus = 0 # ören
-		#print(verifikat)
+
+		if filter1:
+			print(verifikat)
+
 		for transaktion in verifikat.transaktioner:
 			konto = transaktion.konto
 			belopp = 100 * transaktion.belopp  # pga avrundningsfel i python räknas i ören
@@ -111,7 +78,7 @@ def read_sie(infile:str):
 			if filter1:
 				if konto == MOMS_KONTO: ingåendeMoms += belopp
 				if konto[0] != '2': kontonPlus += belopp
-				if belopp != 0: print('  ',transaktion) #f"{belopp/100:.2f}", konton[konto])
+				print('  ',transaktion) #f"{belopp/100:.2f}", konton[konto])
 			if filter2:
 				if konto[0:2] == '30': summaHuvudIntakter -= belopp
 				if konto in ['3053', '3065']: summaMomsadeLokaler -= belopp
@@ -149,7 +116,5 @@ def read_sie(infile:str):
 	for i in range(20):
 		print(sorterad_lista[i])
 
-	print(f'cpu: {time.time() - start:.6f}')
-
-if __name__ == "__main__":
-	read_sie(SIE_FIL)
+# if __name__ == "__main__":
+read_sie(SIE_FIL)
