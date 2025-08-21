@@ -9,23 +9,23 @@ MOMS_KONTO = '2640'
 konton = {}
 ignorerade = [] # pga div med noll
 
-def Verifikat(line:str):
-	line = line.split(" ")
+def Verifikat(original:str):
+	line = original.split(" ")
 	result = {}
 	result['serie'] = line[1]
 	result['id'] = line[2]
 	result['datum'] = line[3]
 	result['text'] = " ".join(line[4:len(line)])
 	result['transaktioner'] = []
-	result['str'] = f"{result['serie']} {result['id']} {result['datum']} {result['text']}".replace('"','')
+	result['str'] = original
 	return result
 
-def Transaktion(line:str):
-	line = line.split(' ')
+def Transaktion(original:str):
+	line = original.split(' ')
 	result = {}
 	result['konto'] = line[1]
 	result['belopp'] = float(line[3])
-	result['str'] = f"{result['konto']} {result['belopp']:.2f} {konton[result['konto']]}"
+	result['str'] = f"{original} {konton[result['konto']]}"
 	return result
 
 def getSie(lines):
