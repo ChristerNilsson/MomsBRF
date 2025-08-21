@@ -1,6 +1,6 @@
-# SIE_FIL = "202206"
-# SIE_FIL = "2022"
-SIE_FIL = "2023"
+#SIE_FIL = "202206"
+SIE_FIL = "2022"
+#SIE_FIL = "2023"
 
 UNDRE_MOMS_ANDEL = 13 # %
 ÖVRE_MOMS_ANDEL = 16 # %
@@ -18,8 +18,7 @@ def Verifikat(line:str):
 	result['text'] = " ".join(line[4:len(line)])
 	result['transaktioner'] = []
 	return result
-# 	def __str__(self): return f"{self.serie} {self.id} {self.datum} {self.text}"
-# 	def __eq__(self, other): return str(self) == str(other) and self.transaktioner == other.transaktioner
+def strVerifikat(self): return f"{self['serie']} {self['id']} {self['datum']} {self['text']}".replace('"','')
 
 def Transaktion(line:str):
 	line = line.split(' ')
@@ -27,7 +26,7 @@ def Transaktion(line:str):
 	result['konto'] = line[1]
 	result['belopp'] = float(line[3])
 	return result
-# 	def __str__(self): return f"{self.konto} {self.belopp:.2f} {konton[self.konto]}"
+def strTransaktion(self): return f"{self['konto']} {self['belopp']:.2f} {konton[self['konto']]}"
 
 def getSie(lines):
 	verifikationer = []
@@ -68,7 +67,7 @@ def read_sie(infile:str):
 		kontonPlus = 0 # ören
 
 		if filter1:
-			print(verifikat)
+			print(strVerifikat(verifikat))
 
 		for transaktion in verifikat['transaktioner']:
 			konto = transaktion['konto']
@@ -77,7 +76,7 @@ def read_sie(infile:str):
 			if filter1:
 				if konto == MOMS_KONTO: ingåendeMoms += belopp
 				if konto[0] != '2': kontonPlus += belopp
-				print('  ',transaktion) #f"{belopp/100:.2f}", konton[konto])
+				print('  ',strTransaktion(transaktion)) #f"{belopp/100:.2f}", konton[konto])
 			if filter2:
 				if konto[0:2] == '30': summaHuvudIntakter -= belopp
 				if konto in ['3053', '3065']: summaMomsadeLokaler -= belopp
@@ -98,7 +97,7 @@ def read_sie(infile:str):
 			print()
 			# lista.append([ingåendeMoms/100,verifikat.id])
 			# lista.append([summaUtgiftInklMoms/100, verifikat.id])
-			lista.append([kontonPlus/100, id])
+			lista.append([round(kontonPlus/100,2), id])
 
 	print()
 	print("Fil:",SIE_FIL)
@@ -112,8 +111,7 @@ def read_sie(infile:str):
 	print()
 
 	sorterad_lista = sorted(lista, key=lambda x: x[0]) # -x[1]
-	for i in range(20):
+	for i in range(min(20,len(lista))):
 		print(sorterad_lista[i])
 
-# if __name__ == "__main__":
 read_sie(SIE_FIL)
