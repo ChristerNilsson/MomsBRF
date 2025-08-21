@@ -1,0 +1,568 @@
+#FLAGGA 0
+#PROGRAM "SBCHemma" 2506
+#FORMAT PC8
+#GEN 20250607
+#SIETYP 4
+#FNAMN "Brf Rörstrand 29 - 37"
+#FNR 3581
+#ORGNR 769603-3369
+#ADRESS "" "" " " ""
+#RAR 0 20220101 20221231
+#RAR -1 20210101 20211231
+#OMFATTN 20221231
+#KPTYP EUBAS97
+#KONTO 1110 "Byggnader"
+#KONTO 1114 "Fastighetsförbättringar"
+#KONTO 1116 "Ack avskrivning Byggnader"
+#KONTO 1117 "Avskr. Fastighetsförbättringar"
+#KONTO 1130 "Mark"
+#KONTO 1150 "Markanläggning"
+#KONTO 1159 "Ack. avsk markanläggning"
+#KONTO 1181 "Pågående nybyggnation"
+#KONTO 1182 "Pågående om- och tillbyggnad"
+#KONTO 1186 "Pågående nyanläggning"
+#KONTO 1219 "Ack avskr maskiner"
+#KONTO 1220 "Inventarier och verktyg"
+#KONTO 1229 "Ack avkr inventarier och verktyg"
+#KONTO 1232 "Installationer"
+#KONTO 1239 "Ack avskr. installationer"
+#KONTO 1510 "Kundreskontra"
+#KONTO 1511 "Fordringar avgifter och hyror"
+#KONTO 1515 "Osäkra fordringar"
+#KONTO 1520 "Kundfordringar"
+#KONTO 1530 "Tillgodon"
+#KONTO 1610 "Löneförskott"
+#KONTO 1630 "Skattekonto"
+#KONTO 1640 "Skattefordringar"
+#KONTO 1651 "Momsavräkning"
+#KONTO 1680 "Klientmedel"
+#KONTO 1684 "Fordringar samfällighet/kreditfakturor"
+#KONTO 1688 "Övriga kortfristiga fordringar"
+#KONTO 1699 "OBS-konto"
+#KONTO 1700 "Förutbetalda kostnader"
+#KONTO 1705 "Förutbet försäkr premier"
+#KONTO 1706 "Förutbet kabel-TV"
+#KONTO 1712 "Förutbet bredband"
+#KONTO 1713 "Förutbet förvaltning"
+#KONTO 1751 "Upplupna intäkter"
+#KONTO 1910 "Handkassa"
+#KONTO 1930 "Checkräkning"
+#KONTO 1940 "SBAB"
+#KONTO 1941 "Bank 2"
+#KONTO 1942 "Bank 3"
+#KONTO 1985 "Transaktionskonto"
+#KONTO 1986 "Borgo räntekonto"
+#KONTO 1998 "Räntekontoöverföring"
+#KONTO 1999 "OBS - Används ej av SBC"
+#KONTO 2083 "Insatser"
+#KONTO 2084 "Fond för yttre underhåll"
+#KONTO 2087 "Upplåtelseavgifter"
+#KONTO 2091 "Balanserad vinst/förlust"
+#KONTO 2099 "Årets resultat"
+#KONTO 2351 "Fastighetslån"
+#KONTO 2352 "Kortfristig del, lång skuld"
+#KONTO 2380 "Depositioner"
+#KONTO 2417 "Kortfristig del, lång skuld"
+#KONTO 2440 "Leverantörsskulder"
+#KONTO 2442 "Äldre lev.skulder"
+#KONTO 2480 "Utläggsskulder"
+#KONTO 2510 "Skatteskuld fg år"
+#KONTO 2511 "Skatteskuld"
+#KONTO 2518 "Betald preliminärskatt"
+#KONTO 2610 "Utgående moms"
+#KONTO 2640 "Ingående moms"
+#KONTO 2650 "Momsavräkning"
+#KONTO 2710 "Personalens källskatt"
+#KONTO 2730 "Lagstadg soc avg lönesk"
+#KONTO 2810 "Avräkningskonto, eko. förvaltning"
+#KONTO 2811 "Avräkningskonto, eko. förvaltning, momspliktig"
+#KONTO 2893 "Avräkning avg/hyr"
+#KONTO 2897 "Mottagna depositioner"
+#KONTO 2898 "Återbetalningar tillgodon"
+#KONTO 2899 "Diverse skulder"
+#KONTO 2900 "Upplupna kostnader"
+#KONTO 2902 "Uppl kostnad Städning entrepr"
+#KONTO 2903 "Uppl kostn el"
+#KONTO 2904 "Uppl kostnad Värme"
+#KONTO 2907 "Uppl kostnad Extern revisor"
+#KONTO 2908 "Uppl kostn räntor"
+#KONTO 2909 "Uppl kostn vatten"
+#KONTO 2911 "Uppl kostnad Sophämtning"
+#KONTO 2918 "Uppl kostnad arvoden"
+#KONTO 2941 "Beräknade uppl. sociala avgifter"
+#KONTO 2970 "Förutbet hyror/avgifter"
+#KONTO 2979 ""
+#KONTO 2990 "Övriga uppl kostn och förutb int"
+#KONTO 3021 "Årsavgifter bostäder"
+#KONTO 3051 "Hyresintäkter bostäder"
+#KONTO 3052 "Hyresintäkter lokaler"
+#KONTO 3053 "Hyresintäkter lokaler, moms"
+#KONTO 3054 "Hyresintäkter garage"
+#KONTO 3058 "Hyresintäkter förråd"
+#KONTO 3064 "Deb. fastighetsskatt"
+#KONTO 3065 "Deb. fastighetsskatt, moms"
+#KONTO 3071 "Intäkter kabel-TV"
+#KONTO 3073 "Bredband"
+#KONTO 3094 "Hyres- och avgiftsrabatt"
+#KONTO 3127 "Elintäkter laddstolpe"
+#KONTO 3131 "Uppvärmning"
+#KONTO 3132 "Uppvärmning, moms"
+#KONTO 3521 "Pantsättningsavgift"
+#KONTO 3522 "Överlåtelseavgift"
+#KONTO 3542 "Andrahandsuthyrning"
+#KONTO 3740 "Öres- och kronutjämning"
+#KONTO 3901 "Fakturerade kostnader"
+#KONTO 3990 "Övriga intäkter"
+#KONTO 4101 "Fastighetsskötsel enl avtal"
+#KONTO 4102 "Fastighetsskötsel utöver avtal"
+#KONTO 4120 "Städning enligt avtal"
+#KONTO 4121 "Städning utöver avtal"
+#KONTO 4140 "Hissbesiktning"
+#KONTO 4146 "Brandskydd"
+#KONTO 4155 "Myndighetstillsyn"
+#KONTO 4160 "Gårdkostnader"
+#KONTO 4161 "Gemensamma utrymmen"
+#KONTO 4170 "Snöröjning/sandning"
+#KONTO 4180 "Serviceavtal"
+#KONTO 4185 "Mattvätt/Hyrmattor"
+#KONTO 4190 "Fordon"
+#KONTO 4191 "Förbrukningsmaterial"
+#KONTO 4300 "Reparationer"
+#KONTO 4311 "Hyreslägenheter"
+#KONTO 4321 "Hyreslokaler"
+#KONTO 4331 "Tvättstuga"
+#KONTO 4332 "Trapphus/port/entr"
+#KONTO 4336 "Dörrar och lås/porttele"
+#KONTO 4339 "Övriga gemensamma utrymmen"
+#KONTO 4341 "VVS"
+#KONTO 4342 "Värmeanläggning/undercentral"
+#KONTO 4343 "Ventilation"
+#KONTO 4344 "Elinstallationer"
+#KONTO 4345 "Tele/TV/bredband/porttelefon"
+#KONTO 4346 "Hissar"
+#KONTO 4351 "Tak"
+#KONTO 4352 "Fasader"
+#KONTO 4353 "Fönster"
+#KONTO 4370 "Garage/parkering"
+#KONTO 4380 "Vattenskada"
+#KONTO 4385 "Skador/klotter/skadegörelse"
+#KONTO 4500 "Underhåll av byggnad"
+#KONTO 4521 "Lokaler"
+#KONTO 4531 "Tvättstuga"
+#KONTO 4539 "Gemensamma utrymmen"
+#KONTO 4541 "VVS"
+#KONTO 4543 "Ventilation"
+#KONTO 4546 "Hiss"
+#KONTO 4552 "Fasader"
+#KONTO 4553 "Fönster"
+#KONTO 4561 "Mark/gård/utemiljö"
+#KONTO 4610 "El"
+#KONTO 4620 "Uppvärmning"
+#KONTO 4630 "Vatten"
+#KONTO 4640 "Sophämtning/renhållning"
+#KONTO 4641 "Grovsopor"
+#KONTO 4710 "Fastighetsförsäkringar"
+#KONTO 4712 "Självrisk"
+#KONTO 4760 "Kabel-TV"
+#KONTO 4761 "Bredband"
+#KONTO 4800 "Fastighetsskatt"
+#KONTO 6061 "Kreditupplysning"
+#KONTO 6210 "Tele- och datakommunikation"
+#KONTO 6320 "Juridiska åtgärder"
+#KONTO 6321 "Inkassokostnader"
+#KONTO 6410 "Styrelsearvoden"
+#KONTO 6420 "Revisionsarvoden extern revisor"
+#KONTO 6470 "Styrelseomkostnader"
+#KONTO 6471 "Fritids och trivselkostnader"
+#KONTO 6473 "Föreningskostnader"
+#KONTO 6480 "Förvaltningsarvode enl avtal"
+#KONTO 6490 "Övriga förvaltningsarvoden"
+#KONTO 6492 "Korttidsinventarier"
+#KONTO 6500 "Administration"
+#KONTO 6550 "Konsultkostnader"
+#KONTO 6980 "Bostadsrätterna Sverige"
+#KONTO 6990 "Övriga externa kostnader"
+#KONTO 6999 "OBS-konto"
+#KONTO 7011 "Lön"
+#KONTO 7013 "Lön - fastighetsskötare"
+#KONTO 7119 "Övriga arvoden"
+#KONTO 7210 "Löner till tjänstemän"
+#KONTO 7331 "Bilersättning skattefri"
+#KONTO 7332 "Bilersättning skattepliktig"
+#KONTO 7510 "Arbetsgivaravgifter"
+#KONTO 7820 "Avskrivning byggnad"
+#KONTO 7822 "Avskrivning fast. förbättringar"
+#KONTO 7830 "Avskrivn maskiner o inventarier"
+#KONTO 8311 "Ränteintäkter från bank"
+#KONTO 8410 "Räntekostnader fastighetslån"
+#KONTO 8423 "Kostnadsränta skatter och avgifter"
+#KONTO 8429 "Övriga räntekostnader"
+#KONTO 8999 "Årets resultat"
+#VER "49" "220769" 20220615 " (SIE)"
+{
+#TRANS 1510 {} -6336 20220615
+#TRANS 1985 {} 6336 20220615
+}
+#VER "49" "220770" 20220615 " (SIE)"
+{
+#TRANS 1510 {} 1208 20220615
+#TRANS 3521 {} -1207.5 20220615
+#TRANS 3740 {} -0.5 20220615
+}
+#VER "49" "220771" 20220615 "Stena Recycling AB (SIE)"
+{
+#TRANS 2440 {} -5879 20220615
+#TRANS 2640 {} 0 20220615
+#TRANS 2640 {} 173.91 20220615
+#TRANS 4640 {} 5879 20220615
+#TRANS 4640 {} -173.91 20220615
+}
+#VER "49" "220772" 20220615 "SBC Sveriges BostadsrattCentrum AB (SIE)"
+{
+#TRANS 2440 {} -520.75 20220615
+#TRANS 2640 {} 0 20220615
+#TRANS 2640 {} 13.68 20220615
+#TRANS 6321 {} 520.75 20220615
+#TRANS 6321 {} -13.68 20220615
+}
+#VER "49" "220773" 20220616 "54967096; Stockholm Vatten AB (SIE)"
+{
+#TRANS 1985 {} -9156 20220616
+#TRANS 2440 {} 9156 20220616
+}
+#VER "49" "220774" 20220616 "54967096; Stockholm Vatten AB (SIE)"
+{
+#TRANS 1985 {} -22411 20220616
+#TRANS 2440 {} 22411 20220616
+}
+#VER "49" "220775" 20220616 "1784032; Älvsjö VVS Centrum 23 AB (SIE)"
+{
+#TRANS 1684 {} -79250 20220616
+#TRANS 1985 {} -79250 20220616
+#TRANS 1985 {} 79250 20220616
+#TRANS 2440 {} 79250 20220616
+}
+#VER "49" "220776" 20220616 "1784032; Älvsjö VVS Centrum 23 AB (SIE)"
+{
+#TRANS 1684 {} -3625 20220616
+#TRANS 1985 {} -3625 20220616
+#TRANS 1985 {} 3625 20220616
+#TRANS 2440 {} 3625 20220616
+}
+#VER "49" "220777" 20220616 "1784032; Älvsjö VVS Centrum 23 AB (SIE)"
+{
+#TRANS 1684 {} 169190 20220616
+#TRANS 1985 {} 169190 20220616
+#TRANS 1985 {} -169190 20220616
+#TRANS 2440 {} -169190 20220616
+}
+#VER "49" "220778" 20220616 "Andersson Christer (SIE)"
+{
+#TRANS 2440 {} -5517 20220616
+#TRANS 2640 {} 0 20220616
+#TRANS 6470 {} 4417 20220616
+#TRANS 6500 {} 1100 20220616
+}
+#VER "49" "220779" 20220616 "Vult von Steijern Marianne (SIE)"
+{
+#TRANS 2440 {} -15009 20220616
+#TRANS 2640 {} 0 20220616
+#TRANS 6471 {} 15009 20220616
+}
+#VER "49" "220780" 20220617 "1784032; Älvsjö VVS Centrum 23 AB (SIE)"
+{
+#TRANS 1684 {} -3917 20220617
+#TRANS 1985 {} -3917 20220617
+#TRANS 1985 {} 3917 20220617
+#TRANS 2440 {} 3917 20220617
+}
+#VER "49" "220781" 20220620 " (SIE)"
+{
+#TRANS 1510 {} -9645 20220620
+#TRANS 1985 {} 9645 20220620
+}
+#VER "49" "220782" 20220620 "035810128265; Vult von Steijern Marianne (SIE)"
+{
+#TRANS 1985 {} -2200 20220620
+#TRANS 2440 {} 2200 20220620
+}
+#VER "49" "220783" 20220620 "52339330; Energikundservice Sverige AB (SIE)"
+{
+#TRANS 1985 {} -162 20220620
+#TRANS 2440 {} 162 20220620
+}
+#VER "49" "220784" 20220620 "52339330; Energikundservice Sverige AB (SIE)"
+{
+#TRANS 1985 {} -140 20220620
+#TRANS 2440 {} 140 20220620
+}
+#VER "49" "220785" 20220620 "3199973; Hi3G Acces AB (SIE)"
+{
+#TRANS 1985 {} -373 20220620
+#TRANS 2440 {} 373 20220620
+}
+#VER "49" "220786" 20220620 "5909080; SEB (SIE)"
+{
+#TRANS 1985 {} -5726 20220620
+#TRANS 2440 {} 5726 20220620
+}
+#VER "49" "220787" 20220620 "50501055; Skatteverket (SIE)"
+{
+#TRANS 1985 {} -240780 20220620
+#TRANS 2440 {} 240780 20220620
+}
+#VER "49" "220788" 20220620 "55167969; Elis Textil Service AB (SIE)"
+{
+#TRANS 1985 {} -6757 20220620
+#TRANS 2440 {} 6757 20220620
+}
+#VER "49" "220789" 20220620 "SEB (SIE)"
+{
+#TRANS 2440 {} -5726 20220620
+#TRANS 2640 {} 0 20220620
+#TRANS 6500 {} 50 20220620
+#TRANS 8410 {} 5676 20220620
+}
+#VER "49" "220790" 20220621 "6776942; Lindorff Sverige AB (SIE)"
+{
+#TRANS 1985 {} -319.71 20220621
+#TRANS 2440 {} 319.71 20220621
+}
+#VER "49" "220791" 20220621 "52339330; Energikundservice Sverige AB (SIE)"
+{
+#TRANS 1985 {} -210 20220621
+#TRANS 2440 {} 210 20220621
+}
+#VER "49" "220792" 20220621 "52339330; Energikundservice Sverige AB (SIE)"
+{
+#TRANS 1985 {} -159 20220621
+#TRANS 2440 {} 159 20220621
+}
+#VER "49" "220793" 20220621 "035810036871; Andersson Christer (SIE)"
+{
+#TRANS 1985 {} -5517 20220621
+#TRANS 2440 {} 5517 20220621
+}
+#VER "49" "220794" 20220621 "035810128265; Vult von Steijern Marianne (SIE)"
+{
+#TRANS 1985 {} -15009 20220621
+#TRANS 2440 {} 15009 20220621
+}
+#VER "49" "220795" 20220622 " (SIE)"
+{
+#TRANS 1510 {} -1812 20220622
+#TRANS 1985 {} 1812 20220622
+}
+#VER "49" "220796" 20220622 "Nettolön (SIE)"
+{
+#TRANS 1985 {} -46200 20220622
+#TRANS 2710 {} -19800 20220622
+#TRANS 2730 {} -6738 20220622
+#TRANS 7013 {} 66000 20220622
+#TRANS 7510 {} 6738 20220622
+}
+#VER "49" "220797" 20220622 "Hellgrens Lås AB (SIE)"
+{
+#TRANS 2440 {} -5673 20220622
+#TRANS 2640 {} 0 20220622
+#TRANS 4336 {} 5673 20220622
+}
+#VER "49" "220798" 20220622 "Handelsbanken (SIE)"
+{
+#TRANS 2440 {} -311 20220622
+#TRANS 2640 {} 0 20220622
+#TRANS 6500 {} 311 20220622
+}
+#VER "49" "220799" 20220623 " (SIE)"
+{
+#TRANS 1510 {} -178260 20220623
+#TRANS 1985 {} 178260 20220623
+}
+#VER "49" "220800" 20220623 "SEB Kort (SIE)"
+{
+#TRANS 2440 {} -10880.62 20220623
+#TRANS 2640 {} 0 20220623
+#TRANS 6999 {} 10880.62 20220623
+}
+#VER "49" "220801" 20220626 "Älvsjö VVS Centrum 23 AB (SIE)"
+{
+#TRANS 1114 {} 59254.42 20220626
+#TRANS 2440 {} -74068 20220626
+#TRANS 2640 {} 0 20220626
+#TRANS 2640 {} 14813.58 20220626
+}
+#VER "49" "220802" 20220627 " (SIE)"
+{
+#TRANS 1510 {} -12246 20220627
+#TRANS 1985 {} 12246 20220627
+}
+#VER "49" "220803" 20220627 "Brandsäkra Norden AB (SIE)"
+{
+#TRANS 1220 {} 46798 20220627
+#TRANS 2440 {} -46798 20220627
+#TRANS 2640 {} 0 20220627
+}
+#VER "49" "220804" 20220627 "Svenska Asbestsanerarna (SIE)"
+{
+#TRANS 2440 {} -16000 20220627
+#TRANS 2640 {} 0 20220627
+#TRANS 4370 {} 16000 20220627
+}
+#VER "49" "220805" 20220628 " (SIE)"
+{
+#TRANS 1510 {} -34383 20220628
+#TRANS 1985 {} 34383 20220628
+}
+#VER "49" "220806" 20220628 " (SIE)"
+{
+#TRANS 1510 {} 1208 20220628
+#TRANS 3521 {} -1207.5 20220628
+#TRANS 3740 {} -0.5 20220628
+}
+#VER "49" "220807" 20220628 "Trygga Hiss I Stockholm AB (SIE)"
+{
+#TRANS 2440 {} -4431 20220628
+#TRANS 2640 {} 0 20220628
+#TRANS 4546 {} 4431 20220628
+}
+#VER "49" "220808" 20220628 "Tingvalla mark AB (SIE)"
+{
+#TRANS 2440 {} -11220 20220628
+#TRANS 2640 {} 0 20220628
+#TRANS 4121 {} 11220 20220628
+}
+#VER "49" "220809" 20220628 "SBC Sv Bostadsrättscentrum (SIE)"
+{
+#TRANS 2440 {} -12188 20220628
+#TRANS 2640 {} 0 20220628
+#TRANS 2640 {} 360.51 20220628
+#TRANS 4180 {} 12188 20220628
+#TRANS 4180 {} -360.51 20220628
+}
+#VER "49" "220810" 20220629 " (SIE)"
+{
+#TRANS 1510 {} -8140 20220629
+#TRANS 1985 {} 8140 20220629
+}
+#VER "49" "220811" 20220629 "54030739; Tele 2 Sverige AB (SIE)"
+{
+#TRANS 1985 {} -36424 20220629
+#TRANS 2440 {} 36424 20220629
+}
+#VER "49" "220812" 20220629 "56089840; Telge Energi AB (SIE)"
+{
+#TRANS 1985 {} -66658 20220629
+#TRANS 2440 {} 66658 20220629
+}
+#VER "49" "220813" 20220629 "Återbet Elis (Beredsen textil) (SIE)"
+{
+#TRANS 1985 {} 22281.41 20220629
+#TRANS 4185 {} -21467 20220629
+#TRANS 6500 {} -720 20220629
+#TRANS 8429 {} -94.41 20220629
+}
+#VER "49" "220814" 20220630 " (SIE)"
+{
+#TRANS 1510 {} -276071 20220630
+#TRANS 1985 {} 276071 20220630
+}
+#VER "49" "220815" 20220630 " (SIE)"
+{
+#TRANS 1510 {} -68825 20220630
+#TRANS 1985 {} 68825 20220630
+}
+#VER "49" "220816" 20220630 " (SIE)"
+{
+#TRANS 1699 {} -3334 20220630
+#TRANS 1985 {} 3334 20220630
+}
+#VER "49" "220817" 20220630 " (SIE)"
+{
+#TRANS 1510 {} -3334 20220630
+#TRANS 1699 {} 3334 20220630
+}
+#VER "49" "220818" 20220630 "58265463; Stockholms Maskintjänst AB (SIE)"
+{
+#TRANS 1985 {} -43125 20220630
+#TRANS 2440 {} 43125 20220630
+}
+#VER "49" "220819" 20220630 "5169529; Maries Puts & Städ Fastighet AB (SIE)"
+{
+#TRANS 1985 {} -14203 20220630
+#TRANS 2440 {} 14203 20220630
+}
+#VER "49" "220820" 20220630 "55167969; Elis Textil Service AB (SIE)"
+{
+#TRANS 1985 {} -6075 20220630
+#TRANS 2440 {} 6075 20220630
+}
+#VER "49" "220821" 20220630 "58460163; SBC Sv Bostadsrättscentrum (SIE)"
+{
+#TRANS 1985 {} -966 20220630
+#TRANS 2440 {} 966 20220630
+}
+#VER "49" "220822" 20220630 "1784032; Älvsjö VVS Centrum 23 AB (SIE)"
+{
+#TRANS 1684 {} -82398 20220630
+#TRANS 1985 {} -169190 20220630
+#TRANS 1985 {} 82398 20220630
+#TRANS 2440 {} 169190 20220630
+}
+#VER "49" "220823" 20220630 "Momsredovisning april-juni (SIE)"
+{
+#TRANS 2610 {} 116153.85 20220630
+#TRANS 2610 {} 57184.1 20220630
+#TRANS 2640 {} -118559.41 20220630
+#TRANS 2650 {} -54779 20220630
+#TRANS 3740 {} 0.46 20220630
+}
+#VER "49" "220824" 20220630 "Boka Tvättid Sverige AB (SIE)"
+{
+#TRANS 2440 {} -2089 20220630
+#TRANS 2640 {} 0 20220630
+#TRANS 2640 {} 61.79 20220630
+#TRANS 4331 {} 2089 20220630
+#TRANS 4331 {} -61.79 20220630
+}
+#VER "49" "220825" 20220630 "Elis Textil Service AB (SIE)"
+{
+#TRANS 2440 {} -3911 20220630
+#TRANS 2640 {} 0 20220630
+#TRANS 4185 {} 3911 20220630
+}
+#VER "49" "220826" 20220630 "Älvsjö VVS Centrum 23 AB (SIE)"
+{
+#TRANS 1114 {} 48583 20220630
+#TRANS 2440 {} -48583 20220630
+#TRANS 2640 {} 0 20220630
+}
+#VER "49" "220827" 20220630 "SBC Sv Bostadsrättscentrum (SIE)"
+{
+#TRANS 2440 {} -625 20220630
+#TRANS 2640 {} 0 20220630
+#TRANS 2640 {} 18.49 20220630
+#TRANS 6061 {} 625 20220630
+#TRANS 6061 {} -18.49 20220630
+}
+#VER "49" "220828" 20220630 "Maries Puts & Städ Fastighet AB (SIE)"
+{
+#TRANS 2440 {} -5611 20220630
+#TRANS 2640 {} 0 20220630
+#TRANS 4120 {} 473.5 20220630
+#TRANS 4121 {} 5137.5 20220630
+}
+#VER "49" "220829" 20220630 "Stockholms Maskintjänst AB (SIE)"
+{
+#TRANS 2440 {} -5513 20220630
+#TRANS 2640 {} 0 20220630
+#TRANS 4331 {} 5513 20220630
+}
+#VER "49" "220830" 20220630 "Storholmen Fix It AB (SIE)"
+{
+#TRANS 2440 {} -9413 20220630
+#TRANS 2640 {} 0 20220630
+#TRANS 2640 {} 276.42 20220630
+#TRANS 4102 {} 6975 20220630
+#TRANS 4102 {} -276.42 20220630
+#TRANS 4640 {} 2438 20220630
+}
