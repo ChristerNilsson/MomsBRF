@@ -11,22 +11,14 @@ ignorerade = [] # pga div med noll
 
 def Verifikat(original:str):
 	line = original.split(" ")
-	result = {}
-	result['serie'] = line[1]
-	result['id'] = line[2]
-	result['datum'] = line[3]
-	result['text'] = " ".join(line[4:len(line)])
-	result['transaktioner'] = []
-	result['str'] = original
-	return result
+	[serie,id,datum] = line[1:4]
+	return {'serie':serie, 'id':id, 'datum':datum, 'transaktioner':[], 'str':original}
 
 def Transaktion(original:str):
 	line = original.split(' ')
-	result = {}
-	result['konto'] = line[1]
-	result['belopp'] = float(line[3])
-	result['str'] = f"{original} {konton[result['konto']]}"
-	return result
+	konto = line[1]
+	belopp = float(line[3])
+	return {'konto':konto, 'belopp':belopp, 'str':original + ' ' + konton[konto]}
 
 def getSie(lines):
 	verifikationer = []
