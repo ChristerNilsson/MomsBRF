@@ -1,4 +1,4 @@
-SIE_FIL = "2023"
+SIE_FIL = "202206"
 
 preludium = []
 verifikationer = []
