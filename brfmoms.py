@@ -17,16 +17,16 @@ def Verifikat(line:str):
 	result['datum'] = line[3]
 	result['text'] = " ".join(line[4:len(line)])
 	result['transaktioner'] = []
+	result['str'] = f"{result['serie']} {result['id']} {result['datum']} {result['text']}".replace('"','')
 	return result
-def strVerifikat(self): return f"{self['serie']} {self['id']} {self['datum']} {self['text']}".replace('"','')
 
 def Transaktion(line:str):
 	line = line.split(' ')
 	result = {}
 	result['konto'] = line[1]
 	result['belopp'] = float(line[3])
+	result['str'] = f"{result['konto']} {result['belopp']:.2f} {konton[result['konto']]}"
 	return result
-def strTransaktion(self): return f"{self['konto']} {self['belopp']:.2f} {konton[self['konto']]}"
 
 def getSie(lines):
 	verifikationer = []
@@ -44,7 +44,7 @@ def getSie(lines):
 			konton[konto] = namn
 	return konton,verifikationer
 
-def read_sie(infile:str):
+def read_sie():
 	with open(SIE_FIL + '.txt', "r", encoding="utf-8") as f:
 		lines = f.readlines()
 
@@ -67,7 +67,7 @@ def read_sie(infile:str):
 		kontonPlus = 0 # ören
 
 		if filter1:
-			print(strVerifikat(verifikat))
+			print(verifikat['str'])
 
 		for transaktion in verifikat['transaktioner']:
 			konto = transaktion['konto']
@@ -76,7 +76,7 @@ def read_sie(infile:str):
 			if filter1:
 				if konto == MOMS_KONTO: ingåendeMoms += belopp
 				if konto[0] != '2': kontonPlus += belopp
-				print('  ',strTransaktion(transaktion)) #f"{belopp/100:.2f}", konton[konto])
+				print('  ',transaktion['str']) #f"{belopp/100:.2f}", konton[konto])
 			if filter2:
 				if konto[0:2] == '30': summaHuvudIntakter -= belopp
 				if konto in ['3053', '3065']: summaMomsadeLokaler -= belopp
@@ -114,4 +114,4 @@ def read_sie(infile:str):
 	for i in range(min(20,len(lista))):
 		print(sorterad_lista[i])
 
-read_sie(SIE_FIL)
+read_sie()
