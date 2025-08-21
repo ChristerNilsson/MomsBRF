@@ -9,27 +9,25 @@ MOMS_KONTO = '2640'
 konton = {}
 ignorerade = [] # pga div med noll
 
-class Verifikat:
-	def __init__(self,line): #serie:str, id:str, datum:str, text:str):
-		line = line.split(" ")
-		self.serie = line[1]
-		self.id = line[2]
-		self.datum = line[3]
-		self.text = " ".join(line[4:len(line)])
-		self.transaktioner = []
-	def __str__(self): return f"{self.serie} {self.id} {self.datum} {self.text}"
-	def __eq__(self, other): return str(self) == str(other) and self.transaktioner == other.transaktioner
+def Verifikat(line:str):
+	line = line.split(" ")
+	result = {}
+	result['serie'] = line[1]
+	result['id'] = line[2]
+	result['datum'] = line[3]
+	result['text'] = " ".join(line[4:len(line)])
+	result['transaktioner'] = []
+	return result
+# 	def __str__(self): return f"{self.serie} {self.id} {self.datum} {self.text}"
+# 	def __eq__(self, other): return str(self) == str(other) and self.transaktioner == other.transaktioner
 
-	def addTransaktion(self,line:str):
-		self.transaktioner.append(Transaktion(line))
-
-class Transaktion:
-	def __init__(self,line): # konto:str,belopp:str):
-		line = line.split(' ')
-		self.konto = line[1]
-		self.belopp = float(line[3])
-	def __str__(self):
-		return f"{self.konto} {self.belopp:.2f} {konton[self.konto]}"
+def Transaktion(line:str):
+	line = line.split(' ')
+	result = {}
+	result['konto'] = line[1]
+	result['belopp'] = float(line[3])
+	return result
+# 	def __str__(self): return f"{self.konto} {self.belopp:.2f} {konton[self.konto]}"
 
 def getSie(lines):
 	verifikationer = []
@@ -40,7 +38,7 @@ def getSie(lines):
 		if line.startswith("#VER"):
 			verifikationer.append(Verifikat(line))
 		if line.startswith("#TRANS"):
-			verifikationer[-1].transaktioner.append(Transaktion(line))
+			verifikationer[-1]['transaktioner'].append(Transaktion(line))
 		if line.startswith("#KONTO"):
 			konto = line[7:11]
 			namn = line[13:-1]
@@ -60,10 +58,11 @@ def read_sie(infile:str):
 	filtrerade2 = []
 	lista = []
 	for verifikat in verifikationer:
-		filter1 = any([t.konto == MOMS_KONTO and t.belopp != 0 for t in verifikat.transaktioner])
-		filter2 = any(['3000' <= t.konto < '3100' for t in verifikat.transaktioner])
-		if filter1: filtrerade1.append(verifikat.id)
-		if filter2: filtrerade2.append(verifikat.id)
+		id = verifikat['id']
+		filter1 = any([t['konto'] == MOMS_KONTO and t['belopp'] != 0 for t in verifikat['transaktioner']])
+		filter2 = any(['3000' <= t['konto'] < '3100' for t in verifikat['transaktioner']])
+		if filter1: filtrerade1.append(id)
+		if filter2: filtrerade2.append(id)
 
 		ingåendeMoms = 0 # ören
 		kontonPlus = 0 # ören
@@ -71,9 +70,9 @@ def read_sie(infile:str):
 		if filter1:
 			print(verifikat)
 
-		for transaktion in verifikat.transaktioner:
-			konto = transaktion.konto
-			belopp = 100 * transaktion.belopp  # pga avrundningsfel i python räknas i ören
+		for transaktion in verifikat['transaktioner']:
+			konto = transaktion['konto']
+			belopp = 100 * transaktion['belopp']  # pga avrundningsfel i python räknas i ören
 
 			if filter1:
 				if konto == MOMS_KONTO: ingåendeMoms += belopp
@@ -86,7 +85,7 @@ def read_sie(infile:str):
 		if filter1:
 			summaUtgiftInklMoms = kontonPlus + ingåendeMoms # ören
 			if summaUtgiftInklMoms == 0:
-				ignorerade.append(verifikat.id)
+				ignorerade.append(id)
 				print("   *** DIV MED NOLL",summaUtgiftInklMoms)
 			else:
 				momsAndel = ingåendeMoms / summaUtgiftInklMoms / 0.2 * 100
@@ -99,7 +98,7 @@ def read_sie(infile:str):
 			print()
 			# lista.append([ingåendeMoms/100,verifikat.id])
 			# lista.append([summaUtgiftInklMoms/100, verifikat.id])
-			lista.append([kontonPlus/100, verifikat.id])
+			lista.append([kontonPlus/100, id])
 
 	print()
 	print("Fil:",SIE_FIL)
