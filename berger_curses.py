@@ -3,6 +3,7 @@ import curses
 ALIVE_CHAR = "█"	 # Fungerar bra i Linux-terminaler; byt till "O" om din font strular
 N = 78
 
+# testkommentar 
 def println(win, text=""):
 	"""Skriver text och flyttar sedan till nästa rad, kolumn 0"""
 	y, x = win.getyx()		  # aktuell position
