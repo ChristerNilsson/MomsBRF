@@ -4,6 +4,7 @@ ALIVE_CHAR = "█"	 # Fungerar bra i Linux-terminaler; byt till "O" om din font 
 N = 78
 
 # testkommentar 
+# testkommentar2
 def println(win, text=""):
 	"""Skriver text och flyttar sedan till nästa rad, kolumn 0"""
 	y, x = win.getyx()		  # aktuell position
