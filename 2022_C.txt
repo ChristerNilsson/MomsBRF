@@ -1,0 +1,2215 @@
+#VER "48" "220225" 20221230 "Korr: 49-221713"
+#TRANS 2640 {} -255.13 20221230 Ingående moms
+#TRANS 6320 {} 255.13 20221230 Juridiska åtgärder
+
+#VER "49" "220045" 20220101 "SBC Sv Bostadsrättscentrum (SIE)"0.0
+#TRANS 2440 {} -24063 20220101 Leverantörsskulder
+#TRANS 2640 {} 0 20220101 Ingående moms
+#TRANS 6480 {} 24063 20220101 Förvaltningsarvode enl avtal
+
+#VER "49" "220046" 20220101 "Storholmen Förvaltning AB (SIE)"0.0
+#TRANS 2440 {} -34823 20220101 Leverantörsskulder
+#TRANS 2640 {} 0 20220101 Ingående moms
+#TRANS 4101 {} 29482.5 20220101 Fastighetsskötsel enl avtal
+#TRANS 4102 {} 400 20220101 Fastighetsskötsel utöver avtal
+#TRANS 6500 {} 4940.5 20220101 Administration
+
+#VER "49" "220047" 20220101 "Storholmen Förvaltning AB (SIE)"-0.0
+#TRANS 2440 {} 29483 20220101 Leverantörsskulder
+#TRANS 2640 {} 0 20220101 Ingående moms
+#TRANS 4101 {} -29483 20220101 Fastighetsskötsel enl avtal
+
+#VER "49" "220053" 20220103 "Stockholm Exergi (SIE)"0.0
+#TRANS 2440 {} -266772 20220103 Leverantörsskulder
+#TRANS 2640 {} 0 20220103 Ingående moms
+#TRANS 4620 {} 266772 20220103 Uppvärmning
+
+#VER "49" "220057" 20220105 "Ellevio AB(publ) (SIE)"0.0
+#TRANS 2440 {} -15243 20220105 Leverantörsskulder
+#TRANS 2640 {} 0 20220105 Ingående moms
+#TRANS 4610 {} 15243 20220105 El
+
+#VER "49" "220058" 20220105 "Ellevio AB(publ) (SIE)"0.0
+#TRANS 2440 {} -3066 20220105 Leverantörsskulder
+#TRANS 2640 {} 0 20220105 Ingående moms
+#TRANS 4610 {} 3066 20220105 El
+
+#VER "49" "220059" 20220106 "Hi3G Acces AB (SIE)"0.0
+#TRANS 2440 {} -217 20220106 Leverantörsskulder
+#TRANS 2640 {} 0 20220106 Ingående moms
+#TRANS 6210 {} 217 20220106 Tele- och datakommunikation
+
+#VER "49" "220061" 20220107 "Ellevio AB(publ) (SIE)"0.0
+#TRANS 2440 {} -2792 20220107 Leverantörsskulder
+#TRANS 2640 {} 0 20220107 Ingående moms
+#TRANS 4610 {} 2792 20220107 El
+
+#VER "49" "220062" 20220107 "Stockholms Maskintjänst AB (SIE)"0.0
+#TRANS 2440 {} -7180 20220107 Leverantörsskulder
+#TRANS 2640 {} 0 20220107 Ingående moms
+#TRANS 4331 {} 7180 20220107 Tvättstuga
+
+#VER "49" "220063" 20220107 "Maries Puts & Städ Fastighet AB (SIE)"0.0
+#TRANS 2440 {} -13789 20220107 Leverantörsskulder
+#TRANS 2640 {} 0 20220107 Ingående moms
+#TRANS 4120 {} 13789 20220107 Städning enligt avtal
+
+#VER "49" "220067" 20220110 "Ellevio AB(publ) (SIE)"0.0
+#TRANS 2440 {} -12297 20220110 Leverantörsskulder
+#TRANS 2640 {} 0 20220110 Ingående moms
+#TRANS 4610 {} 12297 20220110 El
+
+#VER "49" "220068" 20220110 "Ellevio AB(publ) (SIE)"0.0
+#TRANS 2440 {} -1871 20220110 Leverantörsskulder
+#TRANS 2640 {} 0 20220110 Ingående moms
+#TRANS 4610 {} 1871 20220110 El
+
+#VER "49" "220069" 20220110 "Energikundservice Sverige AB (SIE)"0.0
+#TRANS 2440 {} -140 20220110 Leverantörsskulder
+#TRANS 2640 {} 0 20220110 Ingående moms
+#TRANS 4610 {} 140 20220110 El
+
+#VER "49" "220073" 20220112 "GodEL i Sverige AB (SIE)"0.0
+#TRANS 2440 {} -60 20220112 Leverantörsskulder
+#TRANS 2640 {} 0 20220112 Ingående moms
+#TRANS 6500 {} 60 20220112 Administration
+
+#VER "49" "220074" 20220112 "Hellgrens Lås AB (SIE)"0.0
+#TRANS 2440 {} -2731 20220112 Leverantörsskulder
+#TRANS 2640 {} 0 20220112 Ingående moms
+#TRANS 4332 {} 2731 20220112 Trapphus/port/entr
+
+#VER "49" "220078" 20220114 "Svenska Asbestsanerarna (SIE)"0.0
+#TRANS 2440 {} -6031 20220114 Leverantörsskulder
+#TRANS 2640 {} 0 20220114 Ingående moms
+#TRANS 4385 {} 6031 20220114 Skador/klotter/skadegörelse
+
+#VER "49" "220082" 20220117 "Mether Stefan (SIE)"0.0
+#TRANS 2440 {} -152 20220117 Leverantörsskulder
+#TRANS 2640 {} 0 20220117 Ingående moms
+#TRANS 6500 {} 152 20220117 Administration
+
+#VER "49" "220083" 20220117 "Stockholm Vatten AB (SIE)"0.0
+#TRANS 2440 {} -20946 20220117 Leverantörsskulder
+#TRANS 2640 {} 0 20220117 Ingående moms
+#TRANS 4630 {} 20946 20220117 Vatten
+
+#VER "49" "220084" 20220117 "Stockholm Vatten AB (SIE)"0.0
+#TRANS 2440 {} -8804 20220117 Leverantörsskulder
+#TRANS 2640 {} 0 20220117 Ingående moms
+#TRANS 4630 {} 8804 20220117 Vatten
+
+#VER "49" "220085" 20220117 "Stockholm Vatten AB (SIE)"0.0
+#TRANS 2440 {} -8557 20220117 Leverantörsskulder
+#TRANS 2640 {} 0 20220117 Ingående moms
+#TRANS 4630 {} 8557 20220117 Vatten
+
+#VER "49" "220086" 20220117 "Stena Recycling AB (SIE)"0.0
+#TRANS 2440 {} -6622 20220117 Leverantörsskulder
+#TRANS 2640 {} 0 20220117 Ingående moms
+#TRANS 4640 {} 6562 20220117 Sophämtning/renhållning
+#TRANS 6500 {} 60 20220117 Administration
+
+#VER "49" "220089" 20220118 "Stockholm Vatten AB (SIE)"0.0
+#TRANS 2440 {} -20780 20220118 Leverantörsskulder
+#TRANS 2640 {} 0 20220118 Ingående moms
+#TRANS 4640 {} 20780 20220118 Sophämtning/renhållning
+
+#VER "49" "220093" 20220119 "Hellgrens Lås AB (SIE)"0.0
+#TRANS 2440 {} -1694 20220119 Leverantörsskulder
+#TRANS 2640 {} 0 20220119 Ingående moms
+#TRANS 4336 {} 1694 20220119 Dörrar och lås/porttele
+
+#VER "49" "220095" 20220121 "Stena Recycling AB (SIE)"0.0
+#TRANS 2440 {} -2501 20220121 Leverantörsskulder
+#TRANS 2640 {} 0 20220121 Ingående moms
+#TRANS 4640 {} 2501 20220121 Sophämtning/renhållning
+
+#VER "49" "220096" 20220123 "Älvsjö VVS Centrum 23 AB (SIE)"0.0
+#TRANS 2440 {} -2713 20220123 Leverantörsskulder
+#TRANS 2640 {} 0 20220123 Ingående moms
+#TRANS 4341 {} 2713 20220123 VVS
+
+#VER "49" "220119" 20220131 "Maries Puts & Städ Fastighet AB (SIE)"0.0
+#TRANS 2440 {} -13789 20220131 Leverantörsskulder
+#TRANS 2640 {} 0 20220131 Ingående moms
+#TRANS 4120 {} 13789 20220131 Städning enligt avtal
+
+#VER "49" "220165" 20220202 "Stockholm Exergi (SIE)"0.0
+#TRANS 2440 {} -253279 20220202 Leverantörsskulder
+#TRANS 2640 {} 0 20220202 Ingående moms
+#TRANS 4620 {} 253279 20220202 Uppvärmning
+
+#VER "49" "220166" 20220202 "Klang Söderqvist Birgitta (SIE)"0.0
+#TRANS 2440 {} -10500 20220202 Leverantörsskulder
+#TRANS 2640 {} 0 20220202 Ingående moms
+#TRANS 2710 {} -4500 20220202 Personalens källskatt
+#TRANS 2730 {} -1531 20220202 Lagstadg soc avg lönesk
+#TRANS 7119 {} 15000 20220202 Övriga arvoden
+#TRANS 7119 {} 0 20220202 Övriga arvoden
+#TRANS 7331 {} 0 20220202 Bilersättning skattefri
+#TRANS 7332 {} 0 20220202 Bilersättning skattepliktig
+#TRANS 7510 {} 1531 20220202 Arbetsgivaravgifter
+
+#VER "49" "220167" 20220202 "Älvsjö VVS Centrum 23 AB (SIE)"0.0
+#TRANS 1182 {} 47150 20220202 Pågående om- och tillbyggnad
+#TRANS 2440 {} -47150 20220202 Leverantörsskulder
+#TRANS 2640 {} 0 20220202 Ingående moms
+#TRANS 4341 {} 47150 20220202 VVS
+#TRANS 4341 {} -47150 20220202 VVS
+
+#VER "49" "220168" 20220202 "Energikundservice Sverige AB (SIE)"0.0
+#TRANS 2440 {} -162 20220202 Leverantörsskulder
+#TRANS 2640 {} 0 20220202 Ingående moms
+#TRANS 4610 {} 162 20220202 El
+
+#VER "49" "220169" 20220203 "Älvsjö VVS Centrum 23 AB (SIE)"0.0
+#TRANS 2440 {} -1900 20220203 Leverantörsskulder
+#TRANS 2640 {} 0 20220203 Ingående moms
+#TRANS 4331 {} 1900 20220203 Tvättstuga
+
+#VER "49" "220170" 20220203 "Älvsjö VVS Centrum 23 AB (SIE)"0.0
+#TRANS 1182 {} 12000 20220203 Pågående om- och tillbyggnad
+#TRANS 2440 {} -12000 20220203 Leverantörsskulder
+#TRANS 2640 {} 0 20220203 Ingående moms
+#TRANS 4341 {} 12000 20220203 VVS
+#TRANS 4341 {} -12000 20220203 VVS
+
+#VER "49" "220175" 20220204 "Ellevio AB(publ) (SIE)"0.0
+#TRANS 2440 {} -248 20220204 Leverantörsskulder
+#TRANS 2640 {} 0 20220204 Ingående moms
+#TRANS 4610 {} 248 20220204 El
+
+#VER "49" "220176" 20220204 "Ellevio AB(publ) (SIE)"0.0
+#TRANS 2440 {} -1939 20220204 Leverantörsskulder
+#TRANS 2640 {} 0 20220204 Ingående moms
+#TRANS 4610 {} 1939 20220204 El
+
+#VER "49" "220177" 20220204 "Ellevio AB(publ) (SIE)"0.0
+#TRANS 2440 {} -5792 20220204 Leverantörsskulder
+#TRANS 2640 {} 0 20220204 Ingående moms
+#TRANS 4610 {} 5792 20220204 El
+
+#VER "49" "220187" 20220209 "Storholmen Förvaltning AB (SIE)"0.0
+#TRANS 2440 {} -1119 20220209 Leverantörsskulder
+#TRANS 2640 {} 0 20220209 Ingående moms
+#TRANS 4102 {} 1119 20220209 Fastighetsskötsel utöver avtal
+
+#VER "49" "220188" 20220209 "St Termo (SIE)"0.0
+#TRANS 2440 {} -325 20220209 Leverantörsskulder
+#TRANS 2640 {} 0 20220209 Ingående moms
+#TRANS 4343 {} 325 20220209 Ventilation
+
+#VER "49" "220189" 20220210 "Ellevio AB(publ) (SIE)"0.0
+#TRANS 2440 {} -2316 20220210 Leverantörsskulder
+#TRANS 2640 {} 0 20220210 Ingående moms
+#TRANS 4610 {} 2316 20220210 El
+
+#VER "49" "220194" 20220211 "Telge Energi AB (SIE)"0.0
+#TRANS 2440 {} -94853 20220211 Leverantörsskulder
+#TRANS 2640 {} 0 20220211 Ingående moms
+#TRANS 4610 {} 94853 20220211 El
+
+#VER "49" "220198" 20220214 "Brandsäkra Norden AB (SIE)"0.0
+#TRANS 2440 {} -9770 20220214 Leverantörsskulder
+#TRANS 2640 {} 0 20220214 Ingående moms
+#TRANS 6500 {} 45 20220214 Administration
+#TRANS 6550 {} 9725 20220214 Konsultkostnader
+
+#VER "49" "220200" 20220215 "Isaksson Eldh Gustaf (SIE)"
+#TRANS 2440 {} -2053 20220215 Leverantörsskulder
+#TRANS 2640 {} 0 20220215 Ingående moms
+#TRANS 2893 {} 2053 20220215 Avräkning avg/hyr
+
+#VER "49" "220201" 20220215 "Stena Recycling AB (SIE)"0.0
+#TRANS 2440 {} -5964 20220215 Leverantörsskulder
+#TRANS 2640 {} 0 20220215 Ingående moms
+#TRANS 4640 {} 5904 20220215 Sophämtning/renhållning
+#TRANS 6500 {} 60 20220215 Administration
+
+#VER "49" "220205" 20220216 "West Studios AB (SIE)"0.0
+#TRANS 2440 {} -5300 20220216 Leverantörsskulder
+#TRANS 2640 {} 0 20220216 Ingående moms
+#TRANS 6500 {} 5300 20220216 Administration
+
+#VER "49" "220208" 20220217 "Loopia AB (SIE)"0.0
+#TRANS 2440 {} -371.25 20220217 Leverantörsskulder
+#TRANS 2640 {} 0 20220217 Ingående moms
+#TRANS 6210 {} 371.25 20220217 Tele- och datakommunikation
+
+#VER "49" "220209" 20220217 "Energisparkonsult (SIE)"0.0
+#TRANS 2440 {} -6940 20220217 Leverantörsskulder
+#TRANS 2640 {} 0 20220217 Ingående moms
+#TRANS 4180 {} 6940 20220217 Serviceavtal
+
+#VER "49" "220217" 20220221 "Storholmen Fix It AB (SIE)"0.0
+#TRANS 2440 {} -5694 20220221 Leverantörsskulder
+#TRANS 2640 {} 0 20220221 Ingående moms
+#TRANS 4640 {} 5694 20220221 Sophämtning/renhållning
+
+#VER "49" "220232" 20220222 "Bergdahl Victoria (SIE)"
+#TRANS 2440 {} -2845 20220222 Leverantörsskulder
+#TRANS 2640 {} 0 20220222 Ingående moms
+#TRANS 2893 {} 2845 20220222 Avräkning avg/hyr
+
+#VER "49" "220233" 20220222 "Älvsjö VVS Centrum 23 AB (SIE)"0.0
+#TRANS 2440 {} -3598 20220222 Leverantörsskulder
+#TRANS 2640 {} 0 20220222 Ingående moms
+#TRANS 4341 {} 3598 20220222 VVS
+
+#VER "49" "220253" 20220225 "Älvsjö VVS Centrum 23 AB (SIE)"0.0
+#TRANS 2440 {} -9474 20220225 Leverantörsskulder
+#TRANS 2640 {} 0 20220225 Ingående moms
+#TRANS 4341 {} 9474 20220225 VVS
+
+#VER "49" "220272" 20220228 "Svea Inkasso AB (SIE)"0.0
+#TRANS 2440 {} -942 20220228 Leverantörsskulder
+#TRANS 2640 {} 0 20220228 Ingående moms
+#TRANS 6500 {} 900 20220228 Administration
+#TRANS 8429 {} 42 20220228 Övriga räntekostnader
+
+#VER "49" "220273" 20220228 "Maries Puts & Städ Fastighet AB (SIE)"0.0
+#TRANS 2440 {} -13789 20220228 Leverantörsskulder
+#TRANS 2640 {} 0 20220228 Ingående moms
+#TRANS 4120 {} 13789 20220228 Städning enligt avtal
+
+#VER "49" "220323" 20220301 "Tele 2 Sverige AB (SIE)"0.0
+#TRANS 2440 {} -36 20220301 Leverantörsskulder
+#TRANS 2640 {} 0 20220301 Ingående moms
+#TRANS 4760 {} 36 20220301 Kabel-TV
+
+#VER "49" "220324" 20220301 "Stockholms Stadsnät AB (SIE)"0.0
+#TRANS 2440 {} -22770 20220301 Leverantörsskulder
+#TRANS 2640 {} 0 20220301 Ingående moms
+#TRANS 4761 {} 22770 20220301 Bredband
+
+#VER "49" "220325" 20220301 "Trygga Hiss I Stockholm AB (SIE)"0.0
+#TRANS 2440 {} -1275 20220301 Leverantörsskulder
+#TRANS 2640 {} 0 20220301 Ingående moms
+#TRANS 4180 {} 1275 20220301 Serviceavtal
+
+#VER "49" "220326" 20220301 "Trygga Hiss I Stockholm AB (SIE)"0.0
+#TRANS 2440 {} -1275 20220301 Leverantörsskulder
+#TRANS 2640 {} 0 20220301 Ingående moms
+#TRANS 4180 {} 1275 20220301 Serviceavtal
+
+#VER "49" "220327" 20220301 "Trygga Hiss I Stockholm AB (SIE)"0.0
+#TRANS 2440 {} -1275 20220301 Leverantörsskulder
+#TRANS 2640 {} 0 20220301 Ingående moms
+#TRANS 4180 {} 1275 20220301 Serviceavtal
+
+#VER "49" "220328" 20220301 "Trygga Hiss I Stockholm AB (SIE)"0.0
+#TRANS 2440 {} -1275 20220301 Leverantörsskulder
+#TRANS 2640 {} 0 20220301 Ingående moms
+#TRANS 4180 {} 1275 20220301 Serviceavtal
+
+#VER "49" "220329" 20220301 "Trygga Hiss I Stockholm AB (SIE)"0.0
+#TRANS 2440 {} -1275 20220301 Leverantörsskulder
+#TRANS 2640 {} 0 20220301 Ingående moms
+#TRANS 4180 {} 1275 20220301 Serviceavtal
+
+#VER "49" "220330" 20220301 "Trygga Hiss I Stockholm AB (SIE)"0.0
+#TRANS 2440 {} -2025 20220301 Leverantörsskulder
+#TRANS 2640 {} 0 20220301 Ingående moms
+#TRANS 4161 {} 750 20220301 Gemensamma utrymmen
+#TRANS 4180 {} 1275 20220301 Serviceavtal
+
+#VER "49" "220331" 20220301 "Älvsjö VVS Centrum 23 AB (SIE)"0.0
+#TRANS 2440 {} -2502 20220301 Leverantörsskulder
+#TRANS 2640 {} 0 20220301 Ingående moms
+#TRANS 4341 {} 2502 20220301 VVS
+
+#VER "49" "220336" 20220302 "Stockholm Exergi (SIE)"0.0
+#TRANS 2440 {} -209634 20220302 Leverantörsskulder
+#TRANS 2640 {} 0 20220302 Ingående moms
+#TRANS 4620 {} 209634 20220302 Uppvärmning
+
+#VER "49" "220337" 20220302 "Energikundservice Sverige AB (SIE)"0.0
+#TRANS 2440 {} -159 20220302 Leverantörsskulder
+#TRANS 2640 {} 0 20220302 Ingående moms
+#TRANS 4610 {} 159 20220302 El
+
+#VER "49" "220339" 20220303 "SBC Sv Bostadsrättscentrum (SIE)"0.0
+#TRANS 2440 {} -513 20220303 Leverantörsskulder
+#TRANS 2640 {} 0 20220303 Ingående moms
+#TRANS 6061 {} 513 20220303 Kreditupplysning
+
+#VER "49" "220345" 20220304 "Hi3G Acces AB (SIE)"0.0
+#TRANS 2440 {} -373 20220304 Leverantörsskulder
+#TRANS 2640 {} 0 20220304 Ingående moms
+#TRANS 6210 {} 373 20220304 Tele- och datakommunikation
+
+#VER "49" "220362" 20220307 "Svea Inkasso AB (SIE)"0.0
+#TRANS 2440 {} -14 20220307 Leverantörsskulder
+#TRANS 2640 {} 0 20220307 Ingående moms
+#TRANS 8429 {} 14 20220307 Övriga räntekostnader
+
+#VER "49" "220366" 20220308 "Lindorff Sverige AB (SIE)"0.0
+#TRANS 2440 {} -319.71 20220308 Leverantörsskulder
+#TRANS 2640 {} 0 20220308 Ingående moms
+#TRANS 4610 {} 139.71 20220308 El
+#TRANS 6500 {} 180 20220308 Administration
+
+#VER "49" "220368" 20220309 "Älvsjö VVS Centrum 23 AB (SIE)"0.0
+#TRANS 2440 {} -2436 20220309 Leverantörsskulder
+#TRANS 2640 {} 0 20220309 Ingående moms
+#TRANS 4341 {} 2436 20220309 VVS
+
+#VER "49" "220381" 20220314 "Öhman Benny & Maria (SIE)"
+#TRANS 2440 {} -2565 20220314 Leverantörsskulder
+#TRANS 2640 {} 0 20220314 Ingående moms
+#TRANS 2893 {} 2565 20220314 Avräkning avg/hyr
+
+#VER "49" "220382" 20220314 "Hellgrens Lås AB (SIE)"0.0
+#TRANS 2440 {} -6666 20220314 Leverantörsskulder
+#TRANS 2640 {} 0 20220314 Ingående moms
+#TRANS 4336 {} 6666 20220314 Dörrar och lås/porttele
+
+#VER "49" "220387" 20220315 "SEB (SIE)"0.0
+#TRANS 2440 {} -733 20220315 Leverantörsskulder
+#TRANS 2640 {} 0 20220315 Ingående moms
+#TRANS 6500 {} 50 20220315 Administration
+#TRANS 8410 {} 683 20220315 Räntekostnader fastighetslån
+
+#VER "49" "220388" 20220315 "Stena Recycling AB (SIE)"0.0
+#TRANS 2440 {} -4630 20220315 Leverantörsskulder
+#TRANS 2640 {} 0 20220315 Ingående moms
+#TRANS 4640 {} 4630 20220315 Sophämtning/renhållning
+
+#VER "49" "220389" 20220315 "SBC Sv Bostadsrättscentrum (SIE)"0.0
+#TRANS 2440 {} -2500 20220315 Leverantörsskulder
+#TRANS 2640 {} 0 20220315 Ingående moms
+#TRANS 6471 {} 2500 20220315 Fritids och trivselkostnader
+
+#VER "49" "220404" 20220318 "Hi3G Acces AB (SIE)"0.0
+#TRANS 2440 {} -286 20220318 Leverantörsskulder
+#TRANS 2640 {} 0 20220318 Ingående moms
+#TRANS 6210 {} 286 20220318 Tele- och datakommunikation
+
+#VER "49" "220405" 20220318 "Stockholm Vatten AB (SIE)"0.0
+#TRANS 2440 {} -21294 20220318 Leverantörsskulder
+#TRANS 2640 {} 0 20220318 Ingående moms
+#TRANS 4630 {} 21294 20220318 Vatten
+
+#VER "49" "220406" 20220318 "Stockholm Vatten AB (SIE)"0.0
+#TRANS 2440 {} -8647 20220318 Leverantörsskulder
+#TRANS 2640 {} 0 20220318 Ingående moms
+#TRANS 4630 {} 8647 20220318 Vatten
+
+#VER "49" "220407" 20220318 "Stockholm Vatten AB (SIE)"0.0
+#TRANS 2440 {} -8902 20220318 Leverantörsskulder
+#TRANS 2640 {} 0 20220318 Ingående moms
+#TRANS 4630 {} 8902 20220318 Vatten
+
+#VER "49" "220408" 20220320 "SEB (SIE)"0.0
+#TRANS 2440 {} -4189 20220320 Leverantörsskulder
+#TRANS 2640 {} 0 20220320 Ingående moms
+#TRANS 6500 {} 50 20220320 Administration
+#TRANS 8410 {} 4139 20220320 Räntekostnader fastighetslån
+
+#VER "49" "220411" 20220321 "Svea Inkasso AB (SIE)"0.0
+#TRANS 2440 {} -468 20220321 Leverantörsskulder
+#TRANS 2640 {} 0 20220321 Ingående moms
+#TRANS 6500 {} 450 20220321 Administration
+#TRANS 8429 {} 18 20220321 Övriga räntekostnader
+
+#VER "49" "220412" 20220321 "Berendsen Textil Service AB (SIE)"0.0
+#TRANS 2440 {} -8641 20220321 Leverantörsskulder
+#TRANS 2640 {} 0 20220321 Ingående moms
+#TRANS 4185 {} 8366 20220321 Mattvätt/Hyrmattor
+#TRANS 6500 {} 240 20220321 Administration
+#TRANS 8429 {} 35 20220321 Övriga räntekostnader
+
+#VER "49" "220413" 20220321 "Berendsen Textil Service AB (SIE)"0.0
+#TRANS 2440 {} -8641 20220321 Leverantörsskulder
+#TRANS 2640 {} 0 20220321 Ingående moms
+#TRANS 4185 {} 8366 20220321 Mattvätt/Hyrmattor
+#TRANS 6500 {} 240 20220321 Administration
+#TRANS 8429 {} 35 20220321 Övriga räntekostnader
+
+#VER "49" "220416" 20220323 "Brandsäkra Norden AB (SIE)"0.0
+#TRANS 2440 {} -43040 20220323 Leverantörsskulder
+#TRANS 2640 {} 0 20220323 Ingående moms
+#TRANS 4146 {} 43040 20220323 Brandskydd
+
+#VER "49" "220418" 20220324 "SEB Kort (SIE)"0.0
+#TRANS 2440 {} -6387.55 20220324 Leverantörsskulder
+#TRANS 2640 {} 0 20220324 Ingående moms
+#TRANS 6999 {} 6387.55 20220324 OBS-konto
+
+#VER "49" "220419" 20220324 "SBC Sv Bostadsrättscentrum (SIE)"0.0
+#TRANS 2440 {} -1449 20220324 Leverantörsskulder
+#TRANS 2640 {} 0 20220324 Ingående moms
+#TRANS 6500 {} 1449 20220324 Administration
+
+#VER "49" "220420" 20220324 "Lindebergs Grant Thornton AB (SIE)"0.0
+#TRANS 2440 {} -13769 20220324 Leverantörsskulder
+#TRANS 2640 {} 0 20220324 Ingående moms
+#TRANS 6420 {} 13769 20220324 Revisionsarvoden extern revisor
+
+#VER "49" "220442" 20220331 "Moms rättelse 14,79 % (SIE)"
+#TRANS 2640 {} 29382 20220331 Ingående moms
+#TRANS 4610 {} -4154 20220331 El
+#TRANS 4620 {} -21584 20220331 Uppvärmning
+#TRANS 4630 {} -2282 20220331 Vatten
+#TRANS 4640 {} -1362 20220331 Sophämtning/renhållning
+
+#VER "49" "220443" 20220331 "Moms (SIE)"500.0030631186223
+#TRANS 2610 {} 193904.82 20220331 Utgående moms
+#TRANS 2610 {} 76257 20220331 Utgående moms
+#TRANS 2640 {} -29382 20220331 Ingående moms
+#TRANS 2650 {} -240780 20220331 Momsavräkning
+#TRANS 3740 {} 0.18 20220331 Öres- och kronutjämning
+
+#VER "49" "220444" 20220331 "Maries Puts & Städ Fastighet AB (SIE)"0.0
+#TRANS 2440 {} -13789 20220331 Leverantörsskulder
+#TRANS 2640 {} 0 20220331 Ingående moms
+#TRANS 4120 {} 13789 20220331 Städning enligt avtal
+
+#VER "49" "220445" 20220331 "SBC Sv Bostadsrättscentrum (SIE)"0.0
+#TRANS 2440 {} -37813 20220331 Leverantörsskulder
+#TRANS 2640 {} 0 20220331 Ingående moms
+#TRANS 6320 {} 37813 20220331 Juridiska åtgärder
+
+#VER "49" "220446" 20220331 "Boka Tvättid Sverige AB (SIE)"0.0
+#TRANS 2440 {} -2089 20220331 Leverantörsskulder
+#TRANS 2640 {} 0 20220331 Ingående moms
+#TRANS 4331 {} 2089 20220331 Tvättstuga
+
+#VER "49" "220488" 20220401 "SBC Sv Bostadsrättscentrum (SIE)"14.79036154444581
+#TRANS 2440 {} -24423 20220401 Leverantörsskulder
+#TRANS 2640 {} 0 20220401 Ingående moms
+#TRANS 2640 {} 722.45 20220401 Ingående moms
+#TRANS 6480 {} 24423 20220401 Förvaltningsarvode enl avtal
+#TRANS 6480 {} -722.45 20220401 Förvaltningsarvode enl avtal
+
+#VER "49" "220492" 20220404 "Stockholm Exergi (SIE)"22.51733499556966
+#TRANS 2440 {} -194116 20220404 Leverantörsskulder
+#TRANS 2640 {} 0 20220404 Ingående moms
+#TRANS 2640 {} 8741.95 20220404 Ingående moms
+#TRANS 4620 {} 194116 20220404 Uppvärmning
+#TRANS 4620 {} -8741.95 20220404 Uppvärmning
+
+#VER "49" "220493" 20220404 "Hellgrens Lås AB (SIE)"0.0
+#TRANS 2440 {} -2328 20220404 Leverantörsskulder
+#TRANS 2640 {} 0 20220404 Ingående moms
+#TRANS 4332 {} 2328 20220404 Trapphus/port/entr
+
+#VER "49" "220495" 20220405 "Ellevio AB(publ) (SIE)"3.5839581270335263
+#TRANS 2440 {} -14138 20220405 Leverantörsskulder
+#TRANS 2640 {} 0 20220405 Ingående moms
+#TRANS 2640 {} 101.34 20220405 Ingående moms
+#TRANS 4610 {} 14138 20220405 El
+#TRANS 4610 {} -101.34 20220405 El
+
+#VER "49" "220496" 20220405 "Energikundservice Sverige AB (SIE)"10.571428571428573
+#TRANS 2440 {} -210 20220405 Leverantörsskulder
+#TRANS 2640 {} 0 20220405 Ingående moms
+#TRANS 2640 {} 4.44 20220405 Ingående moms
+#TRANS 4610 {} 210 20220405 El
+#TRANS 4610 {} -4.44 20220405 El
+
+#VER "49" "220497" 20220406 "Handelsbanken (SIE)"0.0
+#TRANS 2440 {} -844 20220406 Leverantörsskulder
+#TRANS 2640 {} 0 20220406 Ingående moms
+#TRANS 6500 {} 844 20220406 Administration
+
+#VER "49" "220498" 20220406 "Hi3G Acces AB (SIE)"0.0
+#TRANS 2440 {} -433 20220406 Leverantörsskulder
+#TRANS 2640 {} 0 20220406 Ingående moms
+#TRANS 6210 {} 433 20220406 Tele- och datakommunikation
+
+#VER "49" "220499" 20220407 "Ellevio AB(publ) (SIE)"3.726820443238353
+#TRANS 2440 {} -2211 20220407 Leverantörsskulder
+#TRANS 2640 {} 0 20220407 Ingående moms
+#TRANS 2640 {} 16.48 20220407 Ingående moms
+#TRANS 4610 {} 2211 20220407 El
+#TRANS 4610 {} -16.48 20220407 El
+
+#VER "49" "220500" 20220407 "Ellevio AB(publ) (SIE)"5.449511400651465
+#TRANS 2440 {} -3070 20220407 Leverantörsskulder
+#TRANS 2640 {} 0 20220407 Ingående moms
+#TRANS 2640 {} 33.46 20220407 Ingående moms
+#TRANS 4610 {} 3070 20220407 El
+#TRANS 4610 {} -33.46 20220407 El
+
+#VER "49" "220501" 20220407 "Ellevio AB(publ) (SIE)"7.521075516904782
+#TRANS 2440 {} -22538 20220407 Leverantörsskulder
+#TRANS 2640 {} 0 20220407 Ingående moms
+#TRANS 2640 {} 339.02 20220407 Ingående moms
+#TRANS 4610 {} 22538 20220407 El
+#TRANS 4610 {} -339.02 20220407 El
+
+#VER "49" "220502" 20220407 "Ellevio AB(publ) (SIE)"16.257928118393234
+#TRANS 2440 {} -1419 20220407 Leverantörsskulder
+#TRANS 2640 {} 0 20220407 Ingående moms
+#TRANS 2640 {} 46.14 20220407 Ingående moms
+#TRANS 4610 {} 1419 20220407 El
+#TRANS 4610 {} -46.14 20220407 El
+
+#VER "49" "220503" 20220407 "Ellevio AB(publ) (SIE)"6.142172523961661
+#TRANS 2440 {} -3756 20220407 Leverantörsskulder
+#TRANS 2640 {} 0 20220407 Ingående moms
+#TRANS 2640 {} 46.14 20220407 Ingående moms
+#TRANS 4610 {} 3756 20220407 El
+#TRANS 4610 {} -46.14 20220407 El
+
+#VER "49" "220504" 20220408 "Lennart Söderbergs Elektriska Service AB (SIE)"14.789968652037617
+#TRANS 2440 {} -20735 20220408 Leverantörsskulder
+#TRANS 2640 {} 0 20220408 Ingående moms
+#TRANS 2640 {} 613.34 20220408 Ingående moms
+#TRANS 4344 {} 20735 20220408 Elinstallationer
+#TRANS 4344 {} -613.34 20220408 Elinstallationer
+
+#VER "49" "220505" 20220408 "Lindebergs Grant Thornton AB (SIE)"14.79005214934242
+#TRANS 2440 {} -48131 20220408 Leverantörsskulder
+#TRANS 2640 {} 0 20220408 Ingående moms
+#TRANS 2640 {} 1423.72 20220408 Ingående moms
+#TRANS 6420 {} 48131 20220408 Revisionsarvoden extern revisor
+#TRANS 6420 {} -1423.72 20220408 Revisionsarvoden extern revisor
+
+#VER "49" "220510" 20220411 "FK Business System Sweden Ab (SIE)"0.0
+#TRANS 2440 {} -5500 20220411 Leverantörsskulder
+#TRANS 2640 {} 0 20220411 Ingående moms
+#TRANS 4351 {} 5500 20220411 Tak
+
+#VER "49" "220511" 20220411 "FK Business System Sweden Ab (SIE)"0.0
+#TRANS 2440 {} -13125 20220411 Leverantörsskulder
+#TRANS 2640 {} 0 20220411 Ingående moms
+#TRANS 4300 {} 13125 20220411 Reparationer
+
+#VER "49" "220512" 20220411 "FK Business System Sweden Ab (SIE)"58.94736842105262
+#TRANS 2440 {} -23750 20220411 Leverantörsskulder
+#TRANS 2640 {} 0 20220411 Ingående moms
+#TRANS 2640 {} 2800 20220411 Ingående moms
+#TRANS 4300 {} 20950 20220411 Reparationer
+
+#VER "49" "220513" 20220411 "FK Business System Sweden Ab (SIE)"0.0
+#TRANS 2440 {} -14000 20220411 Leverantörsskulder
+#TRANS 2640 {} 0 20220411 Ingående moms
+#TRANS 4300 {} 14000 20220411 Reparationer
+
+#VER "49" "220519" 20220412 "Rep. Expressen AB (SIE)"14.789978183241825
+#TRANS 1182 {} 307360.17 20220412 Pågående om- och tillbyggnad
+#TRANS 2440 {} -316729 20220412 Leverantörsskulder
+#TRANS 2640 {} 0 20220412 Ingående moms
+#TRANS 2640 {} 9368.83 20220412 Ingående moms
+#TRANS 4552 {} 316729 20220412 Fasader
+#TRANS 4552 {} -9368.83 20220412 Fasader
+#TRANS 4552 {} -307360.17 20220412 Fasader
+
+#VER "49" "220523" 20220414 "Stena Recycling AB (SIE)"14.789131347041543
+#TRANS 2440 {} -4766 20220414 Leverantörsskulder
+#TRANS 2640 {} 0 20220414 Ingående moms
+#TRANS 2640 {} 140.97 20220414 Ingående moms
+#TRANS 4640 {} 4766 20220414 Sophämtning/renhållning
+#TRANS 4640 {} -140.97 20220414 Sophämtning/renhållning
+
+#VER "49" "220524" 20220419 "We Care and Repair Nordic AB (SIE)"-0.0
+#TRANS 2440 {} 75000 20220419 Leverantörsskulder
+#TRANS 2640 {} 0 20220419 Ingående moms
+#TRANS 4543 {} -75000 20220419 Ventilation
+
+#VER "49" "220528" 20220419 "We Care and Repair Nordic AB (SIE)"100.0
+#TRANS 2440 {} -75000 20220419 Leverantörsskulder
+#TRANS 2640 {} 0 20220419 Ingående moms
+#TRANS 2640 {} 15000 20220419 Ingående moms
+#TRANS 4543 {} 75000 20220419 Ventilation
+#TRANS 4543 {} -15000 20220419 Ventilation
+
+#VER "49" "220532" 20220420 "Stockholm Vatten AB (SIE)"14.689941298494944
+#TRANS 2440 {} -22657 20220420 Leverantörsskulder
+#TRANS 2640 {} 0 20220420 Ingående moms
+#TRANS 2640 {} 665.66 20220420 Ingående moms
+#TRANS 4640 {} 22657 20220420 Sophämtning/renhållning
+#TRANS 4640 {} -665.66 20220420 Sophämtning/renhållning
+
+#VER "49" "220536" 20220422 "Mether Stefan (SIE)"0.0
+#TRANS 2440 {} -1584 20220422 Leverantörsskulder
+#TRANS 2640 {} 0 20220422 Ingående moms
+#TRANS 4160 {} 1584 20220422 Gårdkostnader
+
+#VER "49" "220537" 20220422 "Mether Stefan (SIE)"0.0
+#TRANS 2440 {} -936 20220422 Leverantörsskulder
+#TRANS 2640 {} 0 20220422 Ingående moms
+#TRANS 6999 {} 936 20220422 OBS-konto
+
+#VER "49" "220538" 20220422 "SEB Kort (SIE)"0.0
+#TRANS 2440 {} -300 20220422 Leverantörsskulder
+#TRANS 2640 {} 0 20220422 Ingående moms
+#TRANS 6500 {} 300 20220422 Administration
+
+#VER "49" "220539" 20220422 "Brandkontoret (SIE)"0.0
+#TRANS 2440 {} -104650 20220422 Leverantörsskulder
+#TRANS 2640 {} 0 20220422 Ingående moms
+#TRANS 4710 {} 104650 20220422 Fastighetsförsäkringar
+
+#VER "49" "220540" 20220422 "Berendsen Textil Service AB (SIE)"0.0
+#TRANS 2440 {} -6902 20220422 Leverantörsskulder
+#TRANS 2640 {} 0 20220422 Ingående moms
+#TRANS 4185 {} 6630 20220422 Mattvätt/Hyrmattor
+#TRANS 6500 {} 240 20220422 Administration
+#TRANS 8429 {} 32 20220422 Övriga räntekostnader
+
+#VER "49" "220541" 20220422 "Berendsen Textil Service AB (SIE)"0.0
+#TRANS 2440 {} -6902.41 20220422 Leverantörsskulder
+#TRANS 2640 {} 0 20220422 Ingående moms
+#TRANS 4185 {} 6630 20220422 Mattvätt/Hyrmattor
+#TRANS 6500 {} 240 20220422 Administration
+#TRANS 8429 {} 32.41 20220422 Övriga räntekostnader
+
+#VER "49" "220548" 20220427 "Grebing Carl (SIE)"0.0
+#TRANS 2440 {} -594 20220427 Leverantörsskulder
+#TRANS 2640 {} 0 20220427 Ingående moms
+#TRANS 4160 {} 594 20220427 Gårdkostnader
+
+#VER "49" "220549" 20220427 "Bertel Andrn Kommunikation AB (SIE)"14.791578947368421
+#TRANS 2440 {} -1187.5 20220427 Leverantörsskulder
+#TRANS 2640 {} 0 20220427 Ingående moms
+#TRANS 2640 {} 35.13 20220427 Ingående moms
+#TRANS 6210 {} 1187.5 20220427 Tele- och datakommunikation
+#TRANS 6210 {} -35.13 20220427 Tele- och datakommunikation
+
+#VER "49" "220550" 20220427 "Stockholms Maskintjänst AB (SIE)"0.0
+#TRANS 2440 {} -1675 20220427 Leverantörsskulder
+#TRANS 2640 {} 0 20220427 Ingående moms
+#TRANS 4331 {} 1675 20220427 Tvättstuga
+
+#VER "49" "220556" 20220428 "NOVO Beauty Concept AB (SIE)"100.0
+#TRANS 1181 {} 198600 20220428 Pågående nybyggnation
+#TRANS 2440 {} -248250 20220428 Leverantörsskulder
+#TRANS 2640 {} 0 20220428 Ingående moms
+#TRANS 2640 {} 49650 20220428 Ingående moms
+#TRANS 4521 {} 248250 20220428 Lokaler
+#TRANS 4521 {} -248250 20220428 Lokaler
+#TRANS 4521 {} 248250 20220428 Lokaler
+#TRANS 4521 {} -49650 20220428 Lokaler
+#TRANS 4521 {} -198600 20220428 Lokaler
+
+#VER "49" "220557" 20220428 "Hellgrens Lås AB (SIE)"0.0
+#TRANS 2440 {} -4446 20220428 Leverantörsskulder
+#TRANS 2640 {} 0 20220428 Ingående moms
+#TRANS 4345 {} 4446 20220428 Tele/TV/bredband/porttelefon
+
+#VER "49" "220567" 20220430 "SBC Sv Bostadsrättscentrum (SIE)"14.791999999999996
+#TRANS 2440 {} -625 20220430 Leverantörsskulder
+#TRANS 2640 {} 0 20220430 Ingående moms
+#TRANS 2640 {} 18.49 20220430 Ingående moms
+#TRANS 6061 {} 625 20220430 Kreditupplysning
+#TRANS 6061 {} -18.49 20220430 Kreditupplysning
+
+#VER "49" "220568" 20220430 "Maries Puts & Städ Fastighet AB (SIE)"0.0
+#TRANS 2440 {} -14203 20220430 Leverantörsskulder
+#TRANS 2640 {} 0 20220430 Ingående moms
+#TRANS 4120 {} 14203 20220430 Städning enligt avtal
+
+#VER "49" "220569" 20220430 "Elis Textil Service AB (SIE)"0.0
+#TRANS 2440 {} -6757 20220430 Leverantörsskulder
+#TRANS 2640 {} 0 20220430 Ingående moms
+#TRANS 4185 {} 6757 20220430 Mattvätt/Hyrmattor
+
+#VER "49" "220610" 20220502 "Stockholm Exergi (SIE)"14.789971352652993
+#TRANS 2440 {} -96344 20220502 Leverantörsskulder
+#TRANS 2640 {} 0 20220502 Ingående moms
+#TRANS 2640 {} 2849.85 20220502 Ingående moms
+#TRANS 4620 {} 96344 20220502 Uppvärmning
+#TRANS 4620 {} -2849.85 20220502 Uppvärmning
+
+#VER "49" "220616" 20220505 "Ellevio AB(publ) (SIE)"14.789715497437708
+#TRANS 2440 {} -5659 20220505 Leverantörsskulder
+#TRANS 2640 {} 0 20220505 Ingående moms
+#TRANS 2640 {} 167.39 20220505 Ingående moms
+#TRANS 4610 {} 5659 20220505 El
+#TRANS 4610 {} -167.39 20220505 El
+
+#VER "49" "220617" 20220505 "Hi3G Acces AB (SIE)"0.0
+#TRANS 2440 {} -373 20220505 Leverantörsskulder
+#TRANS 2640 {} 0 20220505 Ingående moms
+#TRANS 4761 {} 373 20220505 Bredband
+
+#VER "49" "220622" 20220506 "Ellevio AB(publ) (SIE)"14.753787878787877
+#TRANS 2440 {} -264 20220506 Leverantörsskulder
+#TRANS 2640 {} 0 20220506 Ingående moms
+#TRANS 2640 {} 7.79 20220506 Ingående moms
+#TRANS 4610 {} 264 20220506 El
+#TRANS 4610 {} -7.79 20220506 El
+
+#VER "49" "220623" 20220506 "Ellevio AB(publ) (SIE)"14.790298130368873
+#TRANS 2440 {} -1979 20220506 Leverantörsskulder
+#TRANS 2640 {} 0 20220506 Ingående moms
+#TRANS 2640 {} 58.54 20220506 Ingående moms
+#TRANS 4610 {} 1979 20220506 El
+#TRANS 4610 {} -58.54 20220506 El
+
+#VER "49" "220624" 20220506 "Älvsjö VVS Centrum 23 AB (SIE)"0.0
+#TRANS 2440 {} -2250 20220506 Leverantörsskulder
+#TRANS 2640 {} 0 20220506 Ingående moms
+#TRANS 4341 {} 2250 20220506 VVS
+
+#VER "49" "220625" 20220508 "Älvsjö VVS Centrum 23 AB (SIE)"14.792551453773276
+#TRANS 2440 {} -3061 20220508 Leverantörsskulder
+#TRANS 2640 {} 90.56 20220508 Ingående moms
+#TRANS 4341 {} 2970.44 20220508 VVS
+
+#VER "49" "220634" 20220509 "Lindebergs Grant Thornton AB (SIE)"14.790222222222221
+#TRANS 2440 {} -5625 20220509 Leverantörsskulder
+#TRANS 2640 {} 0 20220509 Ingående moms
+#TRANS 2640 {} 166.39 20220509 Ingående moms
+#TRANS 6420 {} 5625 20220509 Revisionsarvoden extern revisor
+#TRANS 6420 {} -166.39 20220509 Revisionsarvoden extern revisor
+
+#VER "49" "220635" 20220511 "NOVO Beauty Concept AB (SIE)"0.0
+#TRANS 2440 {} -1750 20220511 Leverantörsskulder
+#TRANS 2640 {} 0 20220511 Ingående moms
+#TRANS 4353 {} 1750 20220511 Fönster
+
+#VER "49" "220636" 20220511 "Älvsjö VVS Centrum 23 AB (SIE)"14.7904
+#TRANS 2440 {} -3125 20220511 Leverantörsskulder
+#TRANS 2640 {} 92.44 20220511 Ingående moms
+#TRANS 4341 {} 3032.56 20220511 VVS
+
+#VER "49" "220643" 20220515 "SBC Sv Bostadsrättscentrum (SIE)"14.790890269151138
+#TRANS 2440 {} -2415 20220515 Leverantörsskulder
+#TRANS 2640 {} 0 20220515 Ingående moms
+#TRANS 2640 {} 71.44 20220515 Ingående moms
+#TRANS 6500 {} 2415 20220515 Administration
+#TRANS 6500 {} -71.44 20220515 Administration
+
+#VER "49" "220644" 20220515 "Älvsjö VVS Centrum 23 AB (SIE)"99.99973402683374
+#TRANS 2440 {} -169190 20220515 Leverantörsskulder
+#TRANS 2640 {} 0 20220515 Ingående moms
+#TRANS 2640 {} 33837.91 20220515 Ingående moms
+#TRANS 4300 {} 169190 20220515 Reparationer
+#TRANS 4300 {} -169190 20220515 Reparationer
+#TRANS 4321 {} 135352.09 20220515 Hyreslokaler
+
+#VER "49" "220648" 20220516 "Stena Recycling AB (SIE)"14.790225231856322
+#TRANS 2440 {} -6793 20220516 Leverantörsskulder
+#TRANS 2640 {} 0 20220516 Ingående moms
+#TRANS 2640 {} 200.94 20220516 Ingående moms
+#TRANS 4640 {} 6793 20220516 Sophämtning/renhållning
+#TRANS 4640 {} -200.94 20220516 Sophämtning/renhållning
+
+#VER "49" "220654" 20220517 "Stockholm Vatten AB (SIE)"14.789612243987326
+#TRANS 2440 {} -22411 20220517 Leverantörsskulder
+#TRANS 2640 {} 0 20220517 Ingående moms
+#TRANS 2640 {} 662.9 20220517 Ingående moms
+#TRANS 4630 {} 22411 20220517 Vatten
+#TRANS 4630 {} -662.9 20220517 Vatten
+
+#VER "49" "220655" 20220517 "Stockholm Vatten AB (SIE)"14.790301441677583
+#TRANS 2440 {} -9156 20220517 Leverantörsskulder
+#TRANS 2640 {} 0 20220517 Ingående moms
+#TRANS 2640 {} 270.84 20220517 Ingående moms
+#TRANS 4630 {} 9156 20220517 Vatten
+#TRANS 4630 {} -270.84 20220517 Vatten
+
+#VER "49" "220658" 20220519 "Berendsen Textil Service AB (SIE)"0.0
+#TRANS 2440 {} -6738 20220519 Leverantörsskulder
+#TRANS 2640 {} 0 20220519 Ingående moms
+#TRANS 4185 {} 6471 20220519 Mattvätt/Hyrmattor
+#TRANS 6500 {} 240 20220519 Administration
+#TRANS 8429 {} 27 20220519 Övriga räntekostnader
+
+#VER "49" "220659" 20220519 "Berendsen Textil Service AB (SIE)"0.0
+#TRANS 2440 {} -6738 20220519 Leverantörsskulder
+#TRANS 2640 {} 0 20220519 Ingående moms
+#TRANS 4185 {} 6471 20220519 Mattvätt/Hyrmattor
+#TRANS 6500 {} 240 20220519 Administration
+#TRANS 8429 {} 27 20220519 Övriga räntekostnader
+
+#VER "49" "220661" 20220523 "SEB Kort (SIE)"0.0
+#TRANS 2440 {} -110.25 20220523 Leverantörsskulder
+#TRANS 2640 {} 0 20220523 Ingående moms
+#TRANS 8429 {} 110.25 20220523 Övriga räntekostnader
+
+#VER "49" "220664" 20220524 "Handelsbanken (SIE)"0.0
+#TRANS 2440 {} -268 20220524 Leverantörsskulder
+#TRANS 2640 {} 0 20220524 Ingående moms
+#TRANS 6500 {} 268 20220524 Administration
+
+#VER "49" "220666" 20220526 "Älvsjö VVS Centrum 23 AB (SIE)"0.0
+#TRANS 2440 {} -3625 20220526 Leverantörsskulder
+#TRANS 2640 {} 0 20220526 Ingående moms
+#TRANS 4341 {} 3625 20220526 VVS
+
+#VER "49" "220674" 20220527 "Älvsjö VVS Centrum 23 AB (SIE)"99.99973402683374
+#TRANS 2440 {} 169190 20220527 Leverantörsskulder
+#TRANS 2640 {} 0 20220527 Ingående moms
+#TRANS 2640 {} -33837.91 20220527 Ingående moms
+#TRANS 4300 {} -169190 20220527 Reparationer
+#TRANS 4300 {} 169190 20220527 Reparationer
+#TRANS 4521 {} -135352.09 20220527 Lokaler
+
+#VER "49" "220675" 20220527 "Älvsjö VVS Centrum 23 AB (SIE)"0.0
+#TRANS 1182 {} 79250 20220527 Pågående om- och tillbyggnad
+#TRANS 2440 {} -79250 20220527 Leverantörsskulder
+#TRANS 2640 {} 0 20220527 Ingående moms
+
+#VER "49" "220676" 20220528 "Älvsjö VVS Centrum 23 AB (SIE)"0.0
+#TRANS 2440 {} -3917 20220528 Leverantörsskulder
+#TRANS 2640 {} 0 20220528 Ingående moms
+#TRANS 4341 {} 3917 20220528 VVS
+
+#VER "49" "220690" 20220531 "SBC Sv Bostadsrättscentrum (SIE)"14.787784679089025
+#TRANS 2440 {} -966 20220531 Leverantörsskulder
+#TRANS 2640 {} 0 20220531 Ingående moms
+#TRANS 2640 {} 28.57 20220531 Ingående moms
+#TRANS 6500 {} 966 20220531 Administration
+#TRANS 6500 {} -28.57 20220531 Administration
+
+#VER "49" "220691" 20220531 "Maries Puts & Städ Fastighet AB (SIE)"0.0
+#TRANS 2440 {} -14203 20220531 Leverantörsskulder
+#TRANS 2640 {} 0 20220531 Ingående moms
+#TRANS 4120 {} 14203 20220531 Städning enligt avtal
+
+#VER "49" "220692" 20220531 "Elis Textil Service AB (SIE)"0.0
+#TRANS 2440 {} -6075 20220531 Leverantörsskulder
+#TRANS 2640 {} 0 20220531 Ingående moms
+#TRANS 4185 {} 6075 20220531 Mattvätt/Hyrmattor
+
+#VER "49" "220693" 20220531 "Stockholms Maskintjänst AB (SIE)"0.0
+#TRANS 2440 {} -43125 20220531 Leverantörsskulder
+#TRANS 2640 {} 0 20220531 Ingående moms
+#TRANS 4531 {} 43125 20220531 Tvättstuga
+
+#VER "49" "220733" 20220601 "Tele 2 Sverige AB (SIE)"0.0
+#TRANS 2440 {} -36424 20220601 Leverantörsskulder
+#TRANS 2640 {} 0 20220601 Ingående moms
+#TRANS 4760 {} 36424 20220601 Kabel-TV
+
+#VER "49" "220734" 20220601 "Stockholms Stadsnät AB (SIE)"0.0
+#TRANS 2440 {} -22770 20220601 Leverantörsskulder
+#TRANS 2640 {} 0 20220601 Ingående moms
+#TRANS 4761 {} 22770 20220601 Bredband
+
+#VER "49" "220735" 20220602 "FK Business System Sweden Ab (SIE)"100.0
+#TRANS 2440 {} -105500 20220602 Leverantörsskulder
+#TRANS 2640 {} 0 20220602 Ingående moms
+#TRANS 2640 {} 21100 20220602 Ingående moms
+#TRANS 4521 {} 84400 20220602 Lokaler
+
+#VER "49" "220736" 20220602 "Stockholm Exergi (SIE)"14.789970189317192
+#TRANS 2440 {} -77489 20220602 Leverantörsskulder
+#TRANS 2640 {} 0 20220602 Ingående moms
+#TRANS 2640 {} 2292.12 20220602 Ingående moms
+#TRANS 4620 {} 77489 20220602 Uppvärmning
+#TRANS 4620 {} -2292.12 20220602 Uppvärmning
+
+#VER "49" "220737" 20220602 "HP PPS Sverige AB (SIE)"0.0
+#TRANS 2440 {} -3990.01 20220602 Leverantörsskulder
+#TRANS 2640 {} 0 20220602 Ingående moms
+#TRANS 6492 {} 3990.01 20220602 Korttidsinventarier
+#TRANS 6500 {} 3990.01 20220602 Administration
+#TRANS 6500 {} -3990.01 20220602 Administration
+
+#VER "49" "220738" 20220602 "Energikundservice Sverige AB (SIE)"14.820627802690584
+#TRANS 2440 {} -223 20220602 Leverantörsskulder
+#TRANS 2640 {} 0 20220602 Ingående moms
+#TRANS 2640 {} 6.61 20220602 Ingående moms
+#TRANS 4610 {} 223 20220602 El
+#TRANS 4610 {} -6.61 20220602 El
+
+#VER "49" "220739" 20220602 "Energikundservice Sverige AB (SIE)"14.798387096774194
+#TRANS 2440 {} -124 20220602 Leverantörsskulder
+#TRANS 2640 {} 0 20220602 Ingående moms
+#TRANS 2640 {} 3.67 20220602 Ingående moms
+#TRANS 4610 {} 124 20220602 El
+#TRANS 4610 {} -3.67 20220602 El
+
+#VER "49" "220745" 20220604 "Hi3G Acces AB (SIE)"0.0
+#TRANS 2440 {} -373 20220604 Leverantörsskulder
+#TRANS 2640 {} 0 20220604 Ingående moms
+#TRANS 6210 {} 373 20220604 Tele- och datakommunikation
+
+#VER "49" "220750" 20220609 "Älvsjö VVS Centrum 23 AB (SIE)"0.0
+#TRANS 1181 {} 64850 20220609 Pågående nybyggnation
+#TRANS 2440 {} -64850 20220609 Leverantörsskulder
+#TRANS 2640 {} 0 20220609 Ingående moms
+#TRANS 4341 {} 64850 20220609 VVS
+#TRANS 4341 {} -64850 20220609 VVS
+
+#VER "49" "220758" 20220610 "Hellgrens Lås AB (SIE)"0.0
+#TRANS 2440 {} -1800 20220610 Leverantörsskulder
+#TRANS 2640 {} 0 20220610 Ingående moms
+#TRANS 4345 {} 1800 20220610 Tele/TV/bredband/porttelefon
+
+#VER "49" "220766" 20220614 "SEB (SIE)"0.0
+#TRANS 2440 {} -935 20220614 Leverantörsskulder
+#TRANS 2640 {} 0 20220614 Ingående moms
+#TRANS 6500 {} 50 20220614 Administration
+#TRANS 8410 {} 885 20220614 Räntekostnader fastighetslån
+
+#VER "49" "220767" 20220614 "Vult von Steijern Marianne (SIE)"0.0
+#TRANS 2440 {} -2200 20220614 Leverantörsskulder
+#TRANS 2640 {} 0 20220614 Ingående moms
+#TRANS 6999 {} 2200 20220614 OBS-konto
+
+#VER "49" "220768" 20220614 "Telge Energi AB (SIE)"0.0
+#TRANS 2440 {} -66658 20220614 Leverantörsskulder
+#TRANS 2640 {} 0 20220614 Ingående moms
+#TRANS 4610 {} 66658 20220614 El
+
+#VER "49" "220771" 20220615 "Stena Recycling AB (SIE)"14.790780745024662
+#TRANS 2440 {} -5879 20220615 Leverantörsskulder
+#TRANS 2640 {} 0 20220615 Ingående moms
+#TRANS 2640 {} 173.91 20220615 Ingående moms
+#TRANS 4640 {} 5879 20220615 Sophämtning/renhållning
+#TRANS 4640 {} -173.91 20220615 Sophämtning/renhållning
+
+#VER "49" "220772" 20220615 "SBC Sveriges BostadsrattCentrum AB (SIE)"13.134901584253477
+#TRANS 2440 {} -520.75 20220615 Leverantörsskulder
+#TRANS 2640 {} 0 20220615 Ingående moms
+#TRANS 2640 {} 13.68 20220615 Ingående moms
+#TRANS 6321 {} 520.75 20220615 Inkassokostnader
+#TRANS 6321 {} -13.68 20220615 Inkassokostnader
+
+#VER "49" "220778" 20220616 "Andersson Christer (SIE)"0.0
+#TRANS 2440 {} -5517 20220616 Leverantörsskulder
+#TRANS 2640 {} 0 20220616 Ingående moms
+#TRANS 6470 {} 4417 20220616 Styrelseomkostnader
+#TRANS 6500 {} 1100 20220616 Administration
+
+#VER "49" "220779" 20220616 "Vult von Steijern Marianne (SIE)"0.0
+#TRANS 2440 {} -15009 20220616 Leverantörsskulder
+#TRANS 2640 {} 0 20220616 Ingående moms
+#TRANS 6471 {} 15009 20220616 Fritids och trivselkostnader
+
+#VER "49" "220789" 20220620 "SEB (SIE)"0.0
+#TRANS 2440 {} -5726 20220620 Leverantörsskulder
+#TRANS 2640 {} 0 20220620 Ingående moms
+#TRANS 6500 {} 50 20220620 Administration
+#TRANS 8410 {} 5676 20220620 Räntekostnader fastighetslån
+
+#VER "49" "220797" 20220622 "Hellgrens Lås AB (SIE)"0.0
+#TRANS 2440 {} -5673 20220622 Leverantörsskulder
+#TRANS 2640 {} 0 20220622 Ingående moms
+#TRANS 4336 {} 5673 20220622 Dörrar och lås/porttele
+
+#VER "49" "220798" 20220622 "Handelsbanken (SIE)"0.0
+#TRANS 2440 {} -311 20220622 Leverantörsskulder
+#TRANS 2640 {} 0 20220622 Ingående moms
+#TRANS 6500 {} 311 20220622 Administration
+
+#VER "49" "220800" 20220623 "SEB Kort (SIE)"0.0
+#TRANS 2440 {} -10880.62 20220623 Leverantörsskulder
+#TRANS 2640 {} 0 20220623 Ingående moms
+#TRANS 6999 {} 10880.62 20220623 OBS-konto
+
+#VER "49" "220801" 20220626 "Älvsjö VVS Centrum 23 AB (SIE)"99.99986498892908
+#TRANS 1114 {} 59254.42 20220626 Fastighetsförbättringar
+#TRANS 2440 {} -74068 20220626 Leverantörsskulder
+#TRANS 2640 {} 0 20220626 Ingående moms
+#TRANS 2640 {} 14813.58 20220626 Ingående moms
+
+#VER "49" "220803" 20220627 "Brandsäkra Norden AB (SIE)"0.0
+#TRANS 1220 {} 46798 20220627 Inventarier och verktyg
+#TRANS 2440 {} -46798 20220627 Leverantörsskulder
+#TRANS 2640 {} 0 20220627 Ingående moms
+
+#VER "49" "220804" 20220627 "Svenska Asbestsanerarna (SIE)"0.0
+#TRANS 2440 {} -16000 20220627 Leverantörsskulder
+#TRANS 2640 {} 0 20220627 Ingående moms
+#TRANS 4370 {} 16000 20220627 Garage/parkering
+
+#VER "49" "220807" 20220628 "Trygga Hiss I Stockholm AB (SIE)"0.0
+#TRANS 2440 {} -4431 20220628 Leverantörsskulder
+#TRANS 2640 {} 0 20220628 Ingående moms
+#TRANS 4546 {} 4431 20220628 Hiss
+
+#VER "49" "220808" 20220628 "Tingvalla mark AB (SIE)"0.0
+#TRANS 2440 {} -11220 20220628 Leverantörsskulder
+#TRANS 2640 {} 0 20220628 Ingående moms
+#TRANS 4121 {} 11220 20220628 Städning utöver avtal
+
+#VER "49" "220809" 20220628 "SBC Sv Bostadsrättscentrum (SIE)"14.789547095503771
+#TRANS 2440 {} -12188 20220628 Leverantörsskulder
+#TRANS 2640 {} 0 20220628 Ingående moms
+#TRANS 2640 {} 360.51 20220628 Ingående moms
+#TRANS 4180 {} 12188 20220628 Serviceavtal
+#TRANS 4180 {} -360.51 20220628 Serviceavtal
+
+#VER "49" "220823" 20220630 "Momsredovisning april-juni (SIE)"500.0019399631997
+#TRANS 2610 {} 116153.85 20220630 Utgående moms
+#TRANS 2610 {} 57184.1 20220630 Utgående moms
+#TRANS 2640 {} -118559.41 20220630 Ingående moms
+#TRANS 2650 {} -54779 20220630 Momsavräkning
+#TRANS 3740 {} 0.46 20220630 Öres- och kronutjämning
+
+#VER "49" "220824" 20220630 "Boka Tvättid Sverige AB (SIE)"14.789372905696505
+#TRANS 2440 {} -2089 20220630 Leverantörsskulder
+#TRANS 2640 {} 0 20220630 Ingående moms
+#TRANS 2640 {} 61.79 20220630 Ingående moms
+#TRANS 4331 {} 2089 20220630 Tvättstuga
+#TRANS 4331 {} -61.79 20220630 Tvättstuga
+
+#VER "49" "220825" 20220630 "Elis Textil Service AB (SIE)"0.0
+#TRANS 2440 {} -3911 20220630 Leverantörsskulder
+#TRANS 2640 {} 0 20220630 Ingående moms
+#TRANS 4185 {} 3911 20220630 Mattvätt/Hyrmattor
+
+#VER "49" "220826" 20220630 "Älvsjö VVS Centrum 23 AB (SIE)"0.0
+#TRANS 1114 {} 48583 20220630 Fastighetsförbättringar
+#TRANS 2440 {} -48583 20220630 Leverantörsskulder
+#TRANS 2640 {} 0 20220630 Ingående moms
+
+#VER "49" "220827" 20220630 "SBC Sv Bostadsrättscentrum (SIE)"14.791999999999996
+#TRANS 2440 {} -625 20220630 Leverantörsskulder
+#TRANS 2640 {} 0 20220630 Ingående moms
+#TRANS 2640 {} 18.49 20220630 Ingående moms
+#TRANS 6061 {} 625 20220630 Kreditupplysning
+#TRANS 6061 {} -18.49 20220630 Kreditupplysning
+
+#VER "49" "220828" 20220630 "Maries Puts & Städ Fastighet AB (SIE)"0.0
+#TRANS 2440 {} -5611 20220630 Leverantörsskulder
+#TRANS 2640 {} 0 20220630 Ingående moms
+#TRANS 4120 {} 473.5 20220630 Städning enligt avtal
+#TRANS 4121 {} 5137.5 20220630 Städning utöver avtal
+
+#VER "49" "220829" 20220630 "Stockholms Maskintjänst AB (SIE)"0.0
+#TRANS 2440 {} -5513 20220630 Leverantörsskulder
+#TRANS 2640 {} 0 20220630 Ingående moms
+#TRANS 4331 {} 5513 20220630 Tvättstuga
+
+#VER "49" "220830" 20220630 "Storholmen Fix It AB (SIE)"14.682885371295015
+#TRANS 2440 {} -9413 20220630 Leverantörsskulder
+#TRANS 2640 {} 0 20220630 Ingående moms
+#TRANS 2640 {} 276.42 20220630 Ingående moms
+#TRANS 4102 {} 6975 20220630 Fastighetsskötsel utöver avtal
+#TRANS 4102 {} -276.42 20220630 Fastighetsskötsel utöver avtal
+#TRANS 4640 {} 2438 20220630 Sophämtning/renhållning
+
+#VER "49" "220870" 20220701 "SBC Sv Bostadsrättscentrum (SIE)"0.0
+#TRANS 2440 {} -24929 20220701 Leverantörsskulder
+#TRANS 2640 {} 0 20220701 Ingående moms
+#TRANS 6480 {} 24929 20220701 Förvaltningsarvode enl avtal
+
+#VER "49" "220871" 20220701 "Storholmen Fix It AB (SIE)"-0.0
+#TRANS 2440 {} 3138 20220701 Leverantörsskulder
+#TRANS 2640 {} 0 20220701 Ingående moms
+#TRANS 4640 {} -3138 20220701 Sophämtning/renhållning
+
+#VER "49" "220872" 20220701 "SBC Sv Bostadsrättscentrum (SIE)"0.0
+#TRANS 2440 {} -2415 20220701 Leverantörsskulder
+#TRANS 2640 {} 0 20220701 Ingående moms
+#TRANS 6500 {} 2415 20220701 Administration
+
+#VER "49" "220874" 20220701 "IKK Stockholm AB (SIE)"100.00010176625511
+#TRANS 1110 {} 196528.75 20220701 Byggnader
+#TRANS 2440 {} -245661 20220701 Leverantörsskulder
+#TRANS 2640 {} 49132.25 20220701 Ingående moms
+
+#VER "49" "220875" 20220701 "Mälardalens Fönsterrenovering Ab (SIE)"14.790015037593985
+#TRANS 2440 {} -83125 20220701 Leverantörsskulder
+#TRANS 2640 {} 2458.84 20220701 Ingående moms
+#TRANS 4553 {} 80666.16 20220701 Fönster
+
+#VER "49" "220876" 20220701 "Lennart Söderbergs Elektriska Service AB (SIE)"-0.0
+#TRANS 2440 {} 720 20220701 Leverantörsskulder
+#TRANS 2640 {} 0 20220701 Ingående moms
+#TRANS 4344 {} -720 20220701 Elinstallationer
+
+#VER "49" "220877" 20220701 "Lennart Söderbergs Elektriska Service AB (SIE)"14.789205800441755
+#TRANS 2440 {} -10413 20220701 Leverantörsskulder
+#TRANS 2640 {} 308 20220701 Ingående moms
+#TRANS 4344 {} 10105 20220701 Elinstallationer
+
+#VER "49" "220884" 20220704 "Bolagsverket (SIE)"0.0
+#TRANS 2440 {} -800 20220704 Leverantörsskulder
+#TRANS 2640 {} 0 20220704 Ingående moms
+#TRANS 6500 {} 800 20220704 Administration
+
+#VER "49" "220885" 20220704 "Stockholm Exergi (SIE)"0.0
+#TRANS 2440 {} -59051 20220704 Leverantörsskulder
+#TRANS 2640 {} 0 20220704 Ingående moms
+#TRANS 4620 {} 59051 20220704 Uppvärmning
+
+#VER "49" "220888" 20220705 "Ellevio AB(publ) (SIE)"0.0
+#TRANS 2440 {} -7363 20220705 Leverantörsskulder
+#TRANS 2640 {} 0 20220705 Ingående moms
+#TRANS 4610 {} 7363 20220705 El
+
+#VER "49" "220889" 20220705 "Ellevio AB(publ) (SIE)"0.0
+#TRANS 1181 {} 3606 20220705 Pågående nybyggnation
+#TRANS 2440 {} -3606 20220705 Leverantörsskulder
+#TRANS 2640 {} 0 20220705 Ingående moms
+
+#VER "49" "220890" 20220705 "Ellevio AB(publ) (SIE)"0.0
+#TRANS 2440 {} -10064 20220705 Leverantörsskulder
+#TRANS 2640 {} 0 20220705 Ingående moms
+#TRANS 4610 {} 10064 20220705 El
+
+#VER "49" "220891" 20220705 "Ellevio AB(publ) (SIE)"0.0
+#TRANS 2440 {} -3014 20220705 Leverantörsskulder
+#TRANS 2640 {} 0 20220705 Ingående moms
+#TRANS 4610 {} 3014 20220705 El
+
+#VER "49" "220894" 20220706 "Energikundserice dubbelbet (SIE)"
+#TRANS 1699 {} 124 20220706 OBS-konto
+#TRANS 2640 {} -3.67 20220706 Ingående moms
+#TRANS 4610 {} -120.33 20220706 El
+
+#VER "49" "220895" 20220706 "Hi3G Acces AB (SIE)"0.0
+#TRANS 2440 {} -907 20220706 Leverantörsskulder
+#TRANS 2640 {} 0 20220706 Ingående moms
+#TRANS 4761 {} 907 20220706 Bredband
+
+#VER "49" "220896" 20220706 "Ellevio AB(publ) (SIE)"0.0
+#TRANS 2440 {} -1409 20220706 Leverantörsskulder
+#TRANS 2640 {} 0 20220706 Ingående moms
+#TRANS 4610 {} 1409 20220706 El
+
+#VER "49" "220897" 20220706 "Ellevio AB(publ) (SIE)"0.0
+#TRANS 2440 {} -2149 20220706 Leverantörsskulder
+#TRANS 2640 {} 0 20220706 Ingående moms
+#TRANS 4610 {} 2149 20220706 El
+
+#VER "49" "220901" 20220708 "Bolagsverket (SIE)"0.0
+#TRANS 2440 {} -800 20220708 Leverantörsskulder
+#TRANS 2640 {} 0 20220708 Ingående moms
+#TRANS 6500 {} 800 20220708 Administration
+
+#VER "49" "220902" 20220709 "Handelsbanken (SIE)"0.0
+#TRANS 2440 {} -299 20220709 Leverantörsskulder
+#TRANS 2640 {} 0 20220709 Ingående moms
+#TRANS 6500 {} 299 20220709 Administration
+
+#VER "49" "220904" 20220710 "Älvsjö VVS Centrum 23 AB (SIE)"0.0
+#TRANS 1182 {} 29900 20220710 Pågående om- och tillbyggnad
+#TRANS 2440 {} -29900 20220710 Leverantörsskulder
+#TRANS 2640 {} 0 20220710 Ingående moms
+#TRANS 4341 {} 29900 20220710 VVS
+#TRANS 4341 {} -29900 20220710 VVS
+
+#VER "49" "220905" 20220710 "Älvsjö VVS Centrum 23 AB (SIE)"0.0
+#TRANS 1182 {} 14400 20220710 Pågående om- och tillbyggnad
+#TRANS 2440 {} -14400 20220710 Leverantörsskulder
+#TRANS 2640 {} 0 20220710 Ingående moms
+#TRANS 4341 {} 14400 20220710 VVS
+#TRANS 4341 {} -14400 20220710 VVS
+
+#VER "49" "220906" 20220710 "Älvsjö VVS Centrum 23 AB (SIE)"0.0
+#TRANS 1182 {} 46950 20220710 Pågående om- och tillbyggnad
+#TRANS 2440 {} -46950 20220710 Leverantörsskulder
+#TRANS 2640 {} 0 20220710 Ingående moms
+#TRANS 4341 {} 46950 20220710 VVS
+#TRANS 4341 {} -46950 20220710 VVS
+
+#VER "49" "220912" 20220714 "Stena Recycling AB (SIE)"0.0
+#TRANS 2440 {} -4742 20220714 Leverantörsskulder
+#TRANS 2640 {} 0 20220714 Ingående moms
+#TRANS 4640 {} 4742 20220714 Sophämtning/renhållning
+
+#VER "49" "220915" 20220715 "Stockholm Vatten AB (SIE)"0.0
+#TRANS 2440 {} -9402 20220715 Leverantörsskulder
+#TRANS 2640 {} 0 20220715 Ingående moms
+#TRANS 4630 {} 9402 20220715 Vatten
+
+#VER "49" "220916" 20220715 "Stockholm Vatten AB (SIE)"0.0
+#TRANS 2440 {} -22348 20220715 Leverantörsskulder
+#TRANS 2640 {} 0 20220715 Ingående moms
+#TRANS 4630 {} 22348 20220715 Vatten
+
+#VER "49" "220917" 20220715 "Stockholm Vatten AB (SIE)"0.0
+#TRANS 2440 {} -9138 20220715 Leverantörsskulder
+#TRANS 2640 {} 0 20220715 Ingående moms
+#TRANS 4630 {} 9138 20220715 Vatten
+
+#VER "49" "220918" 20220715 "Stockholm Vatten AB (SIE)"0.0
+#TRANS 2440 {} -23595 20220715 Leverantörsskulder
+#TRANS 2640 {} 0 20220715 Ingående moms
+#TRANS 4640 {} 23595 20220715 Sophämtning/renhållning
+
+#VER "49" "220925" 20220721 "SEB Kort (SIE)"0.0
+#TRANS 2440 {} -9293.04 20220721 Leverantörsskulder
+#TRANS 2640 {} 0 20220721 Ingående moms
+#TRANS 6999 {} 9293.04 20220721 OBS-konto
+
+#VER "49" "220952" 20220731 "Elis Textil Service AB (SIE)"14.789501731947773
+#TRANS 2440 {} -3753 20220731 Leverantörsskulder
+#TRANS 2640 {} 111.01 20220731 Ingående moms
+#TRANS 4185 {} 3641.99 20220731 Mattvätt/Hyrmattor
+
+#VER "49" "220953" 20220731 "Maries Puts & Städ Fastighet AB (SIE)"14.789481095543195
+#TRANS 2440 {} -14203 20220731 Leverantörsskulder
+#TRANS 2640 {} 420.11 20220731 Ingående moms
+#TRANS 4120 {} 13782.89 20220731 Städning enligt avtal
+
+#VER "49" "220954" 20220731 "West Studios AB (SIE)"0.0
+#TRANS 2440 {} -4134 20220731 Leverantörsskulder
+#TRANS 2640 {} 0 20220731 Ingående moms
+#TRANS 6473 {} 4134 20220731 Föreningskostnader
+
+#VER "49" "220998" 20220802 "Stockholm Exergi (SIE)"14.789955532304472
+#TRANS 2440 {} -57345 20220802 Leverantörsskulder
+#TRANS 2640 {} 1696.26 20220802 Ingående moms
+#TRANS 4620 {} 55648.74 20220802 Uppvärmning
+
+#VER "49" "221002" 20220803 "Ellevio AB(publ) (SIE)"14.789907094594593
+#TRANS 2440 {} -4736 20220803 Leverantörsskulder
+#TRANS 2640 {} 140.09 20220803 Ingående moms
+#TRANS 4610 {} 4595.91 20220803 El
+
+#VER "49" "221008" 20220804 "Hi3G Acces AB (SIE)"14.843749999999996
+#TRANS 2440 {} -96 20220804 Leverantörsskulder
+#TRANS 2640 {} 2.85 20220804 Ingående moms
+#TRANS 6210 {} 93.15 20220804 Tele- och datakommunikation
+
+#VER "49" "221009" 20220804 "Handelsbanken (SIE)"0.0
+#TRANS 2440 {} -309 20220804 Leverantörsskulder
+#TRANS 2640 {} 0 20220804 Ingående moms
+#TRANS 6500 {} 309 20220804 Administration
+
+#VER "49" "221014" 20220805 "Ellevio AB(publ) (SIE)"14.809885931558936
+#TRANS 2440 {} -263 20220805 Leverantörsskulder
+#TRANS 2640 {} 7.79 20220805 Ingående moms
+#TRANS 4610 {} 255.21 20220805 El
+
+#VER "49" "221017" 20220812 "SEB Kort (SIE)"0.0
+#TRANS 2440 {} -386.46 20220812 Leverantörsskulder
+#TRANS 2640 {} 0 20220812 Ingående moms
+#TRANS 6999 {} 145 20220812 OBS-konto
+#TRANS 8429 {} 241.46 20220812 Övriga räntekostnader
+
+#VER "49" "221024" 20220815 "SBC Sv Bostadsrättscentrum (SIE)"14.784768211920529
+#TRANS 2440 {} -1208 20220815 Leverantörsskulder
+#TRANS 2640 {} 35.72 20220815 Ingående moms
+#TRANS 6500 {} 1172.28 20220815 Administration
+
+#VER "49" "221025" 20220815 "Ellevio AB(publ) (SIE)"14.79114242576749
+#TRANS 2440 {} -1987 20220815 Leverantörsskulder
+#TRANS 2640 {} 58.78 20220815 Ingående moms
+#TRANS 4610 {} 1928.22 20220815 El
+
+#VER "49" "221026" 20220815 "SBC Sveriges BostadsrattCentrum AB (SIE)"17.69265564602352
+#TRANS 2440 {} -972.72 20220815 Leverantörsskulder
+#TRANS 2640 {} 34.42 20220815 Ingående moms
+#TRANS 6321 {} 938.3 20220815 Inkassokostnader
+
+#VER "49" "221030" 20220817 "Brandsäkra Norden AB (SIE)"14.789958158995814
+#TRANS 2440 {} -5975 20220817 Leverantörsskulder
+#TRANS 2640 {} 176.74 20220817 Ingående moms
+#TRANS 4146 {} 5798.26 20220817 Brandskydd
+
+#VER "49" "221035" 20220822 "SEB Kort (SIE)"0.0
+#TRANS 1688 {} 386.46 20220822 Övriga kortfristiga fordringar
+#TRANS 2440 {} -386.46 20220822 Leverantörsskulder
+#TRANS 2640 {} 0 20220822 Ingående moms
+#TRANS 6999 {} 145 20220822 OBS-konto
+#TRANS 6999 {} -145 20220822 OBS-konto
+#TRANS 8429 {} 241.46 20220822 Övriga räntekostnader
+#TRANS 8429 {} -241.46 20220822 Övriga räntekostnader
+
+#VER "49" "221036" 20220822 "Stena Recycling AB (SIE)"14.79020210896309
+#TRANS 2440 {} -4552 20220822 Leverantörsskulder
+#TRANS 2640 {} 134.65 20220822 Ingående moms
+#TRANS 4640 {} 4417.35 20220822 Sophämtning/renhållning
+
+#VER "49" "221037" 20220823 "Brf Rörstrand 2937 (SIE)"0.0
+#TRANS 1699 {} 20000 20220823 OBS-konto
+#TRANS 2440 {} -20000 20220823 Leverantörsskulder
+#TRANS 2640 {} 0 20220823 Ingående moms
+
+#VER "49" "221038" 20220823 "FK Business System Sweden Ab (SIE)"14.789999999999997
+#TRANS 2440 {} -7500 20220823 Leverantörsskulder
+#TRANS 2640 {} 221.85 20220823 Ingående moms
+#TRANS 4300 {} 7278.15 20220823 Reparationer
+
+#VER "49" "221039" 20220823 "FK Business System Sweden Ab (SIE)"14.789999999999997
+#TRANS 2440 {} -7000 20220823 Leverantörsskulder
+#TRANS 2640 {} 207.06 20220823 Ingående moms
+#TRANS 4300 {} 6792.94 20220823 Reparationer
+
+#VER "49" "221040" 20220824 "Vult von Steijern Marianne (SIE)"0.0
+#TRANS 2440 {} -1700 20220824 Leverantörsskulder
+#TRANS 2640 {} 0 20220824 Ingående moms
+#TRANS 6999 {} 850 20220824 OBS-konto
+#TRANS 6999 {} 850 20220824 OBS-konto
+
+#VER "49" "221055" 20220830 "Älvsjö VVS Centrum 23 AB (SIE)"14.789403973509932
+#TRANS 2440 {} -3775 20220830 Leverantörsskulder
+#TRANS 2640 {} 111.66 20220830 Ingående moms
+#TRANS 4341 {} 3663.34 20220830 VVS
+
+#VER "49" "221063" 20220831 "Elis Textil Service AB (SIE)"14.791442700494517
+#TRANS 2440 {} -4651 20220831 Leverantörsskulder
+#TRANS 2640 {} 137.59 20220831 Ingående moms
+#TRANS 4185 {} 4513.41 20220831 Mattvätt/Hyrmattor
+
+#VER "49" "221064" 20220831 "Maries Puts & Städ Fastighet AB (SIE)"14.789481095543195
+#TRANS 2440 {} -14203 20220831 Leverantörsskulder
+#TRANS 2640 {} 420.11 20220831 Ingående moms
+#TRANS 4120 {} 13782.89 20220831 Städning enligt avtal
+
+#VER "49" "221104" 20220901 "Stockholms Stadsnät AB (SIE)"14.790074659639876
+#TRANS 2440 {} -22770 20220901 Leverantörsskulder
+#TRANS 2640 {} 673.54 20220901 Ingående moms
+#TRANS 4761 {} 22096.46 20220901 Bredband
+
+#VER "49" "221105" 20220901 "Tele 2 Sverige AB (SIE)"14.66792908502113
+#TRANS 2440 {} -36438 20220901 Leverantörsskulder
+#TRANS 2640 {} 1068.94 20220901 Ingående moms
+#TRANS 4760 {} 35369.06 20220901 Kabel-TV
+
+#VER "49" "221108" 20220902 "Stockholm Exergi (SIE)"14.789961669947166
+#TRANS 2440 {} -57918 20220902 Leverantörsskulder
+#TRANS 2640 {} 1713.21 20220902 Ingående moms
+#TRANS 4620 {} 56204.79 20220902 Uppvärmning
+
+#VER "49" "221109" 20220902 "Trygga Hiss I Stockholm AB (SIE)"14.788235294117646
+#TRANS 2440 {} -1275 20220902 Leverantörsskulder
+#TRANS 2640 {} 37.71 20220902 Ingående moms
+#TRANS 4180 {} 1237.29 20220902 Serviceavtal
+
+#VER "49" "221110" 20220902 "Trygga Hiss I Stockholm AB (SIE)"14.790123456790122
+#TRANS 2440 {} -2025 20220902 Leverantörsskulder
+#TRANS 2640 {} 59.9 20220902 Ingående moms
+#TRANS 4161 {} 727.81 20220902 Gemensamma utrymmen
+#TRANS 4180 {} 1237.29 20220902 Serviceavtal
+
+#VER "49" "221111" 20220902 "Trygga Hiss I Stockholm AB (SIE)"14.788235294117646
+#TRANS 2440 {} -1275 20220902 Leverantörsskulder
+#TRANS 2640 {} 37.71 20220902 Ingående moms
+#TRANS 4180 {} 1237.29 20220902 Serviceavtal
+
+#VER "49" "221112" 20220902 "Trygga Hiss I Stockholm AB (SIE)"14.788235294117646
+#TRANS 2440 {} -1275 20220902 Leverantörsskulder
+#TRANS 2640 {} 37.71 20220902 Ingående moms
+#TRANS 4180 {} 1237.29 20220902 Serviceavtal
+
+#VER "49" "221113" 20220902 "Trygga Hiss I Stockholm AB (SIE)"14.788235294117646
+#TRANS 2440 {} -1275 20220902 Leverantörsskulder
+#TRANS 2640 {} 37.71 20220902 Ingående moms
+#TRANS 4180 {} 1237.29 20220902 Serviceavtal
+
+#VER "49" "221114" 20220902 "Trygga Hiss I Stockholm AB (SIE)"14.788235294117646
+#TRANS 2440 {} -1275 20220902 Leverantörsskulder
+#TRANS 2640 {} 37.71 20220902 Ingående moms
+#TRANS 4180 {} 1237.29 20220902 Serviceavtal
+
+#VER "49" "221116" 20220904 "Hi3G Acces AB (SIE)"14.772117962466488
+#TRANS 2440 {} -373 20220904 Leverantörsskulder
+#TRANS 2640 {} 11.02 20220904 Ingående moms
+#TRANS 6210 {} 361.98 20220904 Tele- och datakommunikation
+
+#VER "49" "221119" 20220905 "Handelsbanken (SIE)"0.0
+#TRANS 2440 {} -288 20220905 Leverantörsskulder
+#TRANS 2640 {} 0 20220905 Ingående moms
+#TRANS 6500 {} 288 20220905 Administration
+
+#VER "49" "221120" 20220905 "Lennart Söderbergs Elektriska Service AB (SIE)"14.78731074260995
+#TRANS 2440 {} -2774 20220905 Leverantörsskulder
+#TRANS 2640 {} 82.04 20220905 Ingående moms
+#TRANS 4344 {} 2691.96 20220905 Elinstallationer
+
+#VER "49" "221132" 20220912 "FK Business System Sweden Ab (SIE)"14.791332263242374
+#TRANS 2440 {} -3115 20220912 Leverantörsskulder
+#TRANS 2640 {} 92.15 20220912 Ingående moms
+#TRANS 4170 {} 3022.85 20220912 Snöröjning/sandning
+
+#VER "49" "221136" 20220914 "Vult von Steijern Marianne (SIE)"0.0
+#TRANS 1220 {} 15984 20220914 Inventarier och verktyg
+#TRANS 2440 {} -15984 20220914 Leverantörsskulder
+#TRANS 2640 {} 0 20220914 Ingående moms
+#TRANS 6999 {} 15984 20220914 OBS-konto
+#TRANS 6999 {} -15984 20220914 OBS-konto
+
+#VER "49" "221137" 20220914 "Vult von Steijern Marianne (SIE)"0.0
+#TRANS 1181 {} 15000 20220914 Pågående nybyggnation
+#TRANS 2440 {} -15000 20220914 Leverantörsskulder
+#TRANS 2640 {} 0 20220914 Ingående moms
+
+#VER "49" "221138" 20220914 "Vult Von Steijern Marianne (SIE)"0.0
+#TRANS 2440 {} -1260 20220914 Leverantörsskulder
+#TRANS 2640 {} 0 20220914 Ingående moms
+#TRANS 4160 {} 1260 20220914 Gårdkostnader
+
+#VER "49" "221140" 20220915 "SBC Sv Bostadsrättscentrum (SIE)"14.784768211920529
+#TRANS 2440 {} -1208 20220915 Leverantörsskulder
+#TRANS 2640 {} 35.72 20220915 Ingående moms
+#TRANS 6500 {} 1172.28 20220915 Administration
+
+#VER "49" "221142" 20220916 "Una Portservice AB (SIE)"14.78993006993007
+#TRANS 2440 {} -17875 20220916 Leverantörsskulder
+#TRANS 2640 {} 528.74 20220916 Ingående moms
+#TRANS 4370 {} 17346.26 20220916 Garage/parkering
+
+#VER "49" "221143" 20220916 "Stena Recycling AB (SIE)"14.789046330202197
+#TRANS 2440 {} -6281 20220916 Leverantörsskulder
+#TRANS 2640 {} 185.78 20220916 Ingående moms
+#TRANS 4640 {} 6095.22 20220916 Sophämtning/renhållning
+
+#VER "49" "221144" 20220916 "Lennart Söderbergs Elektriska Service AB (SIE)"14.78909090909091
+#TRANS 2440 {} -2750 20220916 Leverantörsskulder
+#TRANS 2640 {} 81.34 20220916 Ingående moms
+#TRANS 4344 {} 2668.66 20220916 Elinstallationer
+
+#VER "49" "221148" 20220919 "Andersson Christer (SIE)"0.0
+#TRANS 2440 {} -4858 20220919 Leverantörsskulder
+#TRANS 2640 {} 0 20220919 Ingående moms
+#TRANS 4190 {} 342 20220919 Fordon
+#TRANS 6471 {} 628 20220919 Fritids och trivselkostnader
+#TRANS 6500 {} 2690 20220919 Administration
+#TRANS 6999 {} 1198 20220919 OBS-konto
+
+#VER "49" "221149" 20220919 "FK Business System Sweden Ab (SIE)"0.0
+#TRANS 2440 {} -25000 20220919 Leverantörsskulder
+#TRANS 2640 {} 0 20220919 Ingående moms
+#TRANS 4380 {} 25000 20220919 Vattenskada
+
+#VER "49" "221150" 20220919 "FK Business System Sweden Ab (SIE)"0.0
+#TRANS 2440 {} -23000 20220919 Leverantörsskulder
+#TRANS 2640 {} 0 20220919 Ingående moms
+#TRANS 4380 {} 23000 20220919 Vattenskada
+
+#VER "49" "221157" 20220920 "SEB (SIE)"0.0
+#TRANS 2440 {} -1738 20220920 Leverantörsskulder
+#TRANS 2640 {} 0 20220920 Ingående moms
+#TRANS 6500 {} 50 20220920 Administration
+#TRANS 8410 {} 1688 20220920 Räntekostnader fastighetslån
+
+#VER "49" "221158" 20220920 "SEB (SIE)"0.0
+#TRANS 2440 {} -10395 20220920 Leverantörsskulder
+#TRANS 2640 {} 0 20220920 Ingående moms
+#TRANS 6500 {} 50 20220920 Administration
+#TRANS 8410 {} 10055 20220920 Räntekostnader fastighetslån
+#TRANS 8410 {} 290 20220920 Räntekostnader fastighetslån
+
+#VER "49" "221159" 20220920 "Älvsjö VVS Centrum 23 AB (SIE)"0.0
+#TRANS 2440 {} -8877 20220920 Leverantörsskulder
+#TRANS 2640 {} 0 20220920 Ingående moms
+#TRANS 4341 {} 8877 20220920 VVS
+
+#VER "49" "221160" 20220921 "Stockholm Vatten AB (SIE)"14.789547716944384
+#TRANS 2440 {} -9242 20220921 Leverantörsskulder
+#TRANS 2640 {} 273.37 20220921 Ingående moms
+#TRANS 4630 {} 8968.63 20220921 Vatten
+
+#VER "49" "221161" 20220921 "Stockholm Vatten AB (SIE)"14.790372670807454
+#TRANS 2440 {} -22540 20220921 Leverantörsskulder
+#TRANS 2640 {} 666.75 20220921 Ingående moms
+#TRANS 4630 {} 21873.25 20220921 Vatten
+
+#VER "49" "221162" 20220921 "Stockholm Vatten AB (SIE)"14.790636507101523
+#TRANS 2440 {} -9505 20220921 Leverantörsskulder
+#TRANS 2640 {} 281.17 20220921 Ingående moms
+#TRANS 4630 {} 9223.83 20220921 Vatten
+
+#VER "49" "221164" 20220922 "SEB Kort (SIE)"0.0
+#TRANS 2440 {} -152.76 20220922 Leverantörsskulder
+#TRANS 2640 {} 0 20220922 Ingående moms
+#TRANS 8429 {} 152.76 20220922 Övriga räntekostnader
+
+#VER "49" "221170" 20220927 "Lennart Söderbergs Elektriska Service AB (SIE)"14.789496527777779
+#TRANS 2440 {} -9216 20220927 Leverantörsskulder
+#TRANS 2640 {} 272.6 20220927 Ingående moms
+#TRANS 4344 {} 8943.4 20220927 Elinstallationer
+
+#VER "49" "221172" 20220928 "Älvsjö VVS Centrum 23 AB (SIE)"-0.0
+#TRANS 2440 {} 700 20220928 Leverantörsskulder
+#TRANS 2640 {} 0 20220928 Ingående moms
+#TRANS 4341 {} -700 20220928 VVS
+
+#VER "49" "221173" 20220928 "SEB (SIE)"0.0
+#TRANS 2351 {} 500000 20220928 Fastighetslån
+#TRANS 2440 {} -500260 20220928 Leverantörsskulder
+#TRANS 2640 {} 0 20220928 Ingående moms
+#TRANS 8410 {} 260 20220928 Räntekostnader fastighetslån
+
+#VER "49" "221191" 20220930 "Momsredovisning juli-sept (SIE)"499.9971938825619
+#TRANS 2610 {} 133990.21 20220930 Utgående moms
+#TRANS 2610 {} 56400.93 20220930 Utgående moms
+#TRANS 2640 {} -78399.7 20220930 Ingående moms
+#TRANS 2650 {} -111991 20220930 Momsavräkning
+#TRANS 3740 {} -0.44 20220930 Öres- och kronutjämning
+
+#VER "49" "221192" 20220930 "Elis Textil Service AB (SIE)"14.79023954448946
+#TRANS 2440 {} -7074.26 20220930 Leverantörsskulder
+#TRANS 2640 {} 209.26 20220930 Ingående moms
+#TRANS 4185 {} 6865 20220930 Mattvätt/Hyrmattor
+
+#VER "49" "221193" 20220930 "Boka Tvättid Sverige AB (SIE)"14.789372905696505
+#TRANS 2440 {} -2089 20220930 Leverantörsskulder
+#TRANS 2640 {} 61.79 20220930 Ingående moms
+#TRANS 4331 {} 2027.21 20220930 Tvättstuga
+
+#VER "49" "221195" 20220930 "SBC Sv Bostadsrättscentrum (SIE)"14.789957446808511
+#TRANS 2440 {} -29375 20220930 Leverantörsskulder
+#TRANS 2640 {} 868.91 20220930 Ingående moms
+#TRANS 6550 {} 28506.09 20220930 Konsultkostnader
+
+#VER "49" "221196" 20220930 "SBC Sv Bostadsrättscentrum (SIE)"14.790222222222221
+#TRANS 2440 {} -5625 20220930 Leverantörsskulder
+#TRANS 2640 {} 166.39 20220930 Ingående moms
+#TRANS 6320 {} 5458.61 20220930 Juridiska åtgärder
+
+#VER "49" "221197" 20220930 "Maries Puts & Städ Fastighet AB (SIE)"14.789481095543195
+#TRANS 2440 {} -14203 20220930 Leverantörsskulder
+#TRANS 2640 {} 420.11 20220930 Ingående moms
+#TRANS 4121 {} 13782.89 20220930 Städning utöver avtal
+
+#VER "49" "221235" 20221001 "SBC Sv Bostadsrättscentrum (SIE)"14.789803040635402
+#TRANS 2440 {} -24929 20221001 Leverantörsskulder
+#TRANS 2640 {} 737.39 20221001 Ingående moms
+#TRANS 6480 {} 24191.61 20221001 Förvaltningsarvode enl avtal
+
+#VER "49" "221238" 20221003 "Stockholm Exergi (SIE)"14.789999999999997
+#TRANS 2440 {} -73000 20221003 Leverantörsskulder
+#TRANS 2640 {} 2159.34 20221003 Ingående moms
+#TRANS 4620 {} 70840.66 20221003 Uppvärmning
+
+#VER "49" "221243" 20221004 "Energikundservice Sverige AB (SIE)"25.287162162162165
+#TRANS 2440 {} -296 20221004 Leverantörsskulder
+#TRANS 2640 {} 14.97 20221004 Ingående moms
+#TRANS 4610 {} 281.03 20221004 El
+
+#VER "49" "221245" 20221005 "Ellevio AB(publ) (SIE)"14.790799333888424
+#TRANS 2440 {} -9608 20221005 Leverantörsskulder
+#TRANS 2640 {} 284.22 20221005 Ingående moms
+#TRANS 4610 {} 9323.78 20221005 El
+
+#VER "49" "221246" 20221005 "Handelsbanken (SIE)"0.0
+#TRANS 2440 {} -296 20221005 Leverantörsskulder
+#TRANS 2640 {} 0 20221005 Ingående moms
+#TRANS 6500 {} 296 20221005 Administration
+
+#VER "49" "221247" 20221005 "Ellevio AB(publ) (SIE)"14.776536312849162
+#TRANS 2440 {} -179 20221005 Leverantörsskulder
+#TRANS 2640 {} 5.29 20221005 Ingående moms
+#TRANS 4610 {} 173.71 20221005 El
+
+#VER "49" "221250" 20221006 "Hi3G Acces AB (SIE)"14.772117962466488
+#TRANS 2440 {} -373 20221006 Leverantörsskulder
+#TRANS 2640 {} 11.02 20221006 Ingående moms
+#TRANS 6210 {} 361.98 20221006 Tele- och datakommunikation
+
+#VER "49" "221251" 20221006 "Herman Pump AB (SIE)"14.789569316898296
+#TRANS 2440 {} -20363 20221006 Leverantörsskulder
+#TRANS 2640 {} 602.32 20221006 Ingående moms
+#TRANS 4342 {} 19760.68 20221006 Värmeanläggning/undercentral
+
+#VER "49" "221252" 20221006 "Herman Pump AB (SIE)"14.789988397149012
+#TRANS 1110 {} 117090.88 20221006 Byggnader
+#TRANS 2440 {} -120660 20221006 Leverantörsskulder
+#TRANS 2640 {} 3569.12 20221006 Ingående moms
+#TRANS 4541 {} 117090.88 20221006 VVS
+#TRANS 4541 {} -117090.88 20221006 VVS
+
+#VER "49" "221254" 20221007 "Kiwa Inspecta AB (SIE)"14.789457267623208
+#TRANS 2440 {} -9618 20221007 Leverantörsskulder
+#TRANS 2640 {} 284.49 20221007 Ingående moms
+#TRANS 4140 {} 9333.51 20221007 Hissbesiktning
+
+#VER "49" "221255" 20221007 "Ellevio AB(publ) (SIE)"14.786656322730796
+#TRANS 2440 {} -1289 20221007 Leverantörsskulder
+#TRANS 2640 {} 38.12 20221007 Ingående moms
+#TRANS 4610 {} 1250.88 20221007 El
+
+#VER "49" "221256" 20221007 "Ellevio AB(publ) (SIE)"14.790393933010321
+#TRANS 2440 {} -4747 20221007 Leverantörsskulder
+#TRANS 2640 {} 140.42 20221007 Ingående moms
+#TRANS 4610 {} 4606.58 20221007 El
+
+#VER "49" "221257" 20221007 "Ellevio AB(publ) (SIE)"14.79192546583851
+#TRANS 2440 {} -3220 20221007 Leverantörsskulder
+#TRANS 2640 {} 95.26 20221007 Ingående moms
+#TRANS 4610 {} 3124.74 20221007 El
+
+#VER "49" "221258" 20221007 "Ellevio AB(publ) (SIE)"14.791881664946679
+#TRANS 2440 {} -2907 20221007 Leverantörsskulder
+#TRANS 2640 {} 86 20221007 Ingående moms
+#TRANS 4610 {} 2821 20221007 El
+
+#VER "49" "221259" 20221007 "Ellevio AB(publ) (SIE)"14.788563190773665
+#TRANS 2440 {} -2081 20221007 Leverantörsskulder
+#TRANS 2640 {} 61.55 20221007 Ingående moms
+#TRANS 4610 {} 2019.45 20221007 El
+
+#VER "49" "221260" 20221007 "Ellevio AB(publ) (SIE)"14.791386271870794
+#TRANS 2440 {} -2972 20221007 Leverantörsskulder
+#TRANS 2640 {} 87.92 20221007 Ingående moms
+#TRANS 4610 {} 2884.08 20221007 El
+
+#VER "49" "221270" 20221012 "Telge Energi AB (SIE)"14.78998287671233
+#TRANS 2440 {} -58400 20221012 Leverantörsskulder
+#TRANS 2640 {} 1727.47 20221012 Ingående moms
+#TRANS 4610 {} 56672.53 20221012 El
+
+#VER "49" "221272" 20221013 "Herman Pump AB (SIE)"14.789654977694958
+#TRANS 2440 {} -17709 20221013 Leverantörsskulder
+#TRANS 2640 {} 523.82 20221013 Ingående moms
+#TRANS 4341 {} 17185.18 20221013 VVS
+
+#VER "49" "221273" 20221013 "Beatbox productions (SIE)"0.0
+#TRANS 1182 {} 26800 20221013 Pågående om- och tillbyggnad
+#TRANS 2440 {} -26800 20221013 Leverantörsskulder
+#TRANS 2640 {} 0 20221013 Ingående moms
+
+#VER "49" "221277" 20221015 "SBC Sv Bostadsrättscentrum (SIE)"14.79296066252588
+#TRANS 2440 {} -483 20221015 Leverantörsskulder
+#TRANS 2640 {} 14.29 20221015 Ingående moms
+#TRANS 6500 {} 468.71 20221015 Administration
+
+#VER "49" "221278" 20221017 "Stena Recycling AB (SIE)"14.79075120318058
+#TRANS 2440 {} -4779 20221017 Leverantörsskulder
+#TRANS 2640 {} 141.37 20221017 Ingående moms
+#TRANS 4640 {} 4637.63 20221017 Sophämtning/renhållning
+
+#VER "49" "221279" 20221017 "Stockholm Vatten AB (SIE)"14.79020979020979
+#TRANS 2440 {} -23595 20221017 Leverantörsskulder
+#TRANS 2640 {} 697.95 20221017 Ingående moms
+#TRANS 4640 {} 22897.05 20221017 Sophämtning/renhållning
+
+#VER "49" "221280" 20221017 "Älvsjö VVS Centrum 23 AB (SIE)"14.789662231320367
+#TRANS 1182 {} 9481.01 20221017 Pågående om- och tillbyggnad
+#TRANS 2440 {} -9770 20221017 Leverantörsskulder
+#TRANS 2640 {} 288.99 20221017 Ingående moms
+
+#VER "49" "221290" 20221024 "Boka Tvättid Sverige AB (SIE)"14.789372905696505
+#TRANS 2440 {} 2089 20221024 Leverantörsskulder
+#TRANS 2640 {} -61.79 20221024 Ingående moms
+#TRANS 4331 {} -2027.21 20221024 Tvättstuga
+
+#VER "49" "221291" 20221024 "Boka Tvättid Sverige AB (SIE)"0.0
+#TRANS 2440 {} -1309 20221024 Leverantörsskulder
+#TRANS 2640 {} 0 20221024 Ingående moms
+#TRANS 4331 {} 1309 20221024 Tvättstuga
+
+#VER "49" "221292" 20221024 "SEB Kort (SIE)"0.0
+#TRANS 2440 {} -145 20221024 Leverantörsskulder
+#TRANS 2640 {} 0 20221024 Ingående moms
+#TRANS 6999 {} 145 20221024 OBS-konto
+
+#VER "49" "221313" 20221030 "SBC Sv Bostadsrättscentrum (SIE)"14.79296066252588
+#TRANS 2440 {} -483 20221030 Leverantörsskulder
+#TRANS 2640 {} 14.29 20221030 Ingående moms
+#TRANS 6500 {} 468.71 20221030 Administration
+
+#VER "49" "221318" 20221031 "Elis Textil Service AB (SIE)"14.790217873883165
+#TRANS 2440 {} -9775.38 20221031 Leverantörsskulder
+#TRANS 2640 {} 289.16 20221031 Ingående moms
+#TRANS 4185 {} 9486.22 20221031 Mattvätt/Hyrmattor
+
+#VER "49" "221319" 20221031 "SBC Sv Bostadsrättscentrum (SIE)"14.760383386581468
+#TRANS 2440 {} -313 20221031 Leverantörsskulder
+#TRANS 2640 {} 9.24 20221031 Ingående moms
+#TRANS 6500 {} 303.76 20221031 Administration
+
+#VER "49" "221320" 20221031 "Maries Puts & Städ Fastighet AB (SIE)"14.789481095543195
+#TRANS 2440 {} -14203 20221031 Leverantörsskulder
+#TRANS 2640 {} 420.11 20221031 Ingående moms
+#TRANS 4120 {} 13782.89 20221031 Städning enligt avtal
+
+#VER "49" "221364" 20221102 "Stockholm Exergi (SIE)"14.789944332583202
+#TRANS 2440 {} -84430 20221102 Leverantörsskulder
+#TRANS 2640 {} 2497.43 20221102 Ingående moms
+#TRANS 4620 {} 81932.57 20221102 Uppvärmning
+
+#VER "49" "221368" 20221103 "SEB (SIE)"0.0
+#TRANS 2440 {} -612 20221103 Leverantörsskulder
+#TRANS 2640 {} 0 20221103 Ingående moms
+#TRANS 8410 {} 195 20221103 Räntekostnader fastighetslån
+#TRANS 8429 {} 417 20221103 Övriga räntekostnader
+
+#VER "49" "221369" 20221103 "Energikundservice Sverige AB (SIE)"14.714285714285714
+#TRANS 2440 {} -70 20221103 Leverantörsskulder
+#TRANS 2640 {} 2.06 20221103 Ingående moms
+#TRANS 4610 {} 67.94 20221103 El
+
+#VER "49" "221370" 20221103 "Ellevio AB(publ) (SIE)"14.795821462488126
+#TRANS 2440 {} -1053 20221103 Leverantörsskulder
+#TRANS 2640 {} 31.16 20221103 Ingående moms
+#TRANS 4610 {} 1021.84 20221103 El
+
+#VER "49" "221371" 20221103 "Ellevio AB(publ) (SIE)"14.792442788717402
+#TRANS 2440 {} -1879 20221103 Leverantörsskulder
+#TRANS 2640 {} 55.59 20221103 Ingående moms
+#TRANS 4610 {} 1823.41 20221103 El
+
+#VER "49" "221372" 20221103 "Ellevio AB(publ) (SIE)"14.800724637681158
+#TRANS 2440 {} -552 20221103 Leverantörsskulder
+#TRANS 2640 {} 16.34 20221103 Ingående moms
+#TRANS 4610 {} 535.66 20221103 El
+
+#VER "49" "221381" 20221104 "Klang Söderqvist Birgitta (SIE)"0.0
+#TRANS 2440 {} -16107 20221104 Leverantörsskulder
+#TRANS 2640 {} 0 20221104 Ingående moms
+#TRANS 4160 {} 16107 20221104 Gårdkostnader
+
+#VER "49" "221382" 20221104 "Hi3G Acces AB (SIE)"14.772117962466488
+#TRANS 2440 {} -373 20221104 Leverantörsskulder
+#TRANS 2640 {} 11.02 20221104 Ingående moms
+#TRANS 6210 {} 361.98 20221104 Tele- och datakommunikation
+
+#VER "49" "221383" 20221104 "Ellevio AB(publ) (SIE)"14.783950617283951
+#TRANS 2440 {} -1134 20221104 Leverantörsskulder
+#TRANS 2640 {} 33.53 20221104 Ingående moms
+#TRANS 4610 {} 1100.47 20221104 El
+
+#VER "49" "221384" 20221104 "Ellevio AB(publ) (SIE)"14.788588894549157
+#TRANS 2440 {} -1963 20221104 Leverantörsskulder
+#TRANS 2640 {} 58.06 20221104 Ingående moms
+#TRANS 4610 {} 1904.94 20221104 El
+
+#VER "49" "221385" 20221104 "Ellevio AB(publ) (SIE)"14.759615384615385
+#TRANS 2440 {} -104 20221104 Leverantörsskulder
+#TRANS 2640 {} 3.07 20221104 Ingående moms
+#TRANS 4610 {} 100.93 20221104 El
+
+#VER "49" "221386" 20221104 "Ellevio AB(publ) (SIE)"14.789422135161606
+#TRANS 2440 {} -4084 20221104 Leverantörsskulder
+#TRANS 2640 {} 120.8 20221104 Ingående moms
+#TRANS 4610 {} 3963.2 20221104 El
+
+#VER "49" "221396" 20221107 "Ellevio AB(publ) (SIE)"14.793233082706767
+#TRANS 2440 {} -798 20221107 Leverantörsskulder
+#TRANS 2640 {} 23.61 20221107 Ingående moms
+#TRANS 4610 {} 774.39 20221107 El
+
+#VER "49" "221397" 20221107 "Ellevio AB(publ) (SIE)"14.81132075471698
+#TRANS 2440 {} -106 20221107 Leverantörsskulder
+#TRANS 2640 {} 3.14 20221107 Ingående moms
+#TRANS 4610 {} 102.86 20221107 El
+
+#VER "49" "221401" 20221108 "Lennart Söderbergs Elektriska Service AB (SIE)"14.790009149130832
+#TRANS 1181 {} 132583.63 20221108 Pågående nybyggnation
+#TRANS 2440 {} -136625 20221108 Leverantörsskulder
+#TRANS 2640 {} 4041.37 20221108 Ingående moms
+
+#VER "49" "221408" 20221110 "Brf Rörstrand 2937 (SIE)"0.0
+#TRANS 2440 {} -15243 20221110 Leverantörsskulder
+#TRANS 2640 {} 0 20221110 Ingående moms
+#TRANS 4191 {} 524.2 20221110 Förbrukningsmaterial
+#TRANS 6471 {} 6182.15 20221110 Fritids och trivselkostnader
+#TRANS 6492 {} 6956.85 20221110 Korttidsinventarier
+#TRANS 6500 {} 1254.8 20221110 Administration
+#TRANS 6500 {} 325 20221110 Administration
+
+#VER "49" "221415" 20221114 "Ellevio AB(publ) (SIE)"0.0
+#TRANS 2440 {} -1401 20221114 Leverantörsskulder
+#TRANS 2640 {} 0 20221114 Ingående moms
+#TRANS 4610 {} 1401 20221114 El
+
+#VER "49" "221416" 20221114 "Älvsjö VVS Centrum 23 AB (SIE)"0.0
+#TRANS 2440 {} -2250 20221114 Leverantörsskulder
+#TRANS 2640 {} 0 20221114 Ingående moms
+#TRANS 4311 {} 2250 20221114 Hyreslägenheter
+
+#VER "49" "221418" 20221115 "SBC Sv Bostadsrättscentrum (SIE)"14.784768211920529
+#TRANS 2440 {} -1208 20221115 Leverantörsskulder
+#TRANS 2640 {} 35.72 20221115 Ingående moms
+#TRANS 6500 {} 1172.28 20221115 Administration
+
+#VER "49" "221419" 20221115 "Stena Recycling AB (SIE)"14.790126900013945
+#TRANS 2440 {} -7171 20221115 Leverantörsskulder
+#TRANS 2640 {} 212.12 20221115 Ingående moms
+#TRANS 4640 {} 6958.88 20221115 Sophämtning/renhållning
+
+#VER "49" "221420" 20221115 "Handelsbanken Fackavgift (SIE)"0.0
+#TRANS 2440 {} -850 20221115 Leverantörsskulder
+#TRANS 2640 {} 0 20221115 Ingående moms
+#TRANS 6500 {} 850 20221115 Administration
+
+#VER "49" "221421" 20221115 "SBC Sveriges BostadsrattCentrum AB (SIE)"24.901558924228752
+#TRANS 2440 {} -1673.59 20221115 Leverantörsskulder
+#TRANS 2640 {} 83.35 20221115 Ingående moms
+#TRANS 6321 {} 1590.24 20221115 Inkassokostnader
+
+#VER "49" "221425" 20221116 "Andersson Christer (SIE)"0.0
+#TRANS 2440 {} -1517 20221116 Leverantörsskulder
+#TRANS 2640 {} 0 20221116 Ingående moms
+#TRANS 4161 {} 150 20221116 Gemensamma utrymmen
+#TRANS 6470 {} 220 20221116 Styrelseomkostnader
+#TRANS 6500 {} 1147 20221116 Administration
+
+#VER "49" "221426" 20221116 "Vult von Steijern Marianne (SIE)"0.0
+#TRANS 2440 {} -6160 20221116 Leverantörsskulder
+#TRANS 2640 {} 0 20221116 Ingående moms
+#TRANS 2710 {} -2640 20221116 Personalens källskatt
+#TRANS 2730 {} -2764 20221116 Lagstadg soc avg lönesk
+#TRANS 6410 {} 8800 20221116 Styrelsearvoden
+#TRANS 7119 {} 0 20221116 Övriga arvoden
+#TRANS 7331 {} 0 20221116 Bilersättning skattefri
+#TRANS 7332 {} 0 20221116 Bilersättning skattepliktig
+#TRANS 7510 {} 2764 20221116 Arbetsgivaravgifter
+
+#VER "49" "221427" 20221116 "Andersson Christer (SIE)"0.0
+#TRANS 2440 {} -18200 20221116 Leverantörsskulder
+#TRANS 2640 {} 0 20221116 Ingående moms
+#TRANS 2710 {} -7800 20221116 Personalens källskatt
+#TRANS 2730 {} -2654 20221116 Lagstadg soc avg lönesk
+#TRANS 6410 {} 26000 20221116 Styrelsearvoden
+#TRANS 7119 {} 0 20221116 Övriga arvoden
+#TRANS 7331 {} 0 20221116 Bilersättning skattefri
+#TRANS 7332 {} 0 20221116 Bilersättning skattepliktig
+#TRANS 7510 {} 2654 20221116 Arbetsgivaravgifter
+
+#VER "49" "221428" 20221116 "Bergdahl Victoria (SIE)"0.0
+#TRANS 2440 {} -3920 20221116 Leverantörsskulder
+#TRANS 2640 {} 0 20221116 Ingående moms
+#TRANS 2710 {} -1680 20221116 Personalens källskatt
+#TRANS 2730 {} -1759 20221116 Lagstadg soc avg lönesk
+#TRANS 6410 {} 5600 20221116 Styrelsearvoden
+#TRANS 7119 {} 0 20221116 Övriga arvoden
+#TRANS 7331 {} 0 20221116 Bilersättning skattefri
+#TRANS 7332 {} 0 20221116 Bilersättning skattepliktig
+#TRANS 7510 {} 1759 20221116 Arbetsgivaravgifter
+
+#VER "49" "221429" 20221116 "Wrede Oskar (SIE)"0.0
+#TRANS 2440 {} -6160 20221116 Leverantörsskulder
+#TRANS 2640 {} 0 20221116 Ingående moms
+#TRANS 2710 {} -2640 20221116 Personalens källskatt
+#TRANS 2730 {} -2764 20221116 Lagstadg soc avg lönesk
+#TRANS 6410 {} 8800 20221116 Styrelsearvoden
+#TRANS 7119 {} 0 20221116 Övriga arvoden
+#TRANS 7331 {} 0 20221116 Bilersättning skattefri
+#TRANS 7332 {} 0 20221116 Bilersättning skattepliktig
+#TRANS 7510 {} 2764 20221116 Arbetsgivaravgifter
+
+#VER "49" "221430" 20221116 "Groth Ulf (SIE)"0.0
+#TRANS 2440 {} -3920 20221116 Leverantörsskulder
+#TRANS 2640 {} 0 20221116 Ingående moms
+#TRANS 2710 {} -1680 20221116 Personalens källskatt
+#TRANS 2730 {} -571 20221116 Lagstadg soc avg lönesk
+#TRANS 6410 {} 5600 20221116 Styrelsearvoden
+#TRANS 7119 {} 0 20221116 Övriga arvoden
+#TRANS 7331 {} 0 20221116 Bilersättning skattefri
+#TRANS 7332 {} 0 20221116 Bilersättning skattepliktig
+#TRANS 7510 {} 571 20221116 Arbetsgivaravgifter
+
+#VER "49" "221431" 20221116 "Edberg Camilla (SIE)"0.0
+#TRANS 2440 {} -4480 20221116 Leverantörsskulder
+#TRANS 2640 {} 0 20221116 Ingående moms
+#TRANS 2710 {} -1920 20221116 Personalens källskatt
+#TRANS 2730 {} -2010 20221116 Lagstadg soc avg lönesk
+#TRANS 6410 {} 6400 20221116 Styrelsearvoden
+#TRANS 7119 {} 0 20221116 Övriga arvoden
+#TRANS 7331 {} 0 20221116 Bilersättning skattefri
+#TRANS 7332 {} 0 20221116 Bilersättning skattepliktig
+#TRANS 7510 {} 2010 20221116 Arbetsgivaravgifter
+
+#VER "49" "221432" 20221116 "Öhman Minette (SIE)"0.0
+#TRANS 2440 {} -6720 20221116 Leverantörsskulder
+#TRANS 2640 {} 0 20221116 Ingående moms
+#TRANS 2710 {} -2880 20221116 Personalens källskatt
+#TRANS 2730 {} -3016 20221116 Lagstadg soc avg lönesk
+#TRANS 6410 {} 9600 20221116 Styrelsearvoden
+#TRANS 7119 {} 0 20221116 Övriga arvoden
+#TRANS 7331 {} 0 20221116 Bilersättning skattefri
+#TRANS 7332 {} 0 20221116 Bilersättning skattepliktig
+#TRANS 7510 {} 3016 20221116 Arbetsgivaravgifter
+
+#VER "49" "221433" 20221116 "Brockman Stina (SIE)"0.0
+#TRANS 2440 {} -6720 20221116 Leverantörsskulder
+#TRANS 2640 {} 0 20221116 Ingående moms
+#TRANS 2710 {} -2880 20221116 Personalens källskatt
+#TRANS 2730 {} -980 20221116 Lagstadg soc avg lönesk
+#TRANS 6410 {} 9600 20221116 Styrelsearvoden
+#TRANS 7119 {} 0 20221116 Övriga arvoden
+#TRANS 7331 {} 0 20221116 Bilersättning skattefri
+#TRANS 7332 {} 0 20221116 Bilersättning skattepliktig
+#TRANS 7510 {} 980 20221116 Arbetsgivaravgifter
+
+#VER "49" "221434" 20221116 "Alvarsson Carin (SIE)"0.0
+#TRANS 2440 {} -4480 20221116 Leverantörsskulder
+#TRANS 2640 {} 0 20221116 Ingående moms
+#TRANS 2710 {} -1920 20221116 Personalens källskatt
+#TRANS 2730 {} -2010 20221116 Lagstadg soc avg lönesk
+#TRANS 6410 {} 6400 20221116 Styrelsearvoden
+#TRANS 7119 {} 0 20221116 Övriga arvoden
+#TRANS 7331 {} 0 20221116 Bilersättning skattefri
+#TRANS 7332 {} 0 20221116 Bilersättning skattepliktig
+#TRANS 7510 {} 2010 20221116 Arbetsgivaravgifter
+
+#VER "49" "221435" 20221116 "Andreasson Håkan (SIE)"0.0
+#TRANS 2440 {} -6160 20221116 Leverantörsskulder
+#TRANS 2640 {} 0 20221116 Ingående moms
+#TRANS 2710 {} -2640 20221116 Personalens källskatt
+#TRANS 2730 {} -898 20221116 Lagstadg soc avg lönesk
+#TRANS 6410 {} 8800 20221116 Styrelsearvoden
+#TRANS 7119 {} 0 20221116 Övriga arvoden
+#TRANS 7331 {} 0 20221116 Bilersättning skattefri
+#TRANS 7332 {} 0 20221116 Bilersättning skattepliktig
+#TRANS 7510 {} 898 20221116 Arbetsgivaravgifter
+
+#VER "49" "221439" 20221118 "Stockholm Vatten AB (SIE)"14.789928712270589
+#TRANS 2440 {} -13186 20221118 Leverantörsskulder
+#TRANS 2640 {} 390.04 20221118 Ingående moms
+#TRANS 4630 {} 12795.96 20221118 Vatten
+
+#VER "49" "221440" 20221118 "Stockholm Vatten AB (SIE)"14.786885245901637
+#TRANS 2440 {} -1220 20221118 Leverantörsskulder
+#TRANS 2640 {} 36.08 20221118 Ingående moms
+#TRANS 4630 {} 1183.92 20221118 Vatten
+
+#VER "49" "221441" 20221118 "Stockholm Vatten AB (SIE)"14.790511035052518
+#TRANS 2440 {} -8473 20221118 Leverantörsskulder
+#TRANS 2640 {} 250.64 20221118 Ingående moms
+#TRANS 4630 {} 8222.36 20221118 Vatten
+
+#VER "49" "221442" 20221118 "Lennart Söderbergs Elektriska Service AB (SIE)"0.0
+#TRANS 2440 {} -650 20221118 Leverantörsskulder
+#TRANS 2640 {} 0 20221118 Ingående moms
+#TRANS 4344 {} 650 20221118 Elinstallationer
+
+#VER "49" "221443" 20221118 "Hyresgästföreningen (SIE)"0.0
+#TRANS 2440 {} -556 20221118 Leverantörsskulder
+#TRANS 2640 {} 0 20221118 Ingående moms
+#TRANS 6550 {} 556 20221118 Konsultkostnader
+
+#VER "49" "221444" 20221118 "Lennart Söderbergs Elektriska Service AB (SIE)"14.789740938944295
+#TRANS 1181 {} 31915.19 20221118 Pågående nybyggnation
+#TRANS 2440 {} -32888 20221118 Leverantörsskulder
+#TRANS 2640 {} 972.81 20221118 Ingående moms
+
+#VER "49" "221445" 20221119 "Loopia AB (SIE)"14.788990825688073
+#TRANS 2440 {} -408.75 20221119 Leverantörsskulder
+#TRANS 2640 {} 12.09 20221119 Ingående moms
+#TRANS 6210 {} 396.66 20221119 Tele- och datakommunikation
+
+#VER "49" "221451" 20221122 "Resurs Bank AB (SIE)"14.791851195748452
+#TRANS 2440 {} -1129 20221122 Leverantörsskulder
+#TRANS 2640 {} 33.4 20221122 Ingående moms
+#TRANS 4191 {} 1095.6 20221122 Förbrukningsmaterial
+
+#VER "49" "221452" 20221122 "Stockholms Rörinspektion AB (SIE)"14.789819523830955
+#TRANS 2440 {} -22219 20221122 Leverantörsskulder
+#TRANS 2640 {} 657.23 20221122 Ingående moms
+#TRANS 4341 {} 21561.77 20221122 VVS
+
+#VER "49" "221465" 20221123 "Qsec Sverige AB (SIE)"14.789977440659124
+#TRANS 1181 {} 237450.14 20221123 Pågående nybyggnation
+#TRANS 2440 {} -244688 20221123 Leverantörsskulder
+#TRANS 2640 {} 7237.86 20221123 Ingående moms
+
+#VER "49" "221470" 20221125 "Bostadsrätterna Sverige Ek För (SIE)"0.0
+#TRANS 2440 {} -8450 20221125 Leverantörsskulder
+#TRANS 2640 {} 0 20221125 Ingående moms
+#TRANS 6980 {} 8450 20221125 Bostadsrätterna Sverige
+
+#VER "49" "221473" 20221128 "FK Business System Sweden Ab (SIE)"0.0
+#TRANS 1181 {} 30000 20221128 Pågående nybyggnation
+#TRANS 2440 {} -30000 20221128 Leverantörsskulder
+#TRANS 2640 {} 0 20221128 Ingående moms
+
+#VER "49" "221476" 20221129 "Älvsjö VVS Centrum 23 AB (SIE)"14.79111111111111
+#TRANS 2440 {} -2250 20221129 Leverantörsskulder
+#TRANS 2640 {} 66.56 20221129 Ingående moms
+#TRANS 4341 {} 2183.44 20221129 VVS
+
+#VER "49" "221477" 20221129 "Hellgrens Lås AB (SIE)"14.789652247667515
+#TRANS 2440 {} -5895 20221129 Leverantörsskulder
+#TRANS 2640 {} 174.37 20221129 Ingående moms
+#TRANS 4336 {} 5720.63 20221129 Dörrar och lås/porttele
+
+#VER "49" "221478" 20221129 "Älvsjö VVS Centrum 23 AB (SIE)"14.790058479532163
+#TRANS 1181 {} 16594.18 20221129 Pågående nybyggnation
+#TRANS 2440 {} -17100 20221129 Leverantörsskulder
+#TRANS 2640 {} 505.82 20221129 Ingående moms
+
+#VER "49" "221490" 20221130 "SBC Sv Bostadsrättscentrum (SIE)"14.787784679089025
+#TRANS 2440 {} -966 20221130 Leverantörsskulder
+#TRANS 2640 {} 28.57 20221130 Ingående moms
+#TRANS 6500 {} 937.43 20221130 Administration
+
+#VER "49" "221491" 20221130 "Trygga Hiss I Stockholm AB (SIE)"14.789898989898987
+#TRANS 2440 {} -2475 20221130 Leverantörsskulder
+#TRANS 2640 {} 73.21 20221130 Ingående moms
+#TRANS 4346 {} 2401.79 20221130 Hissar
+
+#VER "49" "221492" 20221130 "Trygga Hiss I Stockholm AB (SIE)"14.789579158316633
+#TRANS 2440 {} -2994 20221130 Leverantörsskulder
+#TRANS 2640 {} 88.56 20221130 Ingående moms
+#TRANS 4346 {} 2905.44 20221130 Hissar
+
+#VER "49" "221493" 20221130 "Elis Textil Service AB (SIE)"14.790084808325066
+#TRANS 2440 {} -7883.66 20221130 Leverantörsskulder
+#TRANS 2640 {} 233.2 20221130 Ingående moms
+#TRANS 4185 {} 7650.46 20221130 Mattvätt/Hyrmattor
+
+#VER "49" "221494" 20221130 "Maries Puts & Städ Fastighet AB (SIE)"14.789481095543195
+#TRANS 2440 {} -14203 20221130 Leverantörsskulder
+#TRANS 2640 {} 420.11 20221130 Ingående moms
+#TRANS 4120 {} 13782.89 20221130 Städning enligt avtal
+
+#VER "49" "221495" 20221130 "SBC Sv Bostadsrättscentrum (SIE)"14.78881351593498
+#TRANS 2440 {} -7813 20221130 Leverantörsskulder
+#TRANS 2640 {} 231.09 20221130 Ingående moms
+#TRANS 6550 {} 7581.91 20221130 Konsultkostnader
+
+#VER "49" "221536" 20221201 "Stockholms Stadsnät AB (SIE)"14.790074659639876
+#TRANS 2440 {} -22770 20221201 Leverantörsskulder
+#TRANS 2640 {} 673.54 20221201 Ingående moms
+#TRANS 4761 {} 22096.46 20221201 Bredband
+
+#VER "49" "221537" 20221201 "Tele 2 Sverige AB (SIE)"14.677797970619416
+#TRANS 2440 {} -39618 20221201 Leverantörsskulder
+#TRANS 2640 {} 1163.01 20221201 Ingående moms
+#TRANS 4760 {} 38454.99 20221201 Kabel-TV
+
+#VER "49" "221538" 20221201 "Ellevio AB(publ) (SIE)"14.790844514601421
+#TRANS 2440 {} -1267 20221201 Leverantörsskulder
+#TRANS 2640 {} 37.48 20221201 Ingående moms
+#TRANS 4610 {} 1229.52 20221201 El
+
+#VER "49" "221545" 20221202 "Ellevio AB(publ) (SIE)"14.7900466562986
+#TRANS 2440 {} -1929 20221202 Leverantörsskulder
+#TRANS 2640 {} 57.06 20221202 Ingående moms
+#TRANS 4610 {} 1871.94 20221202 El
+
+#VER "49" "221546" 20221202 "Ellevio AB(publ) (SIE)"14.791160220994476
+#TRANS 2440 {} -4525 20221202 Leverantörsskulder
+#TRANS 2640 {} 133.86 20221202 Ingående moms
+#TRANS 4610 {} 4391.14 20221202 El
+
+#VER "49" "221547" 20221202 "Älvsjö VVS Centrum 23 AB (SIE)"14.790393013100436
+#TRANS 1181 {} 3333.39 20221202 Pågående nybyggnation
+#TRANS 2440 {} -3435 20221202 Leverantörsskulder
+#TRANS 2640 {} 101.61 20221202 Ingående moms
+
+#VER "49" "221548" 20221202 "Älvsjö VVS Centrum 23 AB (SIE)"14.790400145177388
+#TRANS 2440 {} -11021 20221202 Leverantörsskulder
+#TRANS 2640 {} 326.01 20221202 Ingående moms
+#TRANS 4341 {} 10694.99 20221202 VVS
+
+#VER "49" "221549" 20221202 "Stockholm Exergi (SIE)"14.789991734916223
+#TRANS 2440 {} -173017 20221202 Leverantörsskulder
+#TRANS 2640 {} 5117.84 20221202 Ingående moms
+#TRANS 4620 {} 167899.16 20221202 Uppvärmning
+
+#VER "49" "221550" 20221204 "Hi3G Acces AB (SIE)"14.772117962466488
+#TRANS 2440 {} -373 20221204 Leverantörsskulder
+#TRANS 2640 {} 11.02 20221204 Ingående moms
+#TRANS 6210 {} 361.98 20221204 Tele- och datakommunikation
+
+#VER "49" "221563" 20221205 "Ellevio AB(publ) (SIE)"14.791666666666666
+#TRANS 2440 {} -1104 20221205 Leverantörsskulder
+#TRANS 2640 {} 32.66 20221205 Ingående moms
+#TRANS 4610 {} 1071.34 20221205 El
+
+#VER "49" "221564" 20221205 "Ellevio AB(publ) (SIE)"13.367999999999999
+#TRANS 2440 {} -625 20221205 Leverantörsskulder
+#TRANS 2640 {} 16.71 20221205 Ingående moms
+#TRANS 4610 {} 608.29 20221205 El
+
+#VER "49" "221565" 20221205 "Ellevio AB(publ) (SIE)"14.747899159663866
+#TRANS 2440 {} -119 20221205 Leverantörsskulder
+#TRANS 2640 {} 3.51 20221205 Ingående moms
+#TRANS 4610 {} 115.49 20221205 El
+
+#VER "49" "221566" 20221205 "Ellevio AB(publ) (SIE)"14.791666666666666
+#TRANS 2440 {} -792 20221205 Leverantörsskulder
+#TRANS 2640 {} 23.43 20221205 Ingående moms
+#TRANS 4610 {} 768.57 20221205 El
+
+#VER "49" "221567" 20221205 "Ellevio AB(publ) (SIE)"14.789333333333332
+#TRANS 2440 {} -1875 20221205 Leverantörsskulder
+#TRANS 2640 {} 55.46 20221205 Ingående moms
+#TRANS 4610 {} 1819.54 20221205 El
+
+#VER "49" "221574" 20221208 "We Create Sweden AB (SIE)"
+#TRANS 2440 {} -8323 20221208 Leverantörsskulder
+#TRANS 2640 {} 0 20221208 Ingående moms
+#TRANS 2893 {} 8323 20221208 Avräkning avg/hyr
+
+#VER "49" "221579" 20221212 "Telge Energi AB (SIE)"14.789849673489064
+#TRANS 2440 {} -22817 20221212 Leverantörsskulder
+#TRANS 2640 {} 674.92 20221212 Ingående moms
+#TRANS 4610 {} 22142.08 20221212 El
+
+#VER "49" "221585" 20221214 "Brf Rörstrand 2937 (SIE)"0.0
+#TRANS 2440 {} -13300.61 20221214 Leverantörsskulder
+#TRANS 2640 {} 0 20221214 Ingående moms
+#TRANS 4160 {} 3021.58 20221214 Gårdkostnader
+#TRANS 6470 {} 5962 20221214 Styrelseomkostnader
+#TRANS 6471 {} 2901.03 20221214 Fritids och trivselkostnader
+#TRANS 6500 {} 1416 20221214 Administration
+
+#VER "49" "221586" 20221214 "Vult von Steijern Marianne (SIE)"0.0
+#TRANS 2440 {} -15277 20221214 Leverantörsskulder
+#TRANS 2640 {} 0 20221214 Ingående moms
+#TRANS 4160 {} 7800 20221214 Gårdkostnader
+#TRANS 4161 {} 1771 20221214 Gemensamma utrymmen
+#TRANS 6471 {} 5706 20221214 Fritids och trivselkostnader
+
+#VER "49" "221589" 20221215 "Stena Recycling AB (SIE)"14.78980891719745
+#TRANS 2440 {} -3140 20221215 Leverantörsskulder
+#TRANS 2640 {} 92.88 20221215 Ingående moms
+#TRANS 4640 {} 3047.12 20221215 Sophämtning/renhållning
+
+#VER "49" "221593" 20221216 "Trygga Hiss I Stockholm AB (SIE)"14.789285714285713
+#TRANS 2440 {} -2800 20221216 Leverantörsskulder
+#TRANS 2640 {} 82.82 20221216 Ingående moms
+#TRANS 4346 {} 2717.18 20221216 Hissar
+
+#VER "49" "221654" 20220419 "5374549 (SIE)"
+#TRANS 2640 {} -15000 20220419 Ingående moms
+#TRANS 4543 {} 15000 20220419 Ventilation
+
+#VER "49" "221680" 20220930 "rättning moms Q3 (SIE)"499.9907849829351
+#TRANS 2640 {} 78399.7 20220930 Ingående moms
+#TRANS 2640 {} -63749.97 20220930 Ingående moms
+#TRANS 2650 {} 111991 20220930 Momsavräkning
+#TRANS 2650 {} -126641 20220930 Momsavräkning
+#TRANS 3740 {} 0.44 20220930 Öres- och kronutjämning
+#TRANS 3740 {} -0.17 20220930 Öres- och kronutjämning
+
+#VER "49" "221694" 20221201 "Qsec Sverige AB (SIE)"14.790007662835247
+#TRANS 2440 {} -163125 20221201 Leverantörsskulder
+#TRANS 2640 {} 4825.24 20221201 Ingående moms
+#TRANS 4500 {} 158299.76 20221201 Underhåll av byggnad
+
+#VER "49" "221700" 20221202 "Älvsjö VVS Centrum 23 AB (SIE)"14.790400145177388
+#TRANS 2440 {} -11021 20221202 Leverantörsskulder
+#TRANS 2640 {} 326.01 20221202 Ingående moms
+#TRANS 4341 {} 10694.99 20221202 VVS
+
+#VER "49" "221705" 20221207 "Lennart Söderbergs Elektriska Service AB (SIE)"14.789924404343523
+#TRANS 2440 {} -69713 20221207 Leverantörsskulder
+#TRANS 2640 {} 2062.1 20221207 Ingående moms
+#TRANS 4344 {} 67650.9 20221207 Elinstallationer
+
+#VER "49" "221707" 20221215 "SBC Sveriges BostadsrattCentrum AB (SIE)"14.78918918918919
+#TRANS 2440 {} -462.5 20221215 Leverantörsskulder
+#TRANS 2640 {} 13.68 20221215 Ingående moms
+#TRANS 6321 {} 448.82 20221215 Inkassokostnader
+
+#VER "49" "221710" 20221221 "Stadshypotek AB (SIE)"0.0
+#TRANS 2440 {} -22207 20221221 Leverantörsskulder
+#TRANS 2640 {} 0 20221221 Ingående moms
+#TRANS 6999 {} 22207 20221221 OBS-konto
+
+#VER "49" "221711" 20221222 "West Studios AB (SIE)"4.198113207547169
+#TRANS 2440 {} -106 20221222 Leverantörsskulder
+#TRANS 2640 {} 0.89 20221222 Ingående moms
+#TRANS 6550 {} 105.11 20221222 Konsultkostnader
+
+#VER "49" "221712" 20221230 "Boka Tvättid Sverige AB (SIE)"0.0
+#TRANS 2440 {} -1309 20221230 Leverantörsskulder
+#TRANS 2640 {} 0 20221230 Ingående moms
+#TRANS 4331 {} 1309 20221230 Tvättstuga
+
+#VER "49" "221713" 20221230 "SBC Sv Bostadsrättscentrum (SIE)"14.790144927536227
+#TRANS 2440 {} -8625 20221230 Leverantörsskulder
+#TRANS 2640 {} 255.13 20221230 Ingående moms
+#TRANS 6320 {} 8369.87 20221230 Juridiska åtgärder
+
+#VER "49" "221715" 20221231 "Moms Q4 (SIE)"500.0016481380631
+#TRANS 2610 {} 226573.17 20221231 Utgående moms
+#TRANS 2640 {} -42472.31 20221231 Ingående moms
+#TRANS 2650 {} -184101 20221231 Momsavräkning
+#TRANS 3740 {} 0.14 20221231 Öres- och kronutjämning
+
+#VER "49" "221720" 20221231 "rättning moms Q4 (SIE)"499.99664804469273
+#TRANS 2640 {} -46947.28 20221231 Ingående moms
+#TRANS 2640 {} 42472.31 20221231 Ingående moms
+#TRANS 2650 {} -179626 20221231 Momsavräkning
+#TRANS 2650 {} 184101 20221231 Momsavräkning
+#TRANS 3740 {} -0.14 20221231 Öres- och kronutjämning
+#TRANS 3740 {} 0.11 20221231 Öres- och kronutjämning
+
+#VER "49" "221723" 20221231 "Elis Textil Service AB (SIE)"14.790084808325066
+#TRANS 2440 {} -7883.66 20221231 Leverantörsskulder
+#TRANS 2640 {} 233.2 20221231 Ingående moms
+#TRANS 4185 {} 7650.46 20221231 Mattvätt/Hyrmattor
+

@@ -1,0 +1,1888 @@
+#VER "18" "230020" 20230406 "Korr: 25-230188"
+#TRANS 2640 {} -11.02 20230406 Ingående moms
+#TRANS 4761 {} 11.02 20230406 Bredband
+
+#VER "18" "230030" 20230720 "Korr: 25-230338" momsandel: 14.79%
+#TRANS 2440 {} 3125 20230720 Leverantörsskulder
+#TRANS 2640 {} -92.44 20230720 Ingående moms
+#TRANS 4500 {} -3032.56 20230720 Underhåll av byggnad
+
+#VER "18" "230091" 20231228 "Brf kort"
+#TRANS 1930 {} -19810 20231228 Checkräkning
+#TRANS 2640 {} 1579.83 20231228 Ingående moms
+#TRANS 2640 {} 154.69 20231228 Ingående moms
+#TRANS 2640 {} 94.59 20231228 Ingående moms
+#TRANS 4160 {} 5362.31 20231228 Gårdkostnader
+#TRANS 6470 {} 8645.17 20231228 Styrelseomkostnader
+#TRANS 6470 {} 3973.41 20231228 Styrelseomkostnader
+
+#VER "24" "230008" 20230810 "Utläggsredovisning #24823" momsandel: 10.72%
+#TRANS 2480 {} -12952.93 20230810 Utläggsskulder
+#TRANS 2640 {} 277.62 20230810 Ingående moms
+#TRANS 6473 {} 12675.31 20230810 Föreningskostnader
+
+#VER "24" "230009" 20230824 "Omkontering av utlägg #25947"
+#TRANS 1999 {} -10375 20230824 OBS - Används ej av SBC
+#TRANS 2640 {} 731.92 20230824 Ingående moms
+#TRANS 4160 {} 2680.3 20230824 Gårdkostnader
+#TRANS 6471 {} 4967.58 20230824 Fritids och trivselkostnader
+#TRANS 6500 {} 1995.2 20230824 Administration
+
+#VER "25" "230001" 20230116 "21288, Stena Recycling AB" momsandel: 14.79%
+#TRANS 2440 {} -5097 20230116 Leverantörsskulder
+#TRANS 2640 {} 150.77 20230116 Ingående moms
+#TRANS 4640 {} 4946.23 20230116 Sophämtning/renhållning
+
+#VER "25" "230002" 20230103 "23256, Ellevio AB (publ)" momsandel: 14.79%
+#TRANS 2440 {} -4830 20230103 Leverantörsskulder
+#TRANS 2640 {} 142.87 20230103 Ingående moms
+#TRANS 4610 {} 4687.13 20230103 El
+
+#VER "25" "230003" 20230102 "17697, Stockholm Exergi AB" momsandel: 14.79%
+#TRANS 2440 {} -262630 20230102 Leverantörsskulder
+#TRANS 2640 {} 7768.58 20230102 Ingående moms
+#TRANS 4620 {} 254861.42 20230102 Uppvärmning
+
+#VER "25" "230004" 20230112 "22923, Telge Energi / Billogram" momsandel: 14.79%
+#TRANS 2440 {} -29868 20230112 Leverantörsskulder
+#TRANS 2640 {} 883.51 20230112 Ingående moms
+#TRANS 4610 {} 28984.49 20230112 El
+
+#VER "25" "230005" 20230109 "28250, ÄlvsjÖ Vvs Centrum 23 AB" momsandel: 14.79%
+#TRANS 2440 {} -12235 20230109 Leverantörsskulder
+#TRANS 2640 {} 361.9 20230109 Ingående moms
+#TRANS 3027 {} 11873.1 20230109 Årsavgifter garage
+
+#VER "25" "230006" 20230104 "23600, Ellevio AB (publ)" momsandel: 14.79%
+#TRANS 2440 {} -558 20230104 Leverantörsskulder
+#TRANS 2640 {} 16.51 20230104 Ingående moms
+#TRANS 4610 {} 541.49 20230104 El
+
+#VER "25" "230007" 20230110 "28514, ÄlvsjÖ Vvs Centrum 23 AB" momsandel: 14.79%
+#TRANS 2440 {} -9825 20230110 Leverantörsskulder
+#TRANS 2640 {} 290.62 20230110 Ingående moms
+#TRANS 4511 {} 9534.38 20230110 Hyreslägenheter
+
+#VER "25" "230009" 20230105 "25512, Ellevio AB (publ)" momsandel: 14.79%
+#TRANS 2440 {} -2225 20230105 Leverantörsskulder
+#TRANS 2640 {} 65.82 20230105 Ingående moms
+#TRANS 4610 {} 2159.18 20230105 El
+
+#VER "25" "230010" 20230105 "25496, Ellevio AB (publ)" momsandel: 14.79%
+#TRANS 2440 {} -1167 20230105 Leverantörsskulder
+#TRANS 2640 {} 34.53 20230105 Ingående moms
+#TRANS 4610 {} 1132.47 20230105 El
+
+#VER "25" "230011" 20230105 "25418, Ellevio AB (publ)" momsandel: 14.79%
+#TRANS 2440 {} -2045 20230105 Leverantörsskulder
+#TRANS 2640 {} 60.48 20230105 Ingående moms
+#TRANS 4610 {} 1984.52 20230105 El
+
+#VER "25" "230012" 20230105 "25324, Ellevio AB (publ)" momsandel: 14.80%
+#TRANS 2440 {} -807 20230105 Leverantörsskulder
+#TRANS 2640 {} 23.88 20230105 Ingående moms
+#TRANS 4610 {} 783.12 20230105 El
+
+#VER "25" "230013" 20230105 "25289, Ellevio AB (publ)" momsandel: 14.78%
+#TRANS 2440 {} -1395 20230105 Leverantörsskulder
+#TRANS 2640 {} 41.25 20230105 Ingående moms
+#TRANS 4610 {} 1353.75 20230105 El
+
+#VER "25" "230014" 20230105 "25264, Ellevio AB (publ)" momsandel: 14.77%
+#TRANS 2440 {} -107 20230105 Leverantörsskulder
+#TRANS 2640 {} 3.16 20230105 Ingående moms
+#TRANS 4610 {} 103.84 20230105 El
+
+#VER "25" "230015" 20230105 "25441, Lennart Söderbergs Service AB" momsandel: 14.79%
+#TRANS 2440 {} -11731 20230105 Leverantörsskulder
+#TRANS 2640 {} 347.01 20230105 Ingående moms
+#TRANS 4344 {} 11383.99 20230105 Elinstallationer
+
+#VER "25" "230016" 20230105 "29246, 3 (hi3g Access Ab)" momsandel: 14.77%
+#TRANS 2440 {} -373 20230105 Leverantörsskulder
+#TRANS 2640 {} 11.02 20230105 Ingående moms
+#TRANS 6210 {} 361.98 20230105 Tele- och datakommunikation
+
+#VER "25" "230017" 20230105 "48732, 3 (hi3g Access Ab)" momsandel: 14.77%
+#TRANS 2440 {} -373 20230105 Leverantörsskulder
+#TRANS 2640 {} 11.02 20230105 Ingående moms
+#TRANS 6210 {} 361.98 20230105 Tele- och datakommunikation
+
+#VER "25" "230018" 20230121 "39337, ÄlvsjÖ Vvs Centrum 23 AB" momsandel: 14.79%
+#TRANS 2440 {} -4375 20230121 Leverantörsskulder
+#TRANS 2640 {} 129.41 20230121 Ingående moms
+#TRANS 4341 {} 4245.59 20230121 VVS
+
+#VER "25" "230019" 20230105 "29246, 3 (hi3g Access Ab)" momsandel: 14.77%
+#TRANS 2440 {} 373 20230105 Leverantörsskulder
+#TRANS 2640 {} -11.02 20230105 Ingående moms
+#TRANS 6210 {} -361.98 20230105 Tele- och datakommunikation
+
+#VER "25" "230020" 20230116 "35620, Stockholm Vatten AB" momsandel: 14.79%
+#TRANS 2440 {} -10628 20230116 Leverantörsskulder
+#TRANS 2640 {} 314.39 20230116 Ingående moms
+#TRANS 4630 {} 10313.61 20230116 Vatten
+
+#VER "25" "230021" 20230116 "35615, Stockholm Vatten AB" momsandel: 14.79%
+#TRANS 2440 {} -9982 20230116 Leverantörsskulder
+#TRANS 2640 {} 295.26 20230116 Ingående moms
+#TRANS 4630 {} 9686.74 20230116 Vatten
+
+#VER "25" "230022" 20230116 "35573, Stockholm Vatten AB" momsandel: 14.79%
+#TRANS 2440 {} -24164 20230116 Leverantörsskulder
+#TRANS 2640 {} 714.77 20230116 Ingående moms
+#TRANS 4630 {} 23449.23 20230116 Vatten
+
+#VER "25" "230023" 20230116 "33695, Stockholm Vatten AB" momsandel: 14.79%
+#TRANS 2440 {} -25200 20230116 Leverantörsskulder
+#TRANS 2640 {} 745.42 20230116 Ingående moms
+#TRANS 4640 {} 24454.58 20230116 Sophämtning/renhållning
+
+#VER "25" "230025" 20230209 "61811, Trygga Hiss I Stockholm AB" momsandel: 14.79%
+#TRANS 2440 {} -1775 20230209 Leverantörsskulder
+#TRANS 2640 {} 52.5 20230209 Ingående moms
+#TRANS 4346 {} 1722.5 20230209 Hissar
+
+#VER "25" "230026" 20230202 "60523, ÄlvsjÖ Vvs Centrum 23 AB" momsandel: 14.79%
+#TRANS 2440 {} -6874 20230202 Leverantörsskulder
+#TRANS 2640 {} 203.33 20230202 Ingående moms
+#TRANS 4341 {} 6670.67 20230202 VVS
+
+#VER "25" "230027" 20230131 "40151, Elis Textil Service AB" momsandel: 14.79%
+#TRANS 2440 {} -9933.79 20230131 Leverantörsskulder
+#TRANS 2640 {} 293.84 20230131 Ingående moms
+#TRANS 4185 {} 9639.95 20230131 Mattvätt/Hyrmattor
+
+#VER "25" "230028" 20230127 "64682, Kiwa Sweden AB" momsandel: 14.79%
+#TRANS 2440 {} -2784 20230127 Leverantörsskulder
+#TRANS 2640 {} 82.34 20230127 Ingående moms
+#TRANS 4140 {} 2701.66 20230127 Hissbesiktning
+
+#VER "25" "230030" 20230127 "74801, Qsec Sverige AB" momsandel: 14.79%
+#TRANS 2440 {} -163125 20230127 Leverantörsskulder
+#TRANS 2640 {} 4825.24 20230127 Ingående moms
+#TRANS 4500 {} 158299.76 20230127 Underhåll av byggnad
+
+#VER "25" "230031" 20230213 "75374, Telge Energi / Billogram" momsandel: 14.79%
+#TRANS 2440 {} -22033 20230213 Leverantörsskulder
+#TRANS 2640 {} 651.72 20230213 Ingående moms
+#TRANS 4610 {} 21381.28 20230213 El
+
+#VER "25" "230032" 20230202 "74282, Stockholm Exergi AB" momsandel: 14.79%
+#TRANS 2440 {} -253633 20230202 Leverantörsskulder
+#TRANS 2640 {} 7502.46 20230202 Ingående moms
+#TRANS 4620 {} 246130.54 20230202 Uppvärmning
+
+#VER "25" "230033" 20230204 "73590, 3 (hi3g Access Ab)" momsandel: 14.77%
+#TRANS 2640 {} 11.02 20230204 Ingående moms
+#TRANS 4761 {} -11.02 20230204 Bredband
+#TRANS 2440 {} -373 20230204 Leverantörsskulder
+#TRANS 4761 {} 373 20230204 Bredband
+
+#VER "25" "230035" 20230215 "69467, Stena Recycling AB" momsandel: 14.79%
+#TRANS 2640 {} 160.98 20230215 Ingående moms
+#TRANS 4641 {} -160.98 20230215 Grovsopor
+#TRANS 2440 {} -5442 20230215 Leverantörsskulder
+#TRANS 4641 {} 5442 20230215 Grovsopor
+
+#VER "25" "230037" 20230131 "68113, Maries Puts & St?d Fastighet AB" momsandel: 14.79%
+#TRANS 2640 {} 420.11 20230131 Ingående moms
+#TRANS 4120 {} -420.11 20230131 Städning enligt avtal
+#TRANS 2440 {} -14203 20230131 Leverantörsskulder
+#TRANS 4120 {} 14203 20230131 Städning enligt avtal
+
+#VER "25" "230040" 20230203 "72996, Ellevio AB (publ)" momsandel: 14.79%
+#TRANS 2440 {} -2106 20230203 Leverantörsskulder
+#TRANS 2640 {} 62.31 20230203 Ingående moms
+#TRANS 4610 {} 2043.69 20230203 El
+
+#VER "25" "230041" 20230202 "71460, Ellevio AB (publ)" momsandel: 14.79%
+#TRANS 2440 {} -1141 20230202 Leverantörsskulder
+#TRANS 2640 {} 33.75 20230202 Ingående moms
+#TRANS 4610 {} 1107.25 20230202 El
+
+#VER "25" "230042" 20230202 "71021, Ellevio AB (publ)" momsandel: 14.79%
+#TRANS 2440 {} -833 20230202 Leverantörsskulder
+#TRANS 2640 {} 24.64 20230202 Ingående moms
+#TRANS 4610 {} 808.36 20230202 El
+
+#VER "25" "230043" 20230202 "70927, Ellevio AB (publ)" momsandel: 14.79%
+#TRANS 2440 {} -5260 20230202 Leverantörsskulder
+#TRANS 2640 {} 155.6 20230202 Ingående moms
+#TRANS 4610 {} 5104.4 20230202 El
+
+#VER "25" "230044" 20230202 "70765, Ellevio AB (publ)" momsandel: 14.79%
+#TRANS 2440 {} -8302 20230202 Leverantörsskulder
+#TRANS 2640 {} 245.57 20230202 Ingående moms
+#TRANS 4610 {} 8056.43 20230202 El
+
+#VER "25" "230045" 20230202 "70493, Ellevio AB (publ)" momsandel: 14.79%
+#TRANS 2440 {} -583 20230202 Leverantörsskulder
+#TRANS 2640 {} 17.25 20230202 Ingående moms
+#TRANS 4610 {} 565.75 20230202 El
+
+#VER "25" "230046" 20230202 "70462, Ellevio AB (publ)" momsandel: 14.79%
+#TRANS 2440 {} -1237 20230202 Leverantörsskulder
+#TRANS 2640 {} 36.6 20230202 Ingående moms
+#TRANS 4610 {} 1200.4 20230202 El
+
+#VER "25" "230047" 20230202 "70432, Ellevio AB (publ)" momsandel: 14.82%
+#TRANS 2440 {} -110 20230202 Leverantörsskulder
+#TRANS 2640 {} 3.26 20230202 Ingående moms
+#TRANS 4610 {} 106.74 20230202 El
+
+#VER "25" "230049" 20230131 "68691, Qsec Sverige AB" momsandel: 14.79%
+#TRANS 2440 {} -163125 20230131 Leverantörsskulder
+#TRANS 2640 {} 4825.24 20230131 Ingående moms
+#TRANS 4500 {} 158299.76 20230131 Underhåll av byggnad
+
+#VER "25" "230050" 20230228 "95125, Elis Textil Service AB" momsandel: 14.79%
+#TRANS 2640 {} 233.2 20230228 Ingående moms
+#TRANS 4185 {} -233.2 20230228 Mattvätt/Hyrmattor
+#TRANS 2440 {} -7883.66 20230228 Leverantörsskulder
+#TRANS 4185 {} 7883.66 20230228 Mattvätt/Hyrmattor
+
+#VER "25" "230052" 20230117 "89261, G G HÖgtryckstjÄnst &" momsandel: 14.79%
+#TRANS 2440 {} -6283 20230117 Leverantörsskulder
+#TRANS 2640 {} 185.85 20230117 Ingående moms
+#TRANS 4341 {} 6097.15 20230117 VVS
+
+#VER "25" "230053" 20230228 "102438, Maries Puts & St?d Fastighet AB" momsandel: 14.79%
+#TRANS 2640 {} 420.11 20230228 Ingående moms
+#TRANS 4120 {} -420.11 20230228 Städning enligt avtal
+#TRANS 2440 {} -14203 20230228 Leverantörsskulder
+#TRANS 4120 {} 14203 20230228 Städning enligt avtal
+
+#VER "25" "230055" 20230301 "104957, Ellevio AB (publ)" momsandel: 14.79%
+#TRANS 2640 {} 182.2 20230301 Ingående moms
+#TRANS 4610 {} -182.2 20230301 El
+#TRANS 2440 {} -6160 20230301 Leverantörsskulder
+#TRANS 4610 {} 6160 20230301 El
+
+#VER "25" "230057" 20230301 "104973, Ellevio AB (publ)" momsandel: 14.79%
+#TRANS 2640 {} 147.64 20230301 Ingående moms
+#TRANS 4610 {} -147.64 20230301 El
+#TRANS 2440 {} -4991 20230301 Leverantörsskulder
+#TRANS 4610 {} 4991 20230301 El
+
+#VER "25" "230059" 20230301 "105099, Ellevio AB (publ)" momsandel: 14.80%
+#TRANS 2640 {} 16.46 20230301 Ingående moms
+#TRANS 4610 {} -16.46 20230301 El
+#TRANS 2440 {} -556 20230301 Leverantörsskulder
+#TRANS 4610 {} 556 20230301 El
+
+#VER "25" "230061" 20230301 "105118, Ellevio AB (publ)" momsandel: 14.79%
+#TRANS 2640 {} 30.85 20230301 Ingående moms
+#TRANS 4610 {} -30.85 20230301 El
+#TRANS 2440 {} -1043 20230301 Leverantörsskulder
+#TRANS 4610 {} 1043 20230301 El
+
+#VER "25" "230063" 20230301 "105124, Ellevio AB (publ)" momsandel: 14.79%
+#TRANS 2640 {} 37.28 20230301 Ingående moms
+#TRANS 4610 {} -37.28 20230301 El
+#TRANS 2440 {} -1260 20230301 Leverantörsskulder
+#TRANS 4610 {} 1260 20230301 El
+
+#VER "25" "230065" 20230213 "80401, Herman Pump AB" momsandel: 14.79%
+#TRANS 2440 {} -136133 20230213 Leverantörsskulder
+#TRANS 2640 {} 4026.8 20230213 Ingående moms
+#TRANS 4542 {} 132106.2 20230213 Värmeanläggning
+
+#VER "25" "230066" 20230303 "114809, Ellevio AB (publ)" momsandel: 14.79%
+#TRANS 2640 {} 59.57 20230303 Ingående moms
+#TRANS 4610 {} -59.57 20230303 El
+#TRANS 2440 {} -2014 20230303 Leverantörsskulder
+#TRANS 4610 {} 2014 20230303 El
+
+#VER "25" "230068" 20230303 "115081, Ellevio AB (publ)" momsandel: 14.79%
+#TRANS 2640 {} 22.84 20230303 Ingående moms
+#TRANS 4610 {} -22.84 20230303 El
+#TRANS 2440 {} -772 20230303 Leverantörsskulder
+#TRANS 4610 {} 772 20230303 El
+
+#VER "25" "230070" 20230303 "115096, Ellevio AB (publ)" momsandel: 14.81%
+#TRANS 2640 {} 3.14 20230303 Ingående moms
+#TRANS 4610 {} -3.14 20230303 El
+#TRANS 2440 {} -106 20230303 Leverantörsskulder
+#TRANS 4610 {} 106 20230303 El
+
+#VER "25" "230072" 20230217 "83705, Loopia AB (websupport)" momsandel: 14.79%
+#TRANS 2440 {} -783.75 20230217 Leverantörsskulder
+#TRANS 2640 {} 23.18 20230217 Ingående moms
+#TRANS 6500 {} 760.57 20230217 Administration
+
+#VER "25" "230073" 20230302 "117089, Stockholm Exergi AB" momsandel: 14.79%
+#TRANS 2640 {} 7019.19 20230302 Ingående moms
+#TRANS 4620 {} -7019.19 20230302 Uppvärmning
+#TRANS 2440 {} -237295 20230302 Leverantörsskulder
+#TRANS 4620 {} 237295 20230302 Uppvärmning
+
+#VER "25" "230075" 20230221 "79540, Hellgrens Lås AB" momsandel: 14.79%
+#TRANS 2440 {} -9685 20230221 Leverantörsskulder
+#TRANS 2640 {} 286.48 20230221 Ingående moms
+#TRANS 4336 {} 9398.52 20230221 Dörrar och lås/porttele
+
+#VER "25" "230076" 20230227 "117729, Weaudit Sweden AB" momsandel: 14.79%
+#TRANS 2440 {} -12219 20230227 Leverantörsskulder
+#TRANS 2640 {} 361.43 20230227 Ingående moms
+#TRANS 6550 {} 11857.57 20230227 Konsultkostnader
+
+#VER "25" "230077" 20230222 "86025, Una Portar AB" momsandel: 14.79%
+#TRANS 2440 {} -3891 20230222 Leverantörsskulder
+#TRANS 2640 {} 115.1 20230222 Ingående moms
+#TRANS 4370 {} 3775.9 20230222 Garage/parkering
+
+#VER "25" "230078" 20230304 "120183, 3 (hi3g Access Ab)" momsandel: 14.77%
+#TRANS 2640 {} 11.02 20230304 Ingående moms
+#TRANS 4761 {} -11.02 20230304 Bredband
+#TRANS 2440 {} -373 20230304 Leverantörsskulder
+#TRANS 4761 {} 373 20230304 Bredband
+
+#VER "25" "230080" 20230301 "96758, Stockholms Stadsnät AB" momsandel: 14.79%
+#TRANS 2440 {} -22770 20230301 Leverantörsskulder
+#TRANS 2640 {} 673.54 20230301 Ingående moms
+#TRANS 4761 {} 22096.46 20230301 Bredband
+
+#VER "25" "230081" 20230308 "123746, Brands?kra Norden AB" momsandel: 14.79%
+#TRANS 2640 {} 881.19 20230308 Ingående moms
+#TRANS 4146 {} -881.19 20230308 Brandskydd
+#TRANS 2440 {} -29790 20230308 Leverantörsskulder
+#TRANS 4146 {} 29790 20230308 Brandskydd
+
+#VER "25" "230083" 20230301 "115851, Tele2 Sverige AB" momsandel: 14.68%
+#TRANS 2440 {} -39618 20230301 Leverantörsskulder
+#TRANS 2640 {} 1163.01 20230301 Ingående moms
+#TRANS 4760 {} 38454.99 20230301 Kabel-TV
+
+#VER "25" "230085" 20230228 "92606, Sbc Sveriges BostadsrÄttscentrum AB" momsandel: 14.79%
+#TRANS 2440 {} -1838 20230228 Leverantörsskulder
+#TRANS 2640 {} 54.37 20230228 Ingående moms
+#TRANS 6500 {} 1783.63 20230228 Administration
+
+#VER "25" "230086" 20230304 "129368, 3 (hi3g Access Ab)" momsandel: 14.77%
+#TRANS 2640 {} 11.02 20230304 Ingående moms
+#TRANS 4761 {} -11.02 20230304 Bredband
+#TRANS 2440 {} -373 20230304 Leverantörsskulder
+#TRANS 4761 {} 373 20230304 Bredband
+
+#VER "25" "230088" 20230316 "129552, Stena Recycling AB" momsandel: 14.79%
+#TRANS 2640 {} 116.61 20230316 Ingående moms
+#TRANS 4641 {} -116.61 20230316 Grovsopor
+#TRANS 2440 {} -3942 20230316 Leverantörsskulder
+#TRANS 4641 {} 3942 20230316 Grovsopor
+
+#VER "25" "230090" 20230313 "131163, Telge Energi / Billogram" momsandel: 14.79%
+#TRANS 2640 {} 465.66 20230313 Ingående moms
+#TRANS 4610 {} -465.66 20230313 El
+#TRANS 2440 {} -15743 20230313 Leverantörsskulder
+#TRANS 4610 {} 15743 20230313 El
+
+#VER "25" "230092" 20230303 "108617, Trygga Hiss I Stockholm AB" momsandel: 14.79%
+#TRANS 2440 {} -1431 20230303 Leverantörsskulder
+#TRANS 2640 {} 42.34 20230303 Ingående moms
+#TRANS 4180 {} 1388.66 20230303 Serviceavtal
+
+#VER "25" "230093" 20230303 "108608, Trygga Hiss I Stockholm AB" momsandel: 14.79%
+#TRANS 2440 {} -1431 20230303 Leverantörsskulder
+#TRANS 2640 {} 42.34 20230303 Ingående moms
+#TRANS 4180 {} 1388.66 20230303 Serviceavtal
+
+#VER "25" "230094" 20230303 "108607, Trygga Hiss I Stockholm AB" momsandel: 14.79%
+#TRANS 2440 {} -1431 20230303 Leverantörsskulder
+#TRANS 2640 {} 42.34 20230303 Ingående moms
+#TRANS 4180 {} 1388.66 20230303 Serviceavtal
+
+#VER "25" "230095" 20230303 "108591, Trygga Hiss I Stockholm AB" momsandel: 14.79%
+#TRANS 2440 {} -1431 20230303 Leverantörsskulder
+#TRANS 2640 {} 42.34 20230303 Ingående moms
+#TRANS 4180 {} 1388.66 20230303 Serviceavtal
+
+#VER "25" "230096" 20230303 "108588, Trygga Hiss I Stockholm AB" momsandel: 14.79%
+#TRANS 2440 {} -1431 20230303 Leverantörsskulder
+#TRANS 2640 {} 42.34 20230303 Ingående moms
+#TRANS 4180 {} 1388.66 20230303 Serviceavtal
+
+#VER "25" "230097" 20230401 "135037, Sbc Sveriges Bostadsr?ttscentrum AB" momsandel: 14.79%
+#TRANS 2640 {} 737.39 20230401 Ingående moms
+#TRANS 6480 {} -737.39 20230401 Förvaltningsarvode enl avtal
+#TRANS 2440 {} -24929 20230401 Leverantörsskulder
+#TRANS 6480 {} 24929 20230401 Förvaltningsarvode enl avtal
+
+#VER "25" "230099" 20230221 "79540, Hellgrens Lås AB"
+#TRANS 2440 {} 0 20230221 Leverantörsskulder
+#TRANS 2640 {} 1650.52 20230221 Ingående moms
+#TRANS 4336 {} -1650.52 20230221 Dörrar och lås/porttele
+
+#VER "25" "230100" 20230224 "86763, Qsec Sverige AB"
+#TRANS 2440 {} 0 20230224 Leverantörsskulder
+#TRANS 2640 {} 4537.57 20230224 Ingående moms
+#TRANS 4541 {} -153400 20230224 VVS
+#TRANS 4542 {} 148862.43 20230224 Värmeanläggning
+
+#VER "25" "230101" 20230304 "129368, 3 (hi3g Access Ab)" momsandel: 14.77%
+#TRANS 2440 {} 373 20230304 Leverantörsskulder
+#TRANS 2640 {} -11.02 20230304 Ingående moms
+#TRANS 4761 {} -361.98 20230304 Bredband
+
+#VER "25" "230103" 20230228 "102481, Sbc Sveriges BostadsrÄttscentrum AB" momsandel: 14.77%
+#TRANS 2440 {} -388 20230228 Leverantörsskulder
+#TRANS 2640 {} 11.46 20230228 Ingående moms
+#TRANS 6500 {} 376.54 20230228 Administration
+
+#VER "25" "230104" 20230303 "123234, Sbc Sveriges BostadsrÄttscentrum AB" momsandel: 11.82%
+#TRANS 2440 {} -473 20230303 Leverantörsskulder
+#TRANS 2640 {} 11.18 20230303 Ingående moms
+#TRANS 6473 {} 461.82 20230303 Föreningskostnader
+
+#VER "25" "230105" 20230228 "109934, Csk Projekt AB" momsandel: 14.79%
+#TRANS 2440 {} -12500 20230228 Leverantörsskulder
+#TRANS 2640 {} 369.75 20230228 Ingående moms
+#TRANS 6550 {} 12130.25 20230228 Konsultkostnader
+
+#VER "25" "230107" 20230303 "108974, Trygga Hiss I Stockholm AB" momsandel: 14.79%
+#TRANS 2440 {} -2181 20230303 Leverantörsskulder
+#TRANS 2640 {} 64.52 20230303 Ingående moms
+#TRANS 4161 {} 727.57 20230303 Gemensamma utrymmen
+#TRANS 4180 {} 1388.91 20230303 Serviceavtal
+
+#VER "25" "230108" 20230301 "96875, Trygga Hiss I Stockholm AB" momsandel: 14.80%
+#TRANS 2440 {} -406 20230301 Leverantörsskulder
+#TRANS 2640 {} 12.02 20230301 Ingående moms
+#TRANS 4346 {} 393.98 20230301 Hissar
+
+#VER "25" "230109" 20230301 "96832, Trygga Hiss I Stockholm AB" momsandel: 14.80%
+#TRANS 2440 {} -406 20230301 Leverantörsskulder
+#TRANS 2640 {} 12.02 20230301 Ingående moms
+#TRANS 4346 {} 393.98 20230301 Hissar
+
+#VER "25" "230110" 20230301 "96737, Trygga Hiss I Stockholm AB" momsandel: 14.80%
+#TRANS 2440 {} -406 20230301 Leverantörsskulder
+#TRANS 2640 {} 12.02 20230301 Ingående moms
+#TRANS 4346 {} 393.98 20230301 Hissar
+
+#VER "25" "230111" 20230322 "142909, Brands?kra Norden AB" momsandel: 14.79%
+#TRANS 2640 {} -59.9 20230322 Ingående moms
+#TRANS 4146 {} 59.9 20230322 Brandskydd
+#TRANS 2440 {} 2025 20230322 Leverantörsskulder
+#TRANS 4146 {} -2025 20230322 Brandskydd
+
+#VER "25" "230113" 20230317 "144292, Kiwa Sweden AB" momsandel: 14.79%
+#TRANS 2640 {} 85.12 20230317 Ingående moms
+#TRANS 4140 {} -85.12 20230317 Hissbesiktning
+#TRANS 2440 {} -2877.5 20230317 Leverantörsskulder
+#TRANS 4140 {} 2877.5 20230317 Hissbesiktning
+
+#VER "25" "230115" 20230314 "143655, Herman Pump AB" momsandel: 14.79%
+#TRANS 2440 {} 6900 20230314 Leverantörsskulder
+#TRANS 2640 {} -204.1 20230314 Ingående moms
+#TRANS 4541 {} -6695.9 20230314 VVS
+
+#VER "25" "230116" 20230309 "119492, Trygga Hiss I Stockholm AB" momsandel: 14.80%
+#TRANS 2440 {} -406 20230309 Leverantörsskulder
+#TRANS 2640 {} 12.02 20230309 Ingående moms
+#TRANS 4180 {} 393.98 20230309 Serviceavtal
+
+#VER "25" "230117" 20230309 "119485, Trygga Hiss I Stockholm AB" momsandel: 14.80%
+#TRANS 2440 {} -406 20230309 Leverantörsskulder
+#TRANS 2640 {} 12.02 20230309 Ingående moms
+#TRANS 4180 {} 393.98 20230309 Serviceavtal
+
+#VER "25" "230118" 20230310 "149751, Herman Pump AB" momsandel: 14.79%
+#TRANS 2440 {} -79030 20230310 Leverantörsskulder
+#TRANS 2640 {} 2337.71 20230310 Ingående moms
+#TRANS 4341 {} 76692.29 20230310 VVS
+
+#VER "25" "230119" 20230304 "151888, 3 (hi3g Access Ab)" momsandel: 14.77%
+#TRANS 2640 {} 11.02 20230304 Ingående moms
+#TRANS 4761 {} -11.02 20230304 Bredband
+#TRANS 2440 {} -373 20230304 Leverantörsskulder
+#TRANS 4761 {} 373 20230304 Bredband
+
+#VER "25" "230121" 20230315 "128394, Trygga Hiss I Stockholm AB" momsandel: 14.79%
+#TRANS 2440 {} -7750 20230315 Leverantörsskulder
+#TRANS 2640 {} 229.25 20230315 Ingående moms
+#TRANS 4346 {} 7520.75 20230315 Hissar
+
+#VER "25" "230122" 20230315 "128370, Trygga Hiss I Stockholm AB" momsandel: 14.79%
+#TRANS 2440 {} -1775 20230315 Leverantörsskulder
+#TRANS 2640 {} 52.5 20230315 Ingående moms
+#TRANS 4140 {} 1722.5 20230315 Hissbesiktning
+
+#VER "25" "230123" 20230315 "144152, Stockholm Vatten AB" momsandel: 14.79%
+#TRANS 2440 {} -11534 20230315 Leverantörsskulder
+#TRANS 2640 {} 341.18 20230315 Ingående moms
+#TRANS 4630 {} 11192.82 20230315 Vatten
+
+#VER "25" "230124" 20230315 "144124, Stockholm Vatten AB" momsandel: 14.79%
+#TRANS 2440 {} -26336 20230315 Leverantörsskulder
+#TRANS 2640 {} 779.03 20230315 Ingående moms
+#TRANS 4630 {} 25556.97 20230315 Vatten
+
+#VER "25" "230125" 20230315 "144115, Stockholm Vatten AB" momsandel: 14.79%
+#TRANS 2440 {} -10818 20230315 Leverantörsskulder
+#TRANS 2640 {} 320 20230315 Ingående moms
+#TRANS 4630 {} 10498 20230315 Vatten
+
+#VER "25" "230127" 20230331 "156502, Elis Textil Service AB" momsandel: 14.79%
+#TRANS 2640 {} 233.2 20230331 Ingående moms
+#TRANS 4185 {} -233.2 20230331 Mattvätt/Hyrmattor
+#TRANS 2440 {} -7883.66 20230331 Leverantörsskulder
+#TRANS 4185 {} 7883.66 20230331 Mattvätt/Hyrmattor
+
+#VER "25" "230130" 20230321 "140708, G G HÖgtryckstjÄnst &" momsandel: 14.79%
+#TRANS 2440 {} -3488 20230321 Leverantörsskulder
+#TRANS 2640 {} 103.16 20230321 Ingående moms
+#TRANS 4341 {} 3384.84 20230321 VVS
+
+#VER "25" "230133" 20230331 "785338, Maries Puts & St?d Fastighet AB" momsandel: 14.79%
+#TRANS 2640 {} 441.11 20230331 Ingående moms
+#TRANS 4120 {} -441.11 20230331 Städning enligt avtal
+#TRANS 2440 {} -14913 20230331 Leverantörsskulder
+#TRANS 4120 {} 14913 20230331 Städning enligt avtal
+
+#VER "25" "230135" 20230403 "787524, Ellevio AB (publ)" momsandel: 14.81%
+#TRANS 2640 {} 3.14 20230403 Ingående moms
+#TRANS 4610 {} -3.14 20230403 El
+#TRANS 2440 {} -106 20230403 Leverantörsskulder
+#TRANS 4610 {} 106 20230403 El
+
+#VER "25" "230137" 20230403 "787541, Ellevio AB (publ)" momsandel: 14.80%
+#TRANS 2640 {} 17.02 20230403 Ingående moms
+#TRANS 4610 {} -17.02 20230403 El
+#TRANS 2440 {} -575 20230403 Leverantörsskulder
+#TRANS 4610 {} 575 20230403 El
+
+#VER "25" "230139" 20230403 "787683, Ellevio AB (publ)" momsandel: 14.79%
+#TRANS 2640 {} 61.05 20230403 Ingående moms
+#TRANS 4610 {} -61.05 20230403 El
+#TRANS 2440 {} -2064 20230403 Leverantörsskulder
+#TRANS 4610 {} 2064 20230403 El
+
+#VER "25" "230141" 20230403 "787724, Ellevio AB (publ)" momsandel: 14.79%
+#TRANS 2640 {} 38.8 20230403 Ingående moms
+#TRANS 4610 {} -38.8 20230403 El
+#TRANS 2440 {} -1312 20230403 Leverantörsskulder
+#TRANS 4610 {} 1312 20230403 El
+
+#VER "25" "230143" 20230403 "787877, Ellevio AB (publ)" momsandel: 14.79%
+#TRANS 2640 {} 22.07 20230403 Ingående moms
+#TRANS 4610 {} -22.07 20230403 El
+#TRANS 2440 {} -746 20230403 Leverantörsskulder
+#TRANS 4610 {} 746 20230403 El
+
+#VER "25" "230145" 20230404 "789625, Ellevio AB (publ)" momsandel: 14.79%
+#TRANS 2640 {} 169.64 20230404 Ingående moms
+#TRANS 4610 {} -169.64 20230404 El
+#TRANS 2440 {} -5735 20230404 Leverantörsskulder
+#TRANS 4610 {} 5735 20230404 El
+
+#VER "25" "230147" 20230404 "789871, Ellevio AB (publ)" momsandel: 14.79%
+#TRANS 2640 {} 55.97 20230404 Ingående moms
+#TRANS 4610 {} -55.97 20230404 El
+#TRANS 2440 {} -1892 20230404 Leverantörsskulder
+#TRANS 4610 {} 1892 20230404 El
+
+#VER "25" "230149" 20230404 "790057, Ellevio AB (publ)" momsandel: 14.79%
+#TRANS 2640 {} 32.89 20230404 Ingående moms
+#TRANS 4610 {} -32.89 20230404 El
+#TRANS 2440 {} -1112 20230404 Leverantörsskulder
+#TRANS 4610 {} 1112 20230404 El
+
+#VER "25" "230151" 20230329 "789141, West Studios AB" momsandel: 4.19%
+#TRANS 2440 {} -7323 20230329 Leverantörsskulder
+#TRANS 2640 {} 61.31 20230329 Ingående moms
+#TRANS 6500 {} 7261.69 20230329 Administration
+
+#VER "25" "230152" 20230406 "793935, 3 (hi3g Access Ab)" momsandel: 12.73%
+#TRANS 2640 {} 11.02 20230406 Ingående moms
+#TRANS 4761 {} -11.02 20230406 Bredband
+#TRANS 2440 {} -433 20230406 Leverantörsskulder
+#TRANS 4761 {} 433 20230406 Bredband
+
+#VER "25" "230154" 20230414 "795073, Stena Recycling AB" momsandel: 14.79%
+#TRANS 2640 {} 118.68 20230414 Ingående moms
+#TRANS 4641 {} -118.68 20230414 Grovsopor
+#TRANS 2440 {} -4012 20230414 Leverantörsskulder
+#TRANS 4641 {} 4012 20230414 Grovsopor
+
+#VER "25" "230157" 20230331 "152704, Boka Tvättid Sverige AB" momsandel: 14.79%
+#TRANS 2440 {} -1309 20230331 Leverantörsskulder
+#TRANS 2640 {} 38.71 20230331 Ingående moms
+#TRANS 6210 {} 1270.29 20230331 Tele- och datakommunikation
+
+#VER "25" "230158" 20230403 "796779, Stockholm Exergi AB" momsandel: 14.79%
+#TRANS 2640 {} 7271.06 20230403 Ingående moms
+#TRANS 4620 {} -7271.06 20230403 Uppvärmning
+#TRANS 2440 {} -245810 20230403 Leverantörsskulder
+#TRANS 4620 {} 245810 20230403 Uppvärmning
+
+#VER "25" "230160" 20230413 "798334, Telge Energi / Billogram" momsandel: 14.79%
+#TRANS 2640 {} 278.91 20230413 Ingående moms
+#TRANS 4610 {} -278.91 20230413 El
+#TRANS 2440 {} -9428 20230413 Leverantörsskulder
+#TRANS 4610 {} 9428 20230413 El
+
+#VER "25" "230166" 20230331 "156448, SBC Sveriges Bostadsrättscentrum AB" momsandel: 14.79%
+#TRANS 2440 {} -32375 20230331 Leverantörsskulder
+#TRANS 2640 {} 957.65 20230331 Ingående moms
+#TRANS 6320 {} 31417.35 20230331 Juridiska åtgärder
+
+#VER "25" "230167" 20230406 "804827, 3 (hi3g Access Ab)" momsandel: 12.73%
+#TRANS 2640 {} 11.02 20230406 Ingående moms
+#TRANS 4761 {} -11.02 20230406 Bredband
+#TRANS 2440 {} -433 20230406 Leverantörsskulder
+#TRANS 4761 {} 433 20230406 Bredband
+
+#VER "25" "230169" 20230413 "803530, Stockholms Inbrottsskydd AB" momsandel: 14.79%
+#TRANS 2440 {} -6500 20230413 Leverantörsskulder
+#TRANS 2640 {} 192.27 20230413 Ingående moms
+#TRANS 4336 {} 6307.73 20230413 Dörrar och lås/porttele
+
+#VER "25" "230171" 20230406 "808415, 3 (hi3g Access Ab)" momsandel: 12.73%
+#TRANS 2640 {} 11.02 20230406 Ingående moms
+#TRANS 4761 {} -11.02 20230406 Bredband
+#TRANS 2440 {} -433 20230406 Leverantörsskulder
+#TRANS 4761 {} 433 20230406 Bredband
+
+#VER "25" "230173" 20230418 "809062, Stockholm Vatten AB" momsandel: 14.79%
+#TRANS 2640 {} 840.35 20230418 Ingående moms
+#TRANS 4630 {} -840.35 20230418 Vatten
+#TRANS 2440 {} -28409 20230418 Leverantörsskulder
+#TRANS 4630 {} 28409 20230418 Vatten
+
+#VER "25" "230175" 20230413 "803530, Stockholms Inbrottsskydd AB"
+#TRANS 2440 {} 0 20230413 Leverantörsskulder
+#TRANS 2640 {} -192.27 20230413 Ingående moms
+#TRANS 2640 {} 1300 20230413 Ingående moms
+#TRANS 4336 {} -1107.73 20230413 Dörrar och lås/porttele
+
+#VER "25" "230176" 20230430 "816892, Elis Textil Service AB" momsandel: 14.79%
+#TRANS 2640 {} 233.2 20230430 Ingående moms
+#TRANS 4185 {} -233.2 20230430 Mattvätt/Hyrmattor
+#TRANS 2440 {} -7883.66 20230430 Leverantörsskulder
+#TRANS 4185 {} 7883.66 20230430 Mattvätt/Hyrmattor
+
+#VER "25" "230178" 20230428 "816162, SBC Sveriges Bostadsrättscentrum AB" momsandel: 14.79%
+#TRANS 2440 {} -4531 20230428 Leverantörsskulder
+#TRANS 2640 {} 134.03 20230428 Ingående moms
+#TRANS 6320 {} 4396.97 20230428 Juridiska åtgärder
+
+#VER "25" "230179" 20230503 "821138, SBC Sveriges Bostadsrättscentrum AB" momsandel: 14.77%
+#TRANS 2440 {} -329 20230503 Leverantörsskulder
+#TRANS 2640 {} 9.72 20230503 Ingående moms
+#TRANS 6061 {} 319.28 20230503 Kreditupplysning
+
+#VER "25" "230180" 20230430 "829950, Maries Puts & St?d Fastighet AB" momsandel: 14.79%
+#TRANS 2640 {} 441.11 20230430 Ingående moms
+#TRANS 4120 {} -441.11 20230430 Städning enligt avtal
+#TRANS 2440 {} -14913 20230430 Leverantörsskulder
+#TRANS 4120 {} 14913 20230430 Städning enligt avtal
+
+#VER "25" "230182" 20230502 "830382, Ellevio AB (publ)" momsandel: 14.81%
+#TRANS 2640 {} 3.11 20230502 Ingående moms
+#TRANS 4610 {} -3.11 20230502 El
+#TRANS 2440 {} -105 20230502 Leverantörsskulder
+#TRANS 4610 {} 105 20230502 El
+
+#VER "25" "230184" 20230502 "830533, Ellevio AB (publ)" momsandel: 14.79%
+#TRANS 2640 {} 16.74 20230502 Ingående moms
+#TRANS 4610 {} -16.74 20230502 El
+#TRANS 2440 {} -566 20230502 Leverantörsskulder
+#TRANS 4610 {} 566 20230502 El
+
+#VER "25" "230186" 20230503 "834089, Ellevio AB (publ)" momsandel: 14.79%
+#TRANS 2640 {} 38.24 20230503 Ingående moms
+#TRANS 4610 {} -38.24 20230503 El
+#TRANS 2440 {} -1293 20230503 Leverantörsskulder
+#TRANS 4610 {} 1293 20230503 El
+
+#VER "25" "230188" 20230406 "835771, 3 (hi3g Access Ab)" momsandel: 12.73%
+#TRANS 2640 {} 11.02 20230406 Ingående moms
+#TRANS 4761 {} -11.02 20230406 Bredband
+#TRANS 2440 {} -433 20230406 Leverantörsskulder
+#TRANS 4761 {} 433 20230406 Bredband
+
+#VER "25" "230190" 20230504 "836818, Ellevio AB (publ)" momsandel: 14.80%
+#TRANS 2640 {} 22.14 20230504 Ingående moms
+#TRANS 4610 {} -22.14 20230504 El
+#TRANS 2440 {} -748 20230504 Leverantörsskulder
+#TRANS 4610 {} 748 20230504 El
+
+#VER "25" "230192" 20230504 "836819, Ellevio AB (publ)" momsandel: 14.79%
+#TRANS 2640 {} 58.22 20230504 Ingående moms
+#TRANS 4610 {} -58.22 20230504 El
+#TRANS 2440 {} -1968 20230504 Leverantörsskulder
+#TRANS 4610 {} 1968 20230504 El
+
+#VER "25" "230194" 20230504 "837072, Ellevio AB (publ)" momsandel: 14.80%
+#TRANS 2640 {} 31.81 20230504 Ingående moms
+#TRANS 4610 {} -31.81 20230504 El
+#TRANS 2440 {} -1075 20230504 Leverantörsskulder
+#TRANS 4610 {} 1075 20230504 El
+
+#VER "25" "230196" 20230406 "835771, 3 (hi3g Access Ab)"
+#TRANS 2440 {} 0 20230406 Leverantörsskulder
+#TRANS 2640 {} -11.02 20230406 Ingående moms
+#TRANS 4761 {} 11.02 20230406 Bredband
+
+#VER "25" "230197" 20230502 "839118, Stockholm Exergi AB" momsandel: 14.79%
+#TRANS 2640 {} 3087.03 20230502 Ingående moms
+#TRANS 4620 {} -3087.03 20230502 Uppvärmning
+#TRANS 2440 {} -104362 20230502 Leverantörsskulder
+#TRANS 4620 {} 104362 20230502 Uppvärmning
+
+#VER "25" "230199" 20230510 "843625, Brands?kra Norden AB" momsandel: 14.79%
+#TRANS 2640 {} 1322.58 20230510 Ingående moms
+#TRANS 4146 {} -1322.58 20230510 Brandskydd
+#TRANS 2440 {} -44712 20230510 Leverantörsskulder
+#TRANS 4146 {} 44712 20230510 Brandskydd
+
+#VER "25" "230201" 20230512 "843999, Söderkyl AB" momsandel: 14.79%
+#TRANS 2440 {} -2378 20230512 Leverantörsskulder
+#TRANS 2640 {} 70.33 20230512 Ingående moms
+#TRANS 4191 {} 2307.67 20230512 Förbrukningsmaterial
+
+#VER "25" "230202" 20230515 "846036, Stena Recycling AB" momsandel: 14.79%
+#TRANS 2640 {} 112.62 20230515 Ingående moms
+#TRANS 4641 {} -112.62 20230515 Grovsopor
+#TRANS 2440 {} -3807 20230515 Leverantörsskulder
+#TRANS 4641 {} 3807 20230515 Grovsopor
+
+#VER "25" "230204" 20230511 "847982, Ellevio AB (publ)" momsandel: 14.79%
+#TRANS 2640 {} 117.72 20230511 Ingående moms
+#TRANS 4610 {} -117.72 20230511 El
+#TRANS 2440 {} -3980 20230511 Leverantörsskulder
+#TRANS 4610 {} 3980 20230511 El
+
+#VER "25" "230206" 20230511 "848099, Ellevio AB (publ)" momsandel: 14.79%
+#TRANS 2640 {} 67.23 20230511 Ingående moms
+#TRANS 4610 {} -67.23 20230511 El
+#TRANS 2440 {} -2273 20230511 Leverantörsskulder
+#TRANS 4610 {} 2273 20230511 El
+
+#VER "25" "230208" 20230512 "848141, Telge Energi / Billogram" momsandel: 14.79%
+#TRANS 2640 {} 254.06 20230512 Ingående moms
+#TRANS 4610 {} -254.06 20230512 El
+#TRANS 2440 {} -8590 20230512 Leverantörsskulder
+#TRANS 4610 {} 8590 20230512 El
+
+#VER "25" "230211" 20230516 "849767, Brands?kra Norden AB" momsandel: 14.79%
+#TRANS 2640 {} -210.98 20230516 Ingående moms
+#TRANS 4146 {} 210.98 20230516 Brandskydd
+#TRANS 2440 {} 7133 20230516 Leverantörsskulder
+#TRANS 4146 {} -7133 20230516 Brandskydd
+
+#VER "25" "230213" 20230516 "852748, Fortum Markets AB" momsandel: 14.84%
+#TRANS 2640 {} 1.81 20230516 Ingående moms
+#TRANS 4610 {} -1.81 20230516 El
+#TRANS 2440 {} -61 20230516 Leverantörsskulder
+#TRANS 4610 {} 61 20230516 El
+
+#VER "25" "230216" 20230516 "853768, Stockholm Vatten AB" momsandel: 14.79%
+#TRANS 2640 {} 327.63 20230516 Ingående moms
+#TRANS 4630 {} -327.63 20230516 Vatten
+#TRANS 2440 {} -11076 20230516 Leverantörsskulder
+#TRANS 4630 {} 11076 20230516 Vatten
+
+#VER "25" "230218" 20230516 "853769, Stockholm Vatten AB" momsandel: 14.79%
+#TRANS 2640 {} 348.81 20230516 Ingående moms
+#TRANS 4630 {} -348.81 20230516 Vatten
+#TRANS 2440 {} -11792 20230516 Leverantörsskulder
+#TRANS 4630 {} 11792 20230516 Vatten
+
+#VER "25" "230220" 20230516 "853778, Stockholm Vatten AB" momsandel: 14.79%
+#TRANS 2640 {} 793.25 20230516 Ingående moms
+#TRANS 4630 {} -793.25 20230516 Vatten
+#TRANS 2440 {} -26817 20230516 Leverantörsskulder
+#TRANS 4630 {} 26817 20230516 Vatten
+
+#VER "25" "230223" 20230519 "854090, Loopia AB (websupport)" momsandel: 14.79%
+#TRANS 2440 {} -783.75 20230519 Leverantörsskulder
+#TRANS 2640 {} 23.18 20230519 Ingående moms
+#TRANS 6500 {} 760.57 20230519 Administration
+
+#VER "25" "230225" 20230522 "857396, Relux Elinstallationer AB" momsandel: 14.79%
+#TRANS 2440 {} -4699 20230522 Leverantörsskulder
+#TRANS 2640 {} 138.99 20230522 Ingående moms
+#TRANS 4321 {} 4560.01 20230522 Hyreslokaler
+
+#VER "25" "230226" 20230525 "860789, Home Solutions I Sverige AB" momsandel: 14.79%
+#TRANS 2440 {} -78694 20230525 Leverantörsskulder
+#TRANS 2640 {} 2327.76 20230525 Ingående moms
+#TRANS 4545 {} 76366.24 20230525 Tele/TV/bredband/porttelefon
+
+#VER "25" "230227" 20230528 "863204, Relux Elinstallationer AB" momsandel: 67.86%
+#TRANS 2440 {} -16693 20230528 Leverantörsskulder
+#TRANS 2640 {} 2265.71 20230528 Ingående moms
+#TRANS 4321 {} 8318 20230528 Hyreslokaler
+#TRANS 4344 {} 6109.29 20230528 Elinstallationer
+
+#VER "25" "230228" 20230406 "808415, 3 (hi3g Access Ab)" momsandel: 12.73%
+#TRANS 2440 {} 433 20230406 Leverantörsskulder
+#TRANS 2640 {} -11.02 20230406 Ingående moms
+#TRANS 4761 {} -421.98 20230406 Bredband
+
+#VER "25" "230229" 20230526 "863235, Lennart Söderbergs Service AB" momsandel: 14.79%
+#TRANS 2440 {} -90188 20230526 Leverantörsskulder
+#TRANS 2640 {} 2667.75 20230526 Ingående moms
+#TRANS 4532 {} 87520.25 20230526 Entr/trapphus
+
+#VER "25" "230230" 20230531 "869513, Elis Textil Service AB" momsandel: 14.79%
+#TRANS 2640 {} 154.13 20230531 Ingående moms
+#TRANS 4185 {} -154.13 20230531 Mattvätt/Hyrmattor
+#TRANS 2440 {} -5210.51 20230531 Leverantörsskulder
+#TRANS 4185 {} 5210.51 20230531 Mattvätt/Hyrmattor
+
+#VER "25" "230232" 20230401 "151888, 3 (hi3g Access Ab)" momsandel: 14.77%
+#TRANS 2440 {} 373 20230401 Leverantörsskulder
+#TRANS 2640 {} -11.02 20230401 Ingående moms
+#TRANS 4761 {} -361.98 20230401 Bredband
+
+#VER "25" "230233" 20230406 "804827, 3 (hi3g Access Ab)" momsandel: 12.73%
+#TRANS 2440 {} 433 20230406 Leverantörsskulder
+#TRANS 2640 {} -11.02 20230406 Ingående moms
+#TRANS 4761 {} -421.98 20230406 Bredband
+
+#VER "25" "230234" 20230505 "874933, 3 (hi3g Access Ab)" momsandel: 14.79%
+#TRANS 2640 {} 18.66 20230505 Ingående moms
+#TRANS 4761 {} -18.66 20230505 Bredband
+#TRANS 2440 {} -631 20230505 Leverantörsskulder
+#TRANS 4761 {} 631 20230505 Bredband
+
+#VER "25" "230236" 20230528 "879404, ?lvsj? Vvs Centrum 23 AB" momsandel: 14.79%
+#TRANS 2640 {} 2639.28 20230528 Ingående moms
+#TRANS 4341 {} -2639.28 20230528 VVS
+#TRANS 2440 {} -89225 20230528 Leverantörsskulder
+#TRANS 4341 {} 89225 20230528 VVS
+
+#VER "25" "230238" 20230527 "879405, ?lvsj? Vvs Centrum 23 AB" momsandel: 14.79%
+#TRANS 2640 {} 816.96 20230527 Ingående moms
+#TRANS 4341 {} -816.96 20230527 VVS
+#TRANS 2440 {} -27619 20230527 Leverantörsskulder
+#TRANS 4341 {} 27619 20230527 VVS
+
+#VER "25" "230240" 20230531 "881950, Weaudit Sweden AB" momsandel: 14.79%
+#TRANS 2440 {} -4313 20230531 Leverantörsskulder
+#TRANS 2640 {} 127.56 20230531 Ingående moms
+#TRANS 6420 {} 4185.44 20230531 Revisionsarvoden extern revisor
+
+#VER "25" "230241" 20230531 "870942, SBC Sveriges Bostadsrättscentrum AB" momsandel: 14.79%
+#TRANS 2440 {} -17813 20230531 Leverantörsskulder
+#TRANS 2640 {} 526.89 20230531 Ingående moms
+#TRANS 6473 {} 17286.11 20230531 Föreningskostnader
+
+#VER "25" "230242" 20230531 "883704, Maries Puts & St?d Fastighet AB" momsandel: 14.79%
+#TRANS 2640 {} 441.11 20230531 Ingående moms
+#TRANS 4120 {} -441.11 20230531 Städning enligt avtal
+#TRANS 2440 {} -14913 20230531 Leverantörsskulder
+#TRANS 4120 {} 14913 20230531 Städning enligt avtal
+
+#VER "25" "230244" 20230601 "883988, Ellevio AB (publ)" momsandel: 14.78%
+#TRANS 2640 {} 16.5 20230601 Ingående moms
+#TRANS 4610 {} -16.5 20230601 El
+#TRANS 2440 {} -558 20230601 Leverantörsskulder
+#TRANS 4610 {} 558 20230601 El
+
+#VER "25" "230246" 20230601 "884086, Ellevio AB (publ)" momsandel: 14.79%
+#TRANS 2640 {} 112.5 20230601 Ingående moms
+#TRANS 4610 {} -112.5 20230601 El
+#TRANS 2440 {} -3803 20230601 Leverantörsskulder
+#TRANS 4610 {} 3803 20230601 El
+
+#VER "25" "230248" 20230426 "886555, Weaudit Sweden AB" momsandel: 14.79%
+#TRANS 2440 {} -30813 20230426 Leverantörsskulder
+#TRANS 2640 {} 911.43 20230426 Ingående moms
+#TRANS 6420 {} 29901.57 20230426 Revisionsarvoden extern revisor
+
+#VER "25" "230249" 20230602 "886940, Ellevio AB (publ)" momsandel: 14.79%
+#TRANS 2640 {} 34.52 20230602 Ingående moms
+#TRANS 4610 {} -34.52 20230602 El
+#TRANS 2440 {} -1167 20230602 Leverantörsskulder
+#TRANS 4610 {} 1167 20230602 El
+
+#VER "25" "230251" 20230602 "887118, Ellevio AB (publ)" momsandel: 14.81%
+#TRANS 2640 {} 3.11 20230602 Ingående moms
+#TRANS 4610 {} -3.11 20230602 El
+#TRANS 2440 {} -105 20230602 Leverantörsskulder
+#TRANS 4610 {} 105 20230602 El
+
+#VER "25" "230253" 20230602 "887301, Ellevio AB (publ)" momsandel: 14.79%
+#TRANS 2640 {} 31.95 20230602 Ingående moms
+#TRANS 4610 {} -31.95 20230602 El
+#TRANS 2440 {} -1080 20230602 Leverantörsskulder
+#TRANS 4610 {} 1080 20230602 El
+
+#VER "25" "230255" 20230602 "887322, Ellevio AB (publ)" momsandel: 14.79%
+#TRANS 2640 {} 22.42 20230602 Ingående moms
+#TRANS 4610 {} -22.42 20230602 El
+#TRANS 2440 {} -758 20230602 Leverantörsskulder
+#TRANS 4610 {} 758 20230602 El
+
+#VER "25" "230257" 20230602 "887331, Ellevio AB (publ)" momsandel: 14.79%
+#TRANS 2640 {} 55.2 20230602 Ingående moms
+#TRANS 4610 {} -55.2 20230602 El
+#TRANS 2440 {} -1866 20230602 Leverantörsskulder
+#TRANS 4610 {} 1866 20230602 El
+
+#VER "25" "230259" 20230601 "871190, Stockholms Stadsnät AB" momsandel: 14.79%
+#TRANS 2440 {} -22770 20230601 Leverantörsskulder
+#TRANS 2640 {} 673.54 20230601 Ingående moms
+#TRANS 4761 {} 22096.46 20230601 Bredband
+
+#VER "25" "230260" 20230531 "880674, Sepu AB" momsandel: 14.79%
+#TRANS 2440 {} -29476 20230531 Leverantörsskulder
+#TRANS 2640 {} 871.91 20230531 Ingående moms
+#TRANS 4352 {} 28604.09 20230531 Fasader
+
+#VER "25" "230261" 20230602 "2188687, Stockholm Exergi AB" momsandel: 14.79%
+#TRANS 2640 {} 2476.46 20230602 Ingående moms
+#TRANS 4620 {} -2476.46 20230602 Uppvärmning
+#TRANS 2440 {} -83721 20230602 Leverantörsskulder
+#TRANS 4620 {} 83721 20230602 Uppvärmning
+
+#VER "25" "230263" 20230604 "2232772, 3 (hi3g Access Ab)" momsandel: 14.77%
+#TRANS 2640 {} 11.02 20230604 Ingående moms
+#TRANS 4761 {} -11.02 20230604 Bredband
+#TRANS 2440 {} -373 20230604 Leverantörsskulder
+#TRANS 4761 {} 373 20230604 Bredband
+
+#VER "25" "230265" 20230601 "889464, Tele2 Sverige AB" momsandel: 14.66%
+#TRANS 2440 {} -39670 20230601 Leverantörsskulder
+#TRANS 2640 {} 1163.44 20230601 Ingående moms
+#TRANS 4760 {} 38506.56 20230601 Kabel-TV
+
+#VER "25" "230266" 20230610 "3353158, ?lvsj? Vvs Centrum 23 AB" momsandel: 14.79%
+#TRANS 2640 {} 2537.46 20230610 Ingående moms
+#TRANS 4341 {} -2537.46 20230610 VVS
+#TRANS 2440 {} -85783 20230610 Leverantörsskulder
+#TRANS 4341 {} 85783 20230610 VVS
+
+#VER "25" "230268" 20230401 "407210, Svenska Asbestsanerarna"
+#TRANS 2440 {} 0 20230401 Leverantörsskulder
+#TRANS 2640 {} 1206 20230401 Ingående moms
+#TRANS 4385 {} 4825 20230401 Skador/klotter/skadegörelse
+#TRANS 4385 {} -6031 20230401 Skador/klotter/skadegörelse
+
+#VER "25" "230269" 20230506 "2862050, Svenska Asbestsanerarna" momsandel: 14.79%
+#TRANS 2440 {} -19875 20230506 Leverantörsskulder
+#TRANS 2640 {} 587.9 20230506 Ingående moms
+#TRANS 4385 {} 19287.1 20230506 Skador/klotter/skadegörelse
+
+#VER "25" "230271" 20230615 "3473035, Stena Recycling AB" momsandel: 14.79%
+#TRANS 2640 {} 129.1 20230615 Ingående moms
+#TRANS 4641 {} -129.1 20230615 Grovsopor
+#TRANS 2440 {} -4364 20230615 Leverantörsskulder
+#TRANS 4641 {} 4364 20230615 Grovsopor
+
+#VER "25" "230273" 20230612 "3474412, Ellevio AB (publ)" momsandel: 14.79%
+#TRANS 2640 {} 78.75 20230612 Ingående moms
+#TRANS 4610 {} -78.75 20230612 El
+#TRANS 2440 {} -2662 20230612 Leverantörsskulder
+#TRANS 4610 {} 2662 20230612 El
+
+#VER "25" "230275" 20230703 "3474479, SBC Sveriges Bostadsr?ttscentrum AB" momsandel: 14.79%
+#TRANS 2640 {} 758.75 20230703 Ingående moms
+#TRANS 6480 {} -758.75 20230703 Förvaltningsarvode enl avtal
+#TRANS 2440 {} -25651 20230703 Leverantörsskulder
+#TRANS 6480 {} 25651 20230703 Förvaltningsarvode enl avtal
+
+#VER "25" "230277" 20230612 "3477052, Fortum Markets AB" momsandel: 14.84%
+#TRANS 2640 {} 1.81 20230612 Ingående moms
+#TRANS 4610 {} -1.81 20230612 El
+#TRANS 2440 {} -61 20230612 Leverantörsskulder
+#TRANS 4610 {} 61 20230612 El
+
+#VER "25" "230279" 20230613 "3478559, Telge Energi / Billogram" momsandel: 14.79%
+#TRANS 2640 {} 145.09 20230613 Ingående moms
+#TRANS 4610 {} -145.09 20230613 El
+#TRANS 2440 {} -4905 20230613 Leverantörsskulder
+#TRANS 4610 {} 4905 20230613 El
+
+#VER "25" "230281" 20230613 "2277497, Hellgrens Lås AB" momsandel: 14.79%
+#TRANS 2440 {} -2422 20230613 Leverantörsskulder
+#TRANS 2640 {} 71.64 20230613 Ingående moms
+#TRANS 4336 {} 2350.36 20230613 Dörrar och lås/porttele
+
+#VER "25" "230282" 20230613 "2232663, Hellgrens Lås AB" momsandel: 14.79%
+#TRANS 2440 {} -5813 20230613 Leverantörsskulder
+#TRANS 2640 {} 171.93 20230613 Ingående moms
+#TRANS 4336 {} 5641.07 20230613 Dörrar och lås/porttele
+
+#VER "25" "230285" 20230619 "3480293, Trygga Hiss I Stockholm AB" momsandel: 14.79%
+#TRANS 2440 {} -3206 20230619 Leverantörsskulder
+#TRANS 2640 {} 94.84 20230619 Ingående moms
+#TRANS 4346 {} 3111.16 20230619 Hissar
+
+#VER "25" "230286" 20230630 "3495602, ?lvsj? Vvs Centrum 23 AB" momsandel: 14.79%
+#TRANS 2640 {} 308.77 20230630 Ingående moms
+#TRANS 4341 {} -308.77 20230630 VVS
+#TRANS 2440 {} -10439 20230630 Leverantörsskulder
+#TRANS 4341 {} 10439 20230630 VVS
+
+#VER "25" "230288" 20230630 "3498529, Elis Textil Service AB" momsandel: 14.79%
+#TRANS 2640 {} 124.24 20230630 Ingående moms
+#TRANS 4185 {} -124.24 20230630 Mattvätt/Hyrmattor
+#TRANS 2440 {} -4200.1 20230630 Leverantörsskulder
+#TRANS 4185 {} 4200.1 20230630 Mattvätt/Hyrmattor
+
+#VER "25" "230290" 20230630 "3498811, ?lvsj? Vvs Centrum 23 AB" momsandel: 14.79%
+#TRANS 2640 {} 308.77 20230630 Ingående moms
+#TRANS 4341 {} -308.77 20230630 VVS
+#TRANS 2440 {} -10439 20230630 Leverantörsskulder
+#TRANS 4341 {} 10439 20230630 VVS
+
+#VER "25" "230292" 20230630 "3498811, ÄlvsjÖ Vvs Centrum 23 AB" momsandel: 14.79%
+#TRANS 2440 {} 10439 20230630 Leverantörsskulder
+#TRANS 2640 {} -308.77 20230630 Ingående moms
+#TRANS 4341 {} -10130.23 20230630 VVS
+
+#VER "25" "230293" 20230703 "3508081, Ellevio AB (publ)" momsandel: 14.81%
+#TRANS 2640 {} 3.14 20230703 Ingående moms
+#TRANS 4610 {} -3.14 20230703 El
+#TRANS 2440 {} -106 20230703 Leverantörsskulder
+#TRANS 4610 {} 106 20230703 El
+
+#VER "25" "230295" 20230703 "3508158, Ellevio AB (publ)" momsandel: 14.79%
+#TRANS 2640 {} 38.87 20230703 Ingående moms
+#TRANS 4610 {} -38.87 20230703 El
+#TRANS 2440 {} -1314 20230703 Leverantörsskulder
+#TRANS 4610 {} 1314 20230703 El
+
+#VER "25" "230297" 20230703 "3508174, Ellevio AB (publ)" momsandel: 14.79%
+#TRANS 2640 {} 42.1 20230703 Ingående moms
+#TRANS 4610 {} -42.1 20230703 El
+#TRANS 2440 {} -1423 20230703 Leverantörsskulder
+#TRANS 4610 {} 1423 20230703 El
+
+#VER "25" "230299" 20230703 "3508192, Ellevio AB (publ)" momsandel: 14.79%
+#TRANS 2640 {} 22.72 20230703 Ingående moms
+#TRANS 4610 {} -22.72 20230703 El
+#TRANS 2440 {} -768 20230703 Leverantörsskulder
+#TRANS 4610 {} 768 20230703 El
+
+#VER "25" "230301" 20230703 "3508263, Ellevio AB (publ)" momsandel: 14.79%
+#TRANS 2640 {} 29.87 20230703 Ingående moms
+#TRANS 4610 {} -29.87 20230703 El
+#TRANS 2440 {} -1010 20230703 Leverantörsskulder
+#TRANS 4610 {} 1010 20230703 El
+
+#VER "25" "230303" 20230703 "3508383, Ellevio AB (publ)" momsandel: 14.80%
+#TRANS 2640 {} 16.34 20230703 Ingående moms
+#TRANS 4610 {} -16.34 20230703 El
+#TRANS 2440 {} -552 20230703 Leverantörsskulder
+#TRANS 4610 {} 552 20230703 El
+
+#VER "25" "230306" 20230704 "3510195, Ellevio AB (publ)" momsandel: 14.79%
+#TRANS 2640 {} 109.84 20230704 Ingående moms
+#TRANS 4610 {} -109.84 20230704 El
+#TRANS 2440 {} -3713 20230704 Leverantörsskulder
+#TRANS 4610 {} 3713 20230704 El
+
+#VER "25" "230308" 20230501 "3510168, Gerox AB" momsandel: 14.79%
+#TRANS 2440 {} -18750 20230501 Leverantörsskulder
+#TRANS 2640 {} 554.63 20230501 Ingående moms
+#TRANS 4180 {} 18195.37 20230501 Serviceavtal
+
+#VER "25" "230309" 20230703 "3517147, Stockholm Exergi AB" momsandel: 14.79%
+#TRANS 2640 {} 1814.15 20230703 Ingående moms
+#TRANS 4620 {} -1814.15 20230703 Uppvärmning
+#TRANS 2440 {} -61330 20230703 Leverantörsskulder
+#TRANS 4620 {} 61330 20230703 Uppvärmning
+
+#VER "25" "230311" 20230706 "3517717, 3 (hi3g Access Ab)" momsandel: 14.77%
+#TRANS 2640 {} 11.02 20230706 Ingående moms
+#TRANS 4761 {} -11.02 20230706 Bredband
+#TRANS 2440 {} -373 20230706 Leverantörsskulder
+#TRANS 4761 {} 373 20230706 Bredband
+
+#VER "25" "230314" 20230711 "3523247, Ellevio AB (publ)" momsandel: 14.79%
+#TRANS 2640 {} 69.56 20230711 Ingående moms
+#TRANS 4610 {} -69.56 20230711 El
+#TRANS 2440 {} -2352 20230711 Leverantörsskulder
+#TRANS 4610 {} 2352 20230711 El
+
+#VER "25" "230317" 20230626 "3489196, Adp Alldoor Portar AB" momsandel: 14.79%
+#TRANS 2440 {} -71675 20230626 Leverantörsskulder
+#TRANS 2640 {} 2120.15 20230626 Ingående moms
+#TRANS 4336 {} 69554.85 20230626 Dörrar och lås/porttele
+
+#VER "25" "230320" 20230628 "3491039, Stockholms Inbrottsskydd AB" momsandel: 14.79%
+#TRANS 2440 {} -11000 20230628 Leverantörsskulder
+#TRANS 2640 {} 325.38 20230628 Ingående moms
+#TRANS 4336 {} 10674.62 20230628 Dörrar och lås/porttele
+
+#VER "25" "230321" 20230712 "3528739, Telge Energi / Billogram" momsandel: 14.83%
+#TRANS 2640 {} 151.03 20230712 Ingående moms
+#TRANS 4610 {} -151.03 20230712 El
+#TRANS 2440 {} -5093 20230712 Leverantörsskulder
+#TRANS 4610 {} 5093 20230712 El
+
+#VER "25" "230323" 20230714 "3526310, SBC Sveriges Bostadsrättscentrum AB" momsandel: 14.79%
+#TRANS 2440 {} 7813 20230714 Leverantörsskulder
+#TRANS 2640 {} -231.09 20230714 Ingående moms
+#TRANS 6550 {} -7581.91 20230714 Konsultkostnader
+
+#VER "25" "230324" 20230629 "3501018, Stockholms Maskintjänst AB" momsandel: 14.79%
+#TRANS 2440 {} -42500 20230629 Leverantörsskulder
+#TRANS 2640 {} 1257.15 20230629 Ingående moms
+#TRANS 4331 {} 41242.85 20230629 Tvättstuga
+
+#VER "25" "230326" 20230630 "3492612, Boka Tvättid Sverige AB" momsandel: 14.79%
+#TRANS 2440 {} -1309 20230630 Leverantörsskulder
+#TRANS 2640 {} 38.71 20230630 Ingående moms
+#TRANS 6210 {} 1270.29 20230630 Tele- och datakommunikation
+
+#VER "25" "230328" 20230713 "3533769, Stockholm Vatten AB" momsandel: 14.79%
+#TRANS 2640 {} 791.27 20230713 Ingående moms
+#TRANS 4630 {} -791.27 20230713 Vatten
+#TRANS 2440 {} -26750 20230713 Leverantörsskulder
+#TRANS 4630 {} 26750 20230713 Vatten
+
+#VER "25" "230330" 20230713 "3533787, Stockholm Vatten AB" momsandel: 14.79%
+#TRANS 2640 {} 348.15 20230713 Ingående moms
+#TRANS 4630 {} -348.15 20230713 Vatten
+#TRANS 2440 {} -11770 20230713 Leverantörsskulder
+#TRANS 4630 {} 11770 20230713 Vatten
+
+#VER "25" "230332" 20230713 "3533833, Stockholm Vatten AB" momsandel: 14.79%
+#TRANS 2640 {} 326.97 20230713 Ingående moms
+#TRANS 4630 {} -326.97 20230713 Vatten
+#TRANS 2440 {} -11054 20230713 Leverantörsskulder
+#TRANS 4630 {} 11054 20230713 Vatten
+
+#VER "25" "230334" 20230719 "3534581, Stena Recycling AB" momsandel: 14.79%
+#TRANS 2640 {} 135.56 20230719 Ingående moms
+#TRANS 4641 {} -135.56 20230719 Grovsopor
+#TRANS 2440 {} -4583 20230719 Leverantörsskulder
+#TRANS 4641 {} 4583 20230719 Grovsopor
+
+#VER "25" "230336" 20230714 "3535182, Stockholm Vatten AB" momsandel: 14.79%
+#TRANS 2640 {} 840.35 20230714 Ingående moms
+#TRANS 4630 {} -840.35 20230714 Vatten
+#TRANS 2440 {} -28409 20230714 Leverantörsskulder
+#TRANS 4630 {} 28409 20230714 Vatten
+
+#VER "25" "230338" 20230720 "3535337, Adp Alldoor Portar AB" momsandel: 14.79%
+#TRANS 2440 {} -3125 20230720 Leverantörsskulder
+#TRANS 2640 {} 92.44 20230720 Ingående moms
+#TRANS 4500 {} 3032.56 20230720 Underhåll av byggnad
+
+#VER "25" "230342" 20230630 "3537319, Städ Diamanten I Stockholm AB" momsandel: 14.79%
+#TRANS 2440 {} -13425 20230630 Leverantörsskulder
+#TRANS 2640 {} 397.11 20230630 Ingående moms
+#TRANS 4120 {} 13027.89 20230630 Städning enligt avtal
+
+#VER "25" "230344" 20230525 "860789, Home Solutions I Sverige AB"
+#TRANS 2440 {} 0 20230525 Leverantörsskulder
+#TRANS 2640 {} 13410.99 20230525 Ingående moms
+#TRANS 4545 {} -13410.99 20230525 Tele/TV/bredband/porttelefon
+
+#VER "25" "230345" 20230731 "3543629, Elis Textil Service AB" momsandel: 14.79%
+#TRANS 2640 {} 154.13 20230731 Ingående moms
+#TRANS 4185 {} -154.13 20230731 Mattvätt/Hyrmattor
+#TRANS 2440 {} -5210.51 20230731 Leverantörsskulder
+#TRANS 4185 {} 5210.51 20230731 Mattvätt/Hyrmattor
+
+#VER "25" "230347" 20230731 "3542785, SBC Sveriges Bostadsrättscentrum AB" momsandel: 14.79%
+#TRANS 2440 {} -525 20230731 Leverantörsskulder
+#TRANS 2640 {} 15.53 20230731 Ingående moms
+#TRANS 6484 {} 509.47 20230731 Pantsättningskostnad
+
+#VER "25" "230348" 20230801 "3545321, Ellevio AB (publ)" momsandel: 14.79%
+#TRANS 2640 {} 93.05 20230801 Ingående moms
+#TRANS 4610 {} -93.05 20230801 El
+#TRANS 2440 {} -3146 20230801 Leverantörsskulder
+#TRANS 4610 {} 3146 20230801 El
+
+#VER "25" "230350" 20230801 "3550091, Ellevio AB (publ)" momsandel: 14.79%
+#TRANS 2640 {} 16.71 20230801 Ingående moms
+#TRANS 4610 {} -16.71 20230801 El
+#TRANS 2440 {} -565 20230801 Leverantörsskulder
+#TRANS 4610 {} 565 20230801 El
+
+#VER "25" "230352" 20230802 "3551252, Trygga Hiss I Stockholm AB" momsandel: 14.79%
+#TRANS 2440 {} -2656 20230802 Leverantörsskulder
+#TRANS 2640 {} 78.57 20230802 Ingående moms
+#TRANS 4346 {} 2577.43 20230802 Hissar
+
+#VER "25" "230353" 20230802 "3550142, Sepu AB" momsandel: 14.79%
+#TRANS 2440 {} -8005 20230802 Leverantörsskulder
+#TRANS 2640 {} 236.77 20230802 Ingående moms
+#TRANS 4352 {} 7768.23 20230802 Fasader
+
+#VER "25" "230354" 20230802 "3552582, Ellevio AB (publ)" momsandel: 14.79%
+#TRANS 2640 {} 32.77 20230802 Ingående moms
+#TRANS 4610 {} -32.77 20230802 El
+#TRANS 2440 {} -1108 20230802 Leverantörsskulder
+#TRANS 4610 {} 1108 20230802 El
+
+#VER "25" "230356" 20230802 "3552652, Ellevio AB (publ)" momsandel: 14.82%
+#TRANS 2640 {} 7.29 20230802 Ingående moms
+#TRANS 4610 {} -7.29 20230802 El
+#TRANS 2440 {} -246 20230802 Leverantörsskulder
+#TRANS 4610 {} 246 20230802 El
+
+#VER "25" "230358" 20230802 "3552686, Ellevio AB (publ)" momsandel: 14.79%
+#TRANS 2640 {} 41.79 20230802 Ingående moms
+#TRANS 4610 {} -41.79 20230802 El
+#TRANS 2440 {} -1413 20230802 Leverantörsskulder
+#TRANS 4610 {} 1413 20230802 El
+
+#VER "25" "230360" 20230802 "3552705, Ellevio AB (publ)" momsandel: 14.79%
+#TRANS 2640 {} 29.96 20230802 Ingående moms
+#TRANS 4610 {} -29.96 20230802 El
+#TRANS 2440 {} -1013 20230802 Leverantörsskulder
+#TRANS 4610 {} 1013 20230802 El
+
+#VER "25" "230362" 20230802 "3552736, Ellevio AB (publ)" momsandel: 14.81%
+#TRANS 2640 {} 3.11 20230802 Ingående moms
+#TRANS 4610 {} -3.11 20230802 El
+#TRANS 2440 {} -105 20230802 Leverantörsskulder
+#TRANS 4610 {} 105 20230802 El
+
+#VER "25" "230364" 20230802 "3552802, Ellevio AB (publ)" momsandel: 14.79%
+#TRANS 2640 {} 22.37 20230802 Ingående moms
+#TRANS 4610 {} -22.37 20230802 El
+#TRANS 2440 {} -756 20230802 Leverantörsskulder
+#TRANS 4610 {} 756 20230802 El
+
+#VER "25" "230366" 20230804 "3557717, 3 (hi3g Access Ab)" momsandel: 14.77%
+#TRANS 2640 {} 11.02 20230804 Ingående moms
+#TRANS 4761 {} -11.02 20230804 Bredband
+#TRANS 2440 {} -373 20230804 Leverantörsskulder
+#TRANS 4761 {} 373 20230804 Bredband
+
+#VER "25" "230368" 20230802 "3558965, Stockholm Exergi AB" momsandel: 14.79%
+#TRANS 2640 {} 1782 20230802 Ingående moms
+#TRANS 4620 {} -1782 20230802 Uppvärmning
+#TRANS 2440 {} -60243 20230802 Leverantörsskulder
+#TRANS 4620 {} 60243 20230802 Uppvärmning
+
+#VER "25" "230370" 20230814 "3570164, Fortum Markets AB" momsandel: 14.84%
+#TRANS 2640 {} 3.65 20230814 Ingående moms
+#TRANS 4610 {} -3.65 20230814 El
+#TRANS 2440 {} -123 20230814 Leverantörsskulder
+#TRANS 4610 {} 123 20230814 El
+
+#VER "25" "230372" 20230814 "3570661, ÄlvsjÖ Vvs Centrum 23 AB" momsandel: 100.00%
+#TRANS 2440 {} -26100 20230814 Leverantörsskulder
+#TRANS 2640 {} 772.04 20230814 Ingående moms
+#TRANS 4341 {} 25327.96 20230814 VVS
+#TRANS 2440 {} 0 20230814 Leverantörsskulder
+#TRANS 2640 {} 4447.97 20230814 Ingående moms
+#TRANS 4341 {} -4447.97 20230814 VVS
+
+#VER "25" "230375" 20230811 "3573426, Telge Energi / Billogram" momsandel: 14.79%
+#TRANS 2640 {} 66.2 20230811 Ingående moms
+#TRANS 4610 {} -66.2 20230811 El
+#TRANS 2440 {} -2238 20230811 Leverantörsskulder
+#TRANS 4610 {} 2238 20230811 El
+
+#VER "25" "230377" 20230817 "3573623, Stena Recycling AB" momsandel: 14.79%
+#TRANS 2640 {} 115.43 20230817 Ingående moms
+#TRANS 4641 {} -115.43 20230817 Grovsopor
+#TRANS 2440 {} -3902 20230817 Leverantörsskulder
+#TRANS 4641 {} 3902 20230817 Grovsopor
+
+#VER "25" "230379" 20230819 "3576844, Loopia AB (websupport)" momsandel: 14.79%
+#TRANS 2640 {} 23.18 20230819 Ingående moms
+#TRANS 6500 {} -23.18 20230819 Administration
+#TRANS 2440 {} -783.75 20230819 Leverantörsskulder
+#TRANS 6500 {} 783.75 20230819 Administration
+
+#VER "25" "230381" 20230731 "3576979, Städ Diamanten I Stockholm AB" momsandel: 14.79%
+#TRANS 2440 {} -13425 20230731 Leverantörsskulder
+#TRANS 2640 {} 397.11 20230731 Ingående moms
+#TRANS 4120 {} 13027.89 20230731 Städning enligt avtal
+
+#VER "25" "230382" 20230830 "3585720, Trygga Hiss I Stockholm AB" momsandel: 14.79%
+#TRANS 2640 {} 42.34 20230830 Ingående moms
+#TRANS 4346 {} -42.34 20230830 Hissar
+#TRANS 2440 {} -1431 20230830 Leverantörsskulder
+#TRANS 4346 {} 1431 20230830 Hissar
+
+#VER "25" "230384" 20230830 "3585724, Trygga Hiss I Stockholm AB" momsandel: 14.79%
+#TRANS 2640 {} 42.34 20230830 Ingående moms
+#TRANS 4346 {} -42.34 20230830 Hissar
+#TRANS 2440 {} -1431 20230830 Leverantörsskulder
+#TRANS 4346 {} 1431 20230830 Hissar
+
+#VER "25" "230386" 20230830 "3585726, Trygga Hiss I Stockholm AB" momsandel: 14.79%
+#TRANS 2640 {} 42.34 20230830 Ingående moms
+#TRANS 4346 {} -42.34 20230830 Hissar
+#TRANS 2440 {} -1431 20230830 Leverantörsskulder
+#TRANS 4346 {} 1431 20230830 Hissar
+
+#VER "25" "230388" 20230830 "3585727, Trygga Hiss I Stockholm AB" momsandel: 14.79%
+#TRANS 2640 {} 64.52 20230830 Ingående moms
+#TRANS 4346 {} -64.52 20230830 Hissar
+#TRANS 2440 {} -2181 20230830 Leverantörsskulder
+#TRANS 4346 {} 2181 20230830 Hissar
+
+#VER "25" "230390" 20230830 "3585729, Trygga Hiss I Stockholm AB" momsandel: 14.79%
+#TRANS 2640 {} 42.34 20230830 Ingående moms
+#TRANS 4346 {} -42.34 20230830 Hissar
+#TRANS 2440 {} -1431 20230830 Leverantörsskulder
+#TRANS 4346 {} 1431 20230830 Hissar
+
+#VER "25" "230392" 20230830 "3585737, Trygga Hiss I Stockholm AB" momsandel: 14.79%
+#TRANS 2640 {} 42.34 20230830 Ingående moms
+#TRANS 4346 {} -42.34 20230830 Hissar
+#TRANS 2440 {} -1431 20230830 Leverantörsskulder
+#TRANS 4346 {} 1431 20230830 Hissar
+
+#VER "25" "230394" 20230831 "3588100, Hellgrens L?s AB" momsandel: 14.79%
+#TRANS 2640 {} 11.24 20230831 Ingående moms
+#TRANS 4336 {} -11.24 20230831 Dörrar och lås/porttele
+#TRANS 2440 {} -380 20230831 Leverantörsskulder
+#TRANS 4336 {} 380 20230831 Dörrar och lås/porttele
+
+#VER "25" "230396" 20230831 "3588265, ?lvsj? Vvs Centrum 23 AB" momsandel: 14.79%
+#TRANS 2640 {} 177.04 20230831 Ingående moms
+#TRANS 4341 {} -177.04 20230831 VVS
+#TRANS 2440 {} -5985 20230831 Leverantörsskulder
+#TRANS 4341 {} 5985 20230831 VVS
+
+#VER "25" "230398" 20230831 "3590074, Elis Textil Service AB" momsandel: 14.79%
+#TRANS 2640 {} 124.24 20230831 Ingående moms
+#TRANS 4185 {} -124.24 20230831 Mattvätt/Hyrmattor
+#TRANS 2440 {} -4200.1 20230831 Leverantörsskulder
+#TRANS 4185 {} 4200.1 20230831 Mattvätt/Hyrmattor
+
+#VER "25" "230400" 20230901 "3591490, Stockholms Stadsn?t AB" momsandel: 14.79%
+#TRANS 2640 {} 673.54 20230901 Ingående moms
+#TRANS 4761 {} -673.54 20230901 Bredband
+#TRANS 2440 {} -22770 20230901 Leverantörsskulder
+#TRANS 4761 {} 22770 20230901 Bredband
+
+#VER "25" "230402" 20230901 "3596287, Ellevio AB (publ)" momsandel: 14.79%
+#TRANS 2640 {} 17.39 20230901 Ingående moms
+#TRANS 4610 {} -17.39 20230901 El
+#TRANS 2440 {} -588 20230901 Leverantörsskulder
+#TRANS 4610 {} 588 20230901 El
+
+#VER "25" "230404" 20230901 "3596317, Ellevio AB (publ)" momsandel: 14.79%
+#TRANS 2640 {} 110.89 20230901 Ingående moms
+#TRANS 4610 {} -110.89 20230901 El
+#TRANS 2440 {} -3749 20230901 Leverantörsskulder
+#TRANS 4610 {} 3749 20230901 El
+
+#VER "25" "230407" 20230905 "3603367, Trygga Hiss I Stockholm AB" momsandel: 14.79%
+#TRANS 2640 {} 379.55 20230905 Ingående moms
+#TRANS 4346 {} -379.55 20230905 Hissar
+#TRANS 2440 {} -12831 20230905 Leverantörsskulder
+#TRANS 4346 {} 12831 20230905 Hissar
+
+#VER "25" "230409" 20230905 "3603415, Trygga Hiss I Stockholm AB" momsandel: 14.79%
+#TRANS 2640 {} 94.84 20230905 Ingående moms
+#TRANS 4346 {} -94.84 20230905 Hissar
+#TRANS 2440 {} -3206 20230905 Leverantörsskulder
+#TRANS 4346 {} 3206 20230905 Hissar
+
+#VER "25" "230411" 20230904 "3603592, Ellevio AB (publ)" momsandel: 14.79%
+#TRANS 2640 {} 37.21 20230904 Ingående moms
+#TRANS 4610 {} -37.21 20230904 El
+#TRANS 2440 {} -1258 20230904 Leverantörsskulder
+#TRANS 4610 {} 1258 20230904 El
+
+#VER "25" "230413" 20230904 "3603653, Ellevio AB (publ)" momsandel: 14.79%
+#TRANS 2640 {} 22.74 20230904 Ingående moms
+#TRANS 4610 {} -22.74 20230904 El
+#TRANS 2440 {} -769 20230904 Leverantörsskulder
+#TRANS 4610 {} 769 20230904 El
+
+#VER "25" "230415" 20230904 "3603702, Ellevio AB (publ)" momsandel: 14.79%
+#TRANS 2640 {} 43.1 20230904 Ingående moms
+#TRANS 4610 {} -43.1 20230904 El
+#TRANS 2440 {} -1457 20230904 Leverantörsskulder
+#TRANS 4610 {} 1457 20230904 El
+
+#VER "25" "230417" 20230904 "3603872, Ellevio AB (publ)" momsandel: 14.79%
+#TRANS 2640 {} 31.53 20230904 Ingående moms
+#TRANS 4610 {} -31.53 20230904 El
+#TRANS 2440 {} -1066 20230904 Leverantörsskulder
+#TRANS 4610 {} 1066 20230904 El
+
+#VER "25" "230419" 20230904 "3604032, Ellevio AB (publ)" momsandel: 14.78%
+#TRANS 2640 {} 3.43 20230904 Ingående moms
+#TRANS 4610 {} -3.43 20230904 El
+#TRANS 2440 {} -116 20230904 Leverantörsskulder
+#TRANS 4610 {} 116 20230904 El
+
+#VER "25" "230421" 20230904 "3604106, Ellevio AB (publ)" momsandel: 14.79%
+#TRANS 2640 {} 55.76 20230904 Ingående moms
+#TRANS 4610 {} -55.76 20230904 El
+#TRANS 2440 {} -1885 20230904 Leverantörsskulder
+#TRANS 4610 {} 1885 20230904 El
+
+#VER "25" "230423" 20230903 "3598364, West Studios AB" momsandel: 4.19%
+#TRANS 2440 {} -6151 20230903 Leverantörsskulder
+#TRANS 2640 {} 51.5 20230903 Ingående moms
+#TRANS 6473 {} 6099.5 20230903 Föreningskostnader
+
+#VER "25" "230426" 20230901 "3605237, Tele2 Sverige AB" momsandel: 14.66%
+#TRANS 2640 {} 1163.44 20230901 Ingående moms
+#TRANS 4760 {} -1163.44 20230901 Kabel-TV
+#TRANS 2440 {} -39670 20230901 Leverantörsskulder
+#TRANS 4760 {} 39670 20230901 Kabel-TV
+
+#VER "25" "230428" 20230901 "3608334, Kiwa Sweden AB" momsandel: 14.79%
+#TRANS 2640 {} 254.91 20230901 Ingående moms
+#TRANS 4140 {} -254.91 20230901 Hissbesiktning
+#TRANS 2440 {} -8618 20230901 Leverantörsskulder
+#TRANS 4140 {} 8618 20230901 Hissbesiktning
+
+#VER "25" "230430" 20230906 "3608846, 3 (hi3g Access Ab)" momsandel: 14.77%
+#TRANS 2640 {} 11.02 20230906 Ingående moms
+#TRANS 4761 {} -11.02 20230906 Bredband
+#TRANS 2440 {} -373 20230906 Leverantörsskulder
+#TRANS 4761 {} 373 20230906 Bredband
+
+#VER "25" "230432" 20230907 "3609251, Trygga Hiss I Stockholm AB" momsandel: 14.79%
+#TRANS 2640 {} 168.24 20230907 Ingående moms
+#TRANS 4346 {} -168.24 20230907 Hissar
+#TRANS 2440 {} -5688 20230907 Leverantörsskulder
+#TRANS 4346 {} 5688 20230907 Hissar
+
+#VER "25" "230434" 20230908 "3617395, Fortum Markets AB" momsandel: 14.78%
+#TRANS 2640 {} 2.01 20230908 Ingående moms
+#TRANS 4610 {} -2.01 20230908 El
+#TRANS 2440 {} -68 20230908 Leverantörsskulder
+#TRANS 4610 {} 68 20230908 El
+
+#VER "25" "230436" 20230904 "3618205, Stockholm Exergi AB" momsandel: 1479.00%
+#TRANS 2640 {} 183955.65 20230904 Ingående moms
+#TRANS 4620 {} -183955.65 20230904 Uppvärmning
+#TRANS 2440 {} -62189 20230904 Leverantörsskulder
+#TRANS 4620 {} 62189 20230904 Uppvärmning
+
+#VER "25" "230438" 20230912 "3618459, Trygga Hiss I Stockholm AB" momsandel: 14.79%
+#TRANS 2640 {} 107.49 20230912 Ingående moms
+#TRANS 4346 {} -107.49 20230912 Hissar
+#TRANS 2440 {} -3634 20230912 Leverantörsskulder
+#TRANS 4346 {} 3634 20230912 Hissar
+
+#VER "25" "230440" 20230908 "3621535, Telge Energi / Billogram" momsandel: 0.42%
+#TRANS 2640 {} 3.53 20230908 Ingående moms
+#TRANS 4610 {} -3.53 20230908 El
+#TRANS 2440 {} -4198 20230908 Leverantörsskulder
+#TRANS 4610 {} 4198 20230908 El
+
+#VER "25" "230442" 20230915 "3625031, Stena Recycling AB" momsandel: 14.79%
+#TRANS 2640 {} 138.83 20230915 Ingående moms
+#TRANS 4641 {} -138.83 20230915 Grovsopor
+#TRANS 2440 {} -4693 20230915 Leverantörsskulder
+#TRANS 4641 {} 4693 20230915 Grovsopor
+
+#VER "25" "230444" 20231002 "3630148, SBC Sveriges Bostadsr?ttscentrum AB" momsandel: 14.79%
+#TRANS 2640 {} 758.75 20231002 Ingående moms
+#TRANS 6480 {} -758.75 20231002 Förvaltningsarvode enl avtal
+#TRANS 2440 {} -25651 20231002 Leverantörsskulder
+#TRANS 6480 {} 25651 20231002 Förvaltningsarvode enl avtal
+
+#VER "25" "230446" 20230915 "3632603, Stockholm Vatten AB" momsandel: 14.79%
+#TRANS 2640 {} 798.38 20230915 Ingående moms
+#TRANS 4630 {} -798.38 20230915 Vatten
+#TRANS 2440 {} -26991 20230915 Leverantörsskulder
+#TRANS 4630 {} 26991 20230915 Vatten
+
+#VER "25" "230448" 20230915 "3632689, Stockholm Vatten AB" momsandel: 14.79%
+#TRANS 2640 {} 351.96 20230915 Ingående moms
+#TRANS 4630 {} -351.96 20230915 Vatten
+#TRANS 2440 {} -11899 20230915 Leverantörsskulder
+#TRANS 4630 {} 11899 20230915 Vatten
+
+#VER "25" "230450" 20230915 "3632760, Stockholm Vatten AB" momsandel: 14.79%
+#TRANS 2640 {} 330.78 20230915 Ingående moms
+#TRANS 4630 {} -330.78 20230915 Vatten
+#TRANS 2440 {} -11182 20230915 Leverantörsskulder
+#TRANS 4630 {} 11182 20230915 Vatten
+
+#VER "25" "230452" 20230831 "3634276, St?d Diamanten I Stockholm AB" momsandel: 14.79%
+#TRANS 2640 {} 397.11 20230831 Ingående moms
+#TRANS 4120 {} -397.11 20230831 Städning enligt avtal
+#TRANS 2440 {} -13425 20230831 Leverantörsskulder
+#TRANS 4120 {} 13425 20230831 Städning enligt avtal
+
+#VER "25" "230456" 20230930 "3648437, Boka Tv?ttid Sverige AB" momsandel: 14.79%
+#TRANS 2640 {} 38.71 20230930 Ingående moms
+#TRANS 6210 {} -38.71 20230930 Tele- och datakommunikation
+#TRANS 2440 {} -1309 20230930 Leverantörsskulder
+#TRANS 6210 {} 1309 20230930 Tele- och datakommunikation
+
+#VER "25" "230458" 20230930 "3648900, Elis Textil Service AB" momsandel: 14.79%
+#TRANS 2640 {} 233.2 20230930 Ingående moms
+#TRANS 4185 {} -233.2 20230930 Mattvätt/Hyrmattor
+#TRANS 2440 {} -7883.66 20230930 Leverantörsskulder
+#TRANS 4185 {} 7883.66 20230930 Mattvätt/Hyrmattor
+
+#VER "25" "230460" 20231002 "3653035, Ellevio AB (publ)" momsandel: 14.79%
+#TRANS 2640 {} 33.66 20231002 Ingående moms
+#TRANS 4610 {} -33.66 20231002 El
+#TRANS 2440 {} -1138 20231002 Leverantörsskulder
+#TRANS 4610 {} 1138 20231002 El
+
+#VER "25" "230462" 20231002 "3653083, Ellevio AB (publ)" momsandel: 14.81%
+#TRANS 2640 {} 3.14 20231002 Ingående moms
+#TRANS 4610 {} -3.14 20231002 El
+#TRANS 2440 {} -106 20231002 Leverantörsskulder
+#TRANS 4610 {} 106 20231002 El
+
+#VER "25" "230464" 20231002 "3653193, Ellevio AB (publ)" momsandel: 14.79%
+#TRANS 2640 {} 31.3 20231002 Ingående moms
+#TRANS 4610 {} -31.3 20231002 El
+#TRANS 2440 {} -1058 20231002 Leverantörsskulder
+#TRANS 4610 {} 1058 20231002 El
+
+#VER "25" "230466" 20231002 "3653232, Ellevio AB (publ)" momsandel: 14.79%
+#TRANS 2640 {} 22.84 20231002 Ingående moms
+#TRANS 4610 {} -22.84 20231002 El
+#TRANS 2440 {} -772 20231002 Leverantörsskulder
+#TRANS 4610 {} 772 20231002 El
+
+#VER "25" "230468" 20231002 "3653337, Ellevio AB (publ)" momsandel: 14.79%
+#TRANS 2640 {} 115.02 20231002 Ingående moms
+#TRANS 4610 {} -115.02 20231002 El
+#TRANS 2440 {} -3888 20231002 Leverantörsskulder
+#TRANS 4610 {} 3888 20231002 El
+
+#VER "25" "230470" 20231002 "3653401, Ellevio AB (publ)" momsandel: 14.79%
+#TRANS 2640 {} 55.4 20231002 Ingående moms
+#TRANS 4610 {} -55.4 20231002 El
+#TRANS 2440 {} -1873 20231002 Leverantörsskulder
+#TRANS 4610 {} 1873 20231002 El
+
+#VER "25" "230472" 20230929 "3642558, SBC Sveriges Bostadsrättscentrum AB" momsandel: 14.79%
+#TRANS 2440 {} -7375 20230929 Leverantörsskulder
+#TRANS 2640 {} 218.15 20230929 Ingående moms
+#TRANS 6550 {} 7156.85 20230929 Konsultkostnader
+
+#VER "25" "230473" 20231003 "3659176, Ellevio AB (publ)" momsandel: 14.79%
+#TRANS 2640 {} 45.41 20231003 Ingående moms
+#TRANS 4610 {} -45.41 20231003 El
+#TRANS 2440 {} -1535 20231003 Leverantörsskulder
+#TRANS 4610 {} 1535 20231003 El
+
+#VER "25" "230475" 20231003 "3659352, Ellevio AB (publ)" momsandel: 14.79%
+#TRANS 2640 {} 16.48 20231003 Ingående moms
+#TRANS 4610 {} -16.48 20231003 El
+#TRANS 2440 {} -557 20231003 Leverantörsskulder
+#TRANS 4610 {} 557 20231003 El
+
+#VER "25" "230478" 20230929 "3651906, Finansia Sverige AB" momsandel: 14.79%
+#TRANS 2440 {} -20759 20230929 Leverantörsskulder
+#TRANS 2640 {} 614.04 20230929 Ingående moms
+#TRANS 4300 {} 20144.96 20230929 Reparationer
+
+#VER "25" "230479" 20231005 "3662079, Stena Recycling AB" momsandel: 14.79%
+#TRANS 2640 {} 114.1 20231005 Ingående moms
+#TRANS 4641 {} -114.1 20231005 Grovsopor
+#TRANS 2440 {} -3857 20231005 Leverantörsskulder
+#TRANS 4641 {} 3857 20231005 Grovsopor
+
+#VER "25" "230481" 20230831 "3663580, ?lvsj? Vvs Centrum 23 AB" momsandel: 14.79%
+#TRANS 2640 {} 177.04 20230831 Ingående moms
+#TRANS 4341 {} -177.04 20230831 VVS
+#TRANS 2440 {} -5985 20230831 Leverantörsskulder
+#TRANS 4341 {} 5985 20230831 VVS
+
+#VER "25" "230483" 20231002 "3664420, Stockholm Exergi AB" momsandel: 14.79%
+#TRANS 2640 {} 1813.94 20231002 Ingående moms
+#TRANS 4620 {} -1813.94 20231002 Uppvärmning
+#TRANS 2440 {} -61323 20231002 Leverantörsskulder
+#TRANS 4620 {} 61323 20231002 Uppvärmning
+
+#VER "25" "230486" 20230930 "3671235, St?d Diamanten I Stockholm AB" momsandel: 14.79%
+#TRANS 2640 {} 397.11 20230930 Ingående moms
+#TRANS 4120 {} -397.11 20230930 Städning enligt avtal
+#TRANS 2440 {} -13425 20230930 Leverantörsskulder
+#TRANS 4120 {} 13425 20230930 Städning enligt avtal
+
+#VER "25" "230488" 20231005 "3672583, 3 (hi3g Access Ab)" momsandel: 14.77%
+#TRANS 2640 {} 11.02 20231005 Ingående moms
+#TRANS 4761 {} -11.02 20231005 Bredband
+#TRANS 2440 {} -373 20231005 Leverantörsskulder
+#TRANS 4761 {} 373 20231005 Bredband
+
+#VER "25" "230490" 20231010 "3677944, Telge Energi / Billogram" momsandel: 14.79%
+#TRANS 2640 {} 97.86 20231010 Ingående moms
+#TRANS 4610 {} -97.86 20231010 El
+#TRANS 2440 {} -3308 20231010 Leverantörsskulder
+#TRANS 4610 {} 3308 20231010 El
+
+#VER "25" "230492" 20231016 "3678560, ?lvsj? Vvs Centrum 23 AB" momsandel: 14.79%
+#TRANS 2640 {} 525.26 20231016 Ingående moms
+#TRANS 4341 {} -525.26 20231016 VVS
+#TRANS 2440 {} -17757 20231016 Leverantörsskulder
+#TRANS 4341 {} 17757 20231016 VVS
+
+#VER "25" "230495" 20231017 "3678612, Gas-service i Stockholm AB" momsandel: 14.79%
+#TRANS 2440 {} -26900 20231017 Leverantörsskulder
+#TRANS 2640 {} 795.7 20231017 Ingående moms
+#TRANS 4300 {} 26104.3 20231017 Reparationer
+
+#VER "25" "230496" 20231017 "3682224, Stockholm Vatten AB" momsandel: 14.79%
+#TRANS 2640 {} 840.35 20231017 Ingående moms
+#TRANS 4630 {} -840.35 20231017 Vatten
+#TRANS 2440 {} -28409 20231017 Leverantörsskulder
+#TRANS 4630 {} 28409 20231017 Vatten
+
+#VER "25" "230498" 20231023 "3684212, Hellgrens L?s AB" momsandel: 14.79%
+#TRANS 2640 {} 55.09 20231023 Ingående moms
+#TRANS 4336 {} -55.09 20231023 Dörrar och lås/porttele
+#TRANS 2440 {} -1863 20231023 Leverantörsskulder
+#TRANS 4336 {} 1863 20231023 Dörrar och lås/porttele
+
+#VER "25" "230500" 20231019 "3682070, Home Solutions I Sverige AB" momsandel: 14.79%
+#TRANS 2440 {} -157389 20231019 Leverantörsskulder
+#TRANS 2640 {} 4655.56 20231019 Ingående moms
+#TRANS 4510 {} 152733.44 20231019 Installationer
+
+#VER "25" "230501" 20231024 "3686078, ?lvsj? Vvs Centrum 23 AB" momsandel: 14.79%
+#TRANS 2640 {} 66.56 20231024 Ingående moms
+#TRANS 4341 {} -66.56 20231024 VVS
+#TRANS 2440 {} -2250 20231024 Leverantörsskulder
+#TRANS 4341 {} 2250 20231024 VVS
+
+#VER "25" "230503" 20231016 "3678560, ÄlvsjÖ Vvs Centrum 23 AB"
+#TRANS 2440 {} 0 20231016 Leverantörsskulder
+#TRANS 2640 {} 2428.74 20231016 Ingående moms
+#TRANS 4341 {} -2428.74 20231016 VVS
+
+#VER "25" "230504" 20231024 "3686078, ÄlvsjÖ Vvs Centrum 23 AB"
+#TRANS 2440 {} 0 20231024 Leverantörsskulder
+#TRANS 2640 {} -66.56 20231024 Ingående moms
+#TRANS 2640 {} 450 20231024 Ingående moms
+#TRANS 4341 {} -2183.44 20231024 VVS
+#TRANS 4341 {} 1800 20231024 VVS
+
+#VER "25" "230505" 20231031 "3694627, Elis Textil Service AB" momsandel: 14.79%
+#TRANS 2640 {} 303.92 20231031 Ingående moms
+#TRANS 4185 {} -303.92 20231031 Mattvätt/Hyrmattor
+#TRANS 2440 {} -10274.59 20231031 Leverantörsskulder
+#TRANS 4185 {} 10274.59 20231031 Mattvätt/Hyrmattor
+
+#VER "25" "230507" 20231101 "3695533, Ellevio AB (publ)" momsandel: 14.80%
+#TRANS 2640 {} 16.78 20231101 Ingående moms
+#TRANS 4610 {} -16.78 20231101 El
+#TRANS 2440 {} -567 20231101 Leverantörsskulder
+#TRANS 4610 {} 567 20231101 El
+
+#VER "25" "230509" 20231031 "3693400, SBC Sveriges Bostadsrättscentrum AB" momsandel: 14.78%
+#TRANS 2440 {} -658 20231031 Leverantörsskulder
+#TRANS 2640 {} 19.45 20231031 Ingående moms
+#TRANS 6061 {} 638.55 20231031 Kreditupplysning
+
+#VER "25" "230511" 20231102 "3702852, Ellevio AB (publ)" momsandel: 14.79%
+#TRANS 2640 {} 29.17 20231102 Ingående moms
+#TRANS 4610 {} -29.17 20231102 El
+#TRANS 2440 {} -986 20231102 Leverantörsskulder
+#TRANS 4610 {} 986 20231102 El
+
+#VER "25" "230513" 20231102 "3702929, Ellevio AB (publ)" momsandel: 14.82%
+#TRANS 2640 {} 3.23 20231102 Ingående moms
+#TRANS 4610 {} -3.23 20231102 El
+#TRANS 2440 {} -109 20231102 Leverantörsskulder
+#TRANS 4610 {} 109 20231102 El
+
+#VER "25" "230515" 20231102 "3703010, Ellevio AB (publ)" momsandel: 14.79%
+#TRANS 2640 {} 65.25 20231102 Ingående moms
+#TRANS 4610 {} -65.25 20231102 El
+#TRANS 2440 {} -2206 20231102 Leverantörsskulder
+#TRANS 4610 {} 2206 20231102 El
+
+#VER "25" "230517" 20231102 "3703710, Ellevio AB (publ)" momsandel: 14.80%
+#TRANS 2640 {} 31.81 20231102 Ingående moms
+#TRANS 4610 {} -31.81 20231102 El
+#TRANS 2440 {} -1075 20231102 Leverantörsskulder
+#TRANS 4610 {} 1075 20231102 El
+
+#VER "25" "230519" 20231102 "3703955, Ellevio AB (publ)" momsandel: 14.79%
+#TRANS 2640 {} 54.02 20231102 Ingående moms
+#TRANS 4610 {} -54.02 20231102 El
+#TRANS 2440 {} -1826 20231102 Leverantörsskulder
+#TRANS 4610 {} 1826 20231102 El
+
+#VER "25" "230521" 20231102 "3704008, Ellevio AB (publ)" momsandel: 14.79%
+#TRANS 2640 {} 116.71 20231102 Ingående moms
+#TRANS 4610 {} -116.71 20231102 El
+#TRANS 2440 {} -3946 20231102 Leverantörsskulder
+#TRANS 4610 {} 3946 20231102 El
+
+#VER "25" "230523" 20231102 "3704024, Ellevio AB (publ)" momsandel: 14.78%
+#TRANS 2640 {} 23.56 20231102 Ingående moms
+#TRANS 4610 {} -23.56 20231102 El
+#TRANS 2440 {} -797 20231102 Leverantörsskulder
+#TRANS 4610 {} 797 20231102 El
+
+#VER "25" "230529" 20231105 "3707859, Relux Elinstallationer AB" momsandel: 14.03%
+#TRANS 2440 {} -5011 20231105 Leverantörsskulder
+#TRANS 2640 {} 140.61 20231105 Ingående moms
+#TRANS 4336 {} 4870.39 20231105 Dörrar och lås/porttele
+
+#VER "25" "230541" 20231115 "3729576, Skyltverkstan AB" momsandel: 13.78%
+#TRANS 2440 {} -672 20231115 Leverantörsskulder
+#TRANS 2640 {} 18.52 20231115 Ingående moms
+#TRANS 4161 {} 653.48 20231115 Gemensamma utrymmen
+
+#VER "25" "230543" 20231115 "3738694, Handelsbanken Vasagatan" momsandel: 14.03%
+#TRANS 2440 {} -850 20231115 Leverantörsskulder
+#TRANS 2640 {} 23.85 20231115 Ingående moms
+#TRANS 6500 {} 826.15 20231115 Administration
+
+#VER "25" "230544" 20231127 "3742367, Elcompaniet I Mälerdalen AB" momsandel: 14.03%
+#TRANS 2440 {} -63750 20231127 Leverantörsskulder
+#TRANS 2640 {} 1788.83 20231127 Ingående moms
+#TRANS 4544 {} 61961.17 20231127 Elinstallationer
+
+#VER "25" "230555" 20231127 "3743657, Euro Finans AB" momsandel: 14.03%
+#TRANS 2440 {} -62250 20231127 Leverantörsskulder
+#TRANS 2640 {} 1746.74 20231127 Ingående moms
+#TRANS 4141 {} 60503.26 20231127 Obligatorisk ventilationskontroll (OVK)
+
+#VER "25" "230560" 20231116 "3745230, R.gillberg B&t AB" momsandel: 100.00%
+#TRANS 2440 {} -34283 20231116 Leverantörsskulder
+#TRANS 2640 {} 6856.6 20231116 Ingående moms
+#TRANS 4321 {} 27426.4 20231116 Hyreslokaler
+
+#VER "25" "230567" 20231130 "3751281, Weaudit Sweden AB" momsandel: 14.03%
+#TRANS 2440 {} -5250 20231130 Leverantörsskulder
+#TRANS 2640 {} 147.32 20231130 Ingående moms
+#TRANS 6420 {} 5102.68 20231130 Revisionsarvoden extern revisor
+
+#VER "25" "230575" 20231202 "3758111, Elcompaniet I Mälerdalen AB" momsandel: 14.03%
+#TRANS 2440 {} -63750 20231202 Leverantörsskulder
+#TRANS 2640 {} 1788.83 20231202 Ingående moms
+#TRANS 4500 {} 61961.17 20231202 Underhåll av byggnad
+
+#VER "25" "230585" 20231126 "3780349, ÄlvsjÖ Vvs Centrum 23 AB"
+#TRANS 2440 {} 0 20231126 Leverantörsskulder
+#TRANS 2640 {} 25998.43 20231126 Ingående moms
+#TRANS 4341 {} -129992 20231126 VVS
+#TRANS 4541 {} 103993.57 20231126 VVS
+
+#VER "25" "230592" 20231221 "3800551, ÄlvsjÖ Vvs Centrum 23 AB" momsandel: 14.03%
+#TRANS 2440 {} -8949 20231221 Leverantörsskulder
+#TRANS 2640 {} 251.1 20231221 Ingående moms
+#TRANS 4341 {} 8697.9 20231221 VVS
+
+#VER "25" "230593" 20231222 "3800559, R.gillberg B&t AB" momsandel: 14.03%
+#TRANS 2440 {} -26756 20231222 Leverantörsskulder
+#TRANS 2640 {} 750.78 20231222 Ingående moms
+#TRANS 4300 {} 26005.22 20231222 Reparationer
+
+#VER "25" "230598" 20231226 "3801770, West Studios AB" momsandel: 3.97%
+#TRANS 2440 {} -1293 20231226 Leverantörsskulder
+#TRANS 2640 {} 10.27 20231226 Ingående moms
+#TRANS 6500 {} 1282.73 20231226 Administration
+
+#VER "25" "230603" 20231103 "3704310, Gas-service i Stockholm AB"
+#TRANS 2640 {} 255.86 20231103 Ingående moms
+#TRANS 4312 {} -255.86 20231103 Bostadsrättslägenheter
+
+#VER "25" "230604" 20231102 "3711992, Stockholm Exergi AB"
+#TRANS 2640 {} 3031.61 20231102 Ingående moms
+#TRANS 4620 {} -3031.61 20231102 Uppvärmning
+
+#VER "25" "230605" 20231107 "3712865, Stena Recycling AB"
+#TRANS 2640 {} 161.15 20231107 Ingående moms
+#TRANS 4641 {} -161.15 20231107 Grovsopor
+
+#VER "25" "230606" 20231112 "3720929, Städ Diamanten I Stockholm AB"
+#TRANS 2640 {} 397.11 20231112 Ingående moms
+#TRANS 4120 {} -397.11 20231112 Städning enligt avtal
+
+#VER "25" "230607" 20231110 "3725055, Telge Energi / Billogram"
+#TRANS 2640 {} 141.06 20231110 Ingående moms
+#TRANS 4610 {} -141.06 20231110 El
+
+#VER "25" "230608" 20231116 "3730058, Stockholm Vatten AB"
+#TRANS 2640 {} 348.8 20231116 Ingående moms
+#TRANS 4630 {} -348.8 20231116 Vatten
+
+#VER "25" "230609" 20231116 "3730111, Stockholm Vatten AB"
+#TRANS 2640 {} 793.24 20231116 Ingående moms
+#TRANS 4630 {} -793.24 20231116 Vatten
+
+#VER "25" "230610" 20231116 "3730315, Stockholm Vatten AB"
+#TRANS 2640 {} 327.62 20231116 Ingående moms
+#TRANS 4630 {} -327.62 20231116 Vatten
+
+#VER "25" "230611" 20231121 "3735096, Qsec Sverige AB"
+#TRANS 2640 {} 173.78 20231121 Ingående moms
+#TRANS 4341 {} -173.78 20231121 VVS
+
+#VER "25" "230612" 20231130 "3750746, Elis Textil Service AB"
+#TRANS 2640 {} 245 20231130 Ingående moms
+#TRANS 4185 {} -245 20231130 Mattvätt/Hyrmattor
+
+#VER "25" "230613" 20231201 "3753437, Stockholms Stadsnät AB"
+#TRANS 2640 {} 673.53 20231201 Ingående moms
+#TRANS 4761 {} -673.53 20231201 Bredband
+
+#VER "25" "230614" 20231130 "3754631, Städ Diamanten I Stockholm AB"
+#TRANS 2640 {} 397.11 20231130 Ingående moms
+#TRANS 4120 {} -397.11 20231130 Städning enligt avtal
+
+#VER "25" "230615" 20231201 "3763572, Tele2 Sverige AB"
+#TRANS 2640 {} 1208.29 20231201 Ingående moms
+#TRANS 4760 {} -1208.29 20231201 Kabel-TV
+
+#VER "25" "230616" 20231208 "3772444, Stena Recycling AB"
+#TRANS 2640 {} 537.55 20231208 Ingående moms
+#TRANS 4641 {} -537.55 20231208 Grovsopor
+
+#VER "25" "230617" 20231204 "3777089, Stockholm Exergi AB"
+#TRANS 2640 {} 6015.98 20231204 Ingående moms
+#TRANS 4620 {} -6015.98 20231204 Uppvärmning
+
+#VER "25" "230618" 20231231 "3806813, Elis Textil Service AB"
+#TRANS 2640 {} 245 20231231 Ingående moms
+#TRANS 4185 {} -245 20231231 Mattvätt/Hyrmattor
+
+#VER "25" "230619" 20231211 "3781098, Ellevio AB (publ)"
+#TRANS 2640 {} 157.7 20231211 Ingående moms
+#TRANS 4610 {} -157.7 20231211 El
+
+#VER "25" "230620" 20231211 "3785642, Telge Energi / Billogram"
+#TRANS 2640 {} 278.58 20231211 Ingående moms
+#TRANS 4610 {} -278.58 20231211 El
+
+#VER "25" "230621" 20231231 "3810504, Städ Diamanten I Stockholm AB"
+#TRANS 2640 {} 397.11 20231231 Ingående moms
+#TRANS 4120 {} -397.11 20231231 Städning enligt avtal
+
+#VER "48" "230002" 20230331 "Moms 2301-2303" momsandel: 500.00%
+#TRANS 2610 {} 203721 20230331 Utgående moms
+#TRANS 2640 {} -62602.02 20230331 Ingående moms
+#TRANS 2650 {} -141119 20230331 Momsavräkning
+#TRANS 3740 {} 0.02 20230331 Öres- och kronutjämning
+
+#VER "48" "230006" 20230630 "Moms 2304-2306" momsandel: 500.00%
+#TRANS 2610 {} 203721 20230630 Utgående moms
+#TRANS 2640 {} -60474.97 20230630 Ingående moms
+#TRANS 2650 {} -143246 20230630 Momsavräkning
+#TRANS 3740 {} -0.03 20230630 Öres- och kronutjämning
+
+#VER "48" "230008" 20230930 "Moms 2307-2309" momsandel: 500.00%
+#TRANS 2610 {} 208530 20230930 Utgående moms
+#TRANS 2640 {} -205690.5 20230930 Ingående moms
+#TRANS 2650 {} -2840 20230930 Momsavräkning
+#TRANS 3740 {} 0.5 20230930 Öres- och kronutjämning
+
+#VER "48" "230016" 20231231 "Moms 2310-2312" momsandel: 500.00%
+#TRANS 2610 {} 213205 20231231 Utgående moms
+#TRANS 2640 {} -70670.59 20231231 Ingående moms
+#TRANS 2650 {} -142534 20231231 Momsavräkning
+#TRANS 3740 {} -0.41 20231231 Öres- och kronutjämning
+
+#VER "49" "230001" 20230101 "SBC Sv Bostadsrättscentrum (SIE)" momsandel: 14.79%
+#TRANS 2440 {} -24929 20230101 Leverantörsskulder
+#TRANS 2640 {} 737.39 20230101 Ingående moms
+#TRANS 6480 {} 24191.61 20230101 Förvaltningsarvode enl avtal
+
+#VER "49" "230038" 20230101 "Maries Puts & Städ Fastighet AB (SIE)" momsandel: 14.79%
+#TRANS 2440 {} -14203 20230101 Leverantörsskulder
+#TRANS 2640 {} 420.11 20230101 Ingående moms
+#TRANS 4120 {} 13782.89 20230101 Städning enligt avtal
+
