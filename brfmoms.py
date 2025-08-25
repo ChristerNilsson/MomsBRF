@@ -137,5 +137,11 @@ def read_sie():
 	for i in range(min(20, len(lista))):
 		print(sorterad_lista[i])
 
+def step_1(file): # Konvertera cp437 till utf8
+	print(f'{file}.sie4 (cp437) converted to {file}_A.txt (utf8)')
+	with open(file + ".sie4", "r", encoding="cp437") as f:
+		with open(file + "_A.txt", "w", encoding="utf-8") as g:
+			g.write(f.read())
 
-read_sie()
+step_1(SIE_FIL)
+# read_sie()
