@@ -1,5 +1,5 @@
 # SIE_FIL = "202206"
-# SIE_FIL = "2022"
+#SIE_FIL = "2022"
 SIE_FIL = "2023"
 
 UNDRE_MOMS_ANDEL = 13  # %
@@ -7,14 +7,17 @@ UNDRE_MOMS_ANDEL = 13  # %
 MOMS_KONTO = '2640'
 
 konton = {}
-ignorerade = []  # pga div med noll
 
+class Total:
+	def __init__(self):
+		self.UtgiftSomBerörs = 0  # ören
+
+total = Total()
 
 def fakturanr(text):
 	arr = text.split(',')
 	if len(arr) == 2: return arr[0]
 	return ''
-
 
 def Verifikat(original: str):
 	line = original.split(" ")
@@ -25,13 +28,11 @@ def Verifikat(original: str):
 	return {'serie': serie, 'id': id, 'datum': datum, 'transaktioner': [], 'fakturanr': fakturanr(text),
 			'str': original}
 
-
 def Transaktion(original: str):
 	line = original.split(' ')
 	konto = line[1]
 	belopp = float(line[3])
 	return {'konto': konto, 'belopp': belopp, 'str': original + ' ' + konton[konto]}
-
 
 def getSie(lines):
 	verifikationer = []
@@ -49,99 +50,114 @@ def getSie(lines):
 			konton[konto] = namn
 	return konton, verifikationer
 
+def dump(letter, verifikationer, extra=''):
+	with open(SIE_FIL + "_" + letter + ".txt", "w", encoding="utf-8") as g:
+		for verifikat in verifikationer:
+			if extra != '' and extra in verifikat:
+				g.write(verifikat["str"] + str(verifikat[extra]) + "\n")
+			else:
+				g.write(verifikat["str"] + "\n")
+			for t in verifikat["transaktioner"]:
+				g.write(t["str"] + "\n")
+			g.write("\n")
 
-def read_sie():
-	with open(SIE_FIL + '.txt', "r", encoding="utf-8") as f:
-		lines = f.readlines()
+def step_1(file): # Konvertera cp437 till utf8
+	with open(file + ".sie4", "r", encoding="cp437") as f:
+		with open(file + "_A.txt", "w", encoding="utf-8") as g:
+			s = f.read()
+			g.write(s)
+	lines = s.split('\n')
+	konton,verifikationer = getSie(lines)
+	print(f'STEP 1: {file}.sie4 (cp437) konverterad till {file}_A.txt (utf8)')
+	print('  ',len(konton),'konton och',len(verifikationer), 'verifikationer')
+	return verifikationer
 
-	konton, verifikationer = getSie(lines)
-
-	summaUtgiftSomBerörs = 0  # ören
-	summaMomsadeLokaler = 0
-	summaHuvudIntakter = 0
-	filtrerade1 = []
-	filtrerade2 = []
-	lista = []
+def step_2(verifikationer): # Hopslagning mha fakturanummer
+	mergade = []
+	result = []
 	senaste = None
 	for verifikat in verifikationer:
-		id = verifikat['id']
-		# filter0 ska vara True om text[0] är lika för de två senaste verifikaten
-		# id ska ligga i konsekutiv följd, dvs öka med ett.
-		# 2640 ska finnas i det första verifikatet.
-		if verifikat['id'] == 230036:
-			z = 99
-		filter0 = senaste != None
-		filter0 = filter0 and verifikat['fakturanr'] != ''
-		filter0 = filter0 and verifikat['fakturanr'] == senaste['fakturanr']
-		filter0 = filter0 and senaste['id'] + 1 == verifikat['id']
-		filter0 = filter0 and any([t['konto'] == MOMS_KONTO and t['belopp'] != 0 for t in senaste['transaktioner']])
-		if filter0:
-			print('tvillingar', senaste['id'], verifikat['id'])
-
-		filter1 = any([t['konto'] == MOMS_KONTO and t['belopp'] != 0 for t in verifikat['transaktioner']])
-		filter2 = any(['3000' <= t['konto'] < '3100' for t in verifikat['transaktioner']])
-		if filter1: filtrerade1.append(str(id))
-		if filter2: filtrerade2.append(str(id))
-
+		filter = senaste != None
+		filter = filter and verifikat['fakturanr'] != ''
+		filter = filter and verifikat['fakturanr'] == senaste['fakturanr']
+		filter = filter and senaste['id'] + 1 == verifikat['id']
+		filter = filter and any([t['konto'] == MOMS_KONTO and t['belopp'] != 0 for t in senaste['transaktioner']])
+		if filter:
+			senaste['transaktioner'] += verifikat['transaktioner']
+			mergade.append([senaste['id'],verifikat['id']])
+		else:
+			result.append(verifikat)
 		senaste = verifikat
+
+	print(f'STEP 2:', len(result), 'verifikationer',len(mergade), 'hopslagna mha fakturanummer')
+
+	dump('B',result)
+	return result
+
+def step_3(verifikationer):
+
+	filtrerade = []
+	ignorerade = []
+
+	for verifikat in verifikationer:
+		if all([t['konto'] != MOMS_KONTO for t in verifikat['transaktioner']]): continue
+		filtrerade.append(verifikat)
 
 		ingåendeMoms = 0  # ören
 		kontonPlus = 0  # ören
 
-		# if filter1:
-		# 	print(verifikat['str'])
+		for transaktion in verifikat['transaktioner']:
+			konto = transaktion['konto']
+			belopp = 100 * transaktion['belopp']  # pga avrundningsfel i python räknas i ören
+			if konto == MOMS_KONTO:
+				ingåendeMoms += belopp
+			if konto[0] != '2':
+				kontonPlus += belopp
+
+		UtgiftInklMoms = kontonPlus + ingåendeMoms  # ören
+		if UtgiftInklMoms == 0:
+			ignorerade.append(str(verifikat['id']))
+		else:
+			momsAndel = ingåendeMoms / UtgiftInklMoms / 0.2 * 100
+			if UNDRE_MOMS_ANDEL < momsAndel < ÖVRE_MOMS_ANDEL:
+				total.UtgiftSomBerörs += UtgiftInklMoms
+			verifikat['momsAndel'] = f' momsandel: {momsAndel:.2f}%'
+#			print(f"   momsAndel: {momsAndel:.2f}% UtgiftInklMoms: {UtgiftInklMoms/100:.2f} =", kontonPlus/100, '+', ingåendeMoms/100)
+
+	print(f'STEP 3:', len(filtrerade), 'verifikationer berör konto 2640')
+	print("   Ignorerade verifikat pga div med noll:", len(ignorerade))
+	print('     ', ' '.join(ignorerade))
+	dump('C',filtrerade, 'momsAndel')
+	return filtrerade
+
+def step_4(verifikationer): # analys
+	filtrerade = []
+
+	for verifikat in verifikationer:
+
+		filter = any([t['konto'][0:2] == '30' for t in verifikat['transaktioner']])
+		if not filter: continue
+
+		filtrerade.append(verifikat)
+
+		ingåendeMoms = 0  # ören
+		kontonPlus = 0  # ören
 
 		for transaktion in verifikat['transaktioner']:
 			konto = transaktion['konto']
 			belopp = 100 * transaktion['belopp']  # pga avrundningsfel i python räknas i ören
+			if konto == MOMS_KONTO:
+				ingåendeMoms += belopp
+			if konto[0] != '2':
+				kontonPlus += belopp
 
-			if filter1:
-				if konto == MOMS_KONTO: ingåendeMoms += belopp
-				if konto[0] != '2': kontonPlus += belopp
-			# print('  ',transaktion['str']) #f"{belopp/100:.2f}", konton[konto])
-			if filter2:
-				if konto[0:2] == '30': summaHuvudIntakter -= belopp
-				if konto in ['3053', '3065']: summaMomsadeLokaler -= belopp
+	print('STEP 4:')
+	print('   Antal verifikat:', len(verifikationer))
+	print('   total.UtgiftSomBerörs:', total.UtgiftSomBerörs / 100)
 
-		if filter1:
-			summaUtgiftInklMoms = kontonPlus + ingåendeMoms  # ören
-			if summaUtgiftInklMoms == 0:
-				ignorerade.append(str(id))
-			# print("   *** DIV MED NOLL",summaUtgiftInklMoms)
-			else:
-				momsAndel = ingåendeMoms / summaUtgiftInklMoms / 0.2 * 100
-				if UNDRE_MOMS_ANDEL < momsAndel < ÖVRE_MOMS_ANDEL:
-					summaUtgiftSomBerörs += summaUtgiftInklMoms
-				#	print(f"   momsAndel: {momsAndel:.2f}%")
-				else:
-					pass
-			#	print(f"   momsAndel: {momsAndel:.2f}% summaUtgiftInklMoms: {summaUtgiftInklMoms/100:.2f}", kontonPlus/100, ingåendeMoms/100)
-			# lista.append([momsAndel,verifikat.id])
-			# print()
-			# lista.append([ingåendeMoms/100,verifikat.id])
-			# lista.append([summaUtgiftInklMoms/100, verifikat.id])
-			lista.append([round(kontonPlus / 100, 2), id])
+	dump('D',filtrerade)
 
-	print()
-	print("Fil:", SIE_FIL)
-	print("IGNORERADE VERIFIKAT:", len(ignorerade), '(', ' '.join(ignorerade), ')')
-	print('Antal verifikat:', len(verifikationer))
-	print('Antal filtrerade1 verifikat:', len(filtrerade1), '(', ' '.join(filtrerade1), ')')
-	print('Antal filtrerade2 verifikat:', len(filtrerade2), '(', ' '.join(filtrerade2), ')')
-	print('summaUtgiftSomBerörs:', summaUtgiftSomBerörs / 100)
-	print('summaMomsadeLokaler:', summaMomsadeLokaler / 100)
-	print('summaHuvudIntakter:', summaHuvudIntakter / 100)
-	print()
-
-	sorterad_lista = sorted(lista, key=lambda x: x[0])  # -x[1]
-	for i in range(min(20, len(lista))):
-		print(sorterad_lista[i])
-
-def step_1(file): # Konvertera cp437 till utf8
-	print(f'{file}.sie4 (cp437) converted to {file}_A.txt (utf8)')
-	with open(file + ".sie4", "r", encoding="cp437") as f:
-		with open(file + "_A.txt", "w", encoding="utf-8") as g:
-			g.write(f.read())
-
-step_1(SIE_FIL)
-# read_sie()
+verifikationer = step_1(SIE_FIL) # konvertera till utf8
+verifikationer = step_2(verifikationer) # Hopslagning mha fakturanummer
+verifikationer = step_3(verifikationer) # Beräkna momsandel
+verifikationer = step_4(verifikationer) # Beräkna kvot

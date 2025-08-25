@@ -1,0 +1,5 @@
+#VER "25" "230005" 20230109 "28250, ÄlvsjÖ Vvs Centrum 23 AB"
+#TRANS 2440 {} -12235 20230109 Leverantörsskulder
+#TRANS 2640 {} 361.9 20230109 Ingående moms
+#TRANS 3027 {} 11873.1 20230109 Årsavgifter garage
+
