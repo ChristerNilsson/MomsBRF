@@ -11,6 +11,8 @@ konton = {}
 class Total:
 	def __init__(self):
 		self.UtgiftSomBerörs = 0  # ören
+		self.MomsAvdragSomBerörs = 0
+		self.MomsAvdragSomEjBerörs = 0
 
 total = Total()
 
@@ -111,7 +113,7 @@ def step_3(verifikationer):
 			belopp = 100 * transaktion['belopp']  # pga avrundningsfel i python räknas i ören
 			if konto == MOMS_KONTO:
 				ingåendeMoms += belopp
-			if konto[0] != '2':
+			if not '2000' <= konto < '3000':
 				kontonPlus += belopp
 
 		UtgiftInklMoms = kontonPlus + ingåendeMoms  # ören
@@ -121,6 +123,11 @@ def step_3(verifikationer):
 			momsAndel = ingåendeMoms / UtgiftInklMoms / 0.2 * 100
 			if UNDRE_MOMS_ANDEL < momsAndel < ÖVRE_MOMS_ANDEL:
 				total.UtgiftSomBerörs += UtgiftInklMoms
+				total.MomsAvdragSomBerörs += ingåendeMoms
+			else:
+				total.MomsAvdragSomEjBerörs += ingåendeMoms
+
+			# total.MomsAvdrag += ingåendeMoms
 			verifikat['momsAndel'] = f' momsandel: {momsAndel:.2f}%'
 #			print(f"   momsAndel: {momsAndel:.2f}% UtgiftInklMoms: {UtgiftInklMoms/100:.2f} =", kontonPlus/100, '+', ingåendeMoms/100)
 
@@ -154,6 +161,8 @@ def step_4(verifikationer): # analys
 	print('STEP 4:')
 	print('   Antal verifikat:', len(verifikationer))
 	print('   total.UtgiftSomBerörs:', total.UtgiftSomBerörs / 100)
+	print('   total.MomsAvdragSomBerörs:', total.MomsAvdragSomBerörs/100)
+	print('   total.MomsAvdragSomEjBerörs:', total.MomsAvdragSomEjBerörs/100)
 
 	dump('D',filtrerade)
 
