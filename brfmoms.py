@@ -7,6 +7,7 @@ UNDRE_MOMS_ANDEL = 13  # %
 MOMS_KONTO = '2640'
 
 konton = {}
+filtrerade = []
 
 class Total:
 	def __init__(self):
@@ -25,7 +26,7 @@ def Verifikat(original: str):
 	line = original.split(" ")
 	serie = int(line[1].strip('"'))
 	id = int(line[2].strip('"'))
-	datum = line[4]
+	datum = line[3]
 	text = ' '.join(line[4:])
 	return {'serie': serie, 'id': id, 'datum': datum, 'transaktioner': [], 'fakturanr': fakturanr(text),
 			'str': original}
@@ -98,12 +99,12 @@ def step_2(verifikationer): # Hopslagning mha fakturanummer
 
 def step_3(verifikationer):
 
-	filtrerade = []
+	result = []
 	ignorerade = []
 
 	for verifikat in verifikationer:
 		if all([t['konto'] != MOMS_KONTO for t in verifikat['transaktioner']]): continue
-		filtrerade.append(verifikat)
+		result.append(verifikat)
 
 		ingåendeMoms = 0  # ören
 		kontonPlus = 0  # ören
@@ -131,21 +132,21 @@ def step_3(verifikationer):
 			verifikat['momsAndel'] = f' momsandel: {momsAndel:.2f}%'
 #			print(f"   momsAndel: {momsAndel:.2f}% UtgiftInklMoms: {UtgiftInklMoms/100:.2f} =", kontonPlus/100, '+', ingåendeMoms/100)
 
-	print(f'STEP 3:', len(filtrerade), 'verifikationer berör konto 2640')
+	print(f'STEP 3:', len(result), 'verifikationer berör konto 2640')
 	print("   Ignorerade verifikat pga div med noll:", len(ignorerade))
 	print('     ', ' '.join(ignorerade))
-	dump('C',filtrerade, 'momsAndel')
-	return filtrerade
+	dump('C',result, 'momsAndel')
+	return result
 
 def step_4(verifikationer): # analys
-	filtrerade = []
+	result = []
 
 	for verifikat in verifikationer:
 
 		filter = any([t['konto'][0:2] == '30' for t in verifikat['transaktioner']])
 		if not filter: continue
 
-		filtrerade.append(verifikat)
+		result.append(verifikat)
 
 		ingåendeMoms = 0  # ören
 		kontonPlus = 0  # ören
@@ -163,10 +164,47 @@ def step_4(verifikationer): # analys
 	print('   total.UtgiftSomBerörs:', total.UtgiftSomBerörs / 100)
 	print('   total.MomsAvdragSomBerörs:', total.MomsAvdragSomBerörs/100)
 	print('   total.MomsAvdragSomEjBerörs:', total.MomsAvdragSomEjBerörs/100)
+	print()
 
-	dump('D',filtrerade)
+	dump('D',result)
+
+def step_6(verifikationer): # analys
+	print('STEP 6:')
+	summor = {}
+	for verifikat in verifikationer:
+		for transaktion in verifikat['transaktioner']:
+			konto = transaktion['konto']
+			belopp = 100 * transaktion['belopp']  # pga avrundningsfel i python räknas i ören
+			summor[konto] = summor[konto] + belopp if konto in summor else belopp
+
+	for key in list(summor.keys()):
+		belopp = summor[key]
+		if len(key) == 4: ack = key[0:3]
+		summor[ack] = summor[ack] + belopp if ack in summor else belopp
+
+	for key in list(summor.keys()):
+		belopp = summor[key]
+		if len(key) == 3: ack = key[0:2]
+		summor[ack] = summor[ack] + belopp if ack in summor else belopp
+
+	for key in list(summor.keys()):
+		belopp = summor[key]
+		if len(key) == 2: ack = key[0:1]
+		summor[ack] = summor[ack] + belopp if ack in summor else belopp
+
+	for key in list(summor.keys()):
+		belopp = summor[key]
+		if len(key) == 1: ack = ""
+		summor[ack] = summor[ack] + belopp if ack in summor else belopp
+
+	keys = list(summor.keys())
+	keys.sort()
+
+	for key in keys:
+		print('   ', key.ljust(4,'x'), f"{summor[key]/100:.2f}".rjust(12))
 
 verifikationer = step_1(SIE_FIL) # konvertera till utf8
-verifikationer = step_2(verifikationer) # Hopslagning mha fakturanummer
-verifikationer = step_3(verifikationer) # Beräkna momsandel
-verifikationer = step_4(verifikationer) # Beräkna kvot
+filtrerade     = step_2(verifikationer) # Hopslagning mha fakturanummer
+filtrerade 	   = step_3(filtrerade) # Beräkna momsandel
+filtrerade     = step_4(filtrerade) # Beräkna kvot
+verifikationer = step_6(verifikationer) # Beräkna trädsummor
